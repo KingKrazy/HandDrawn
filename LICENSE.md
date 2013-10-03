@@ -1,0 +1,1 @@
+HandDrawn is freeware. You my link it on a website, share it with friends (in fact, please do) but not sell it in any way shape or form. If you feed it to a donkey and it begins to speak english on its own accord, then you may be the master of my floor.
