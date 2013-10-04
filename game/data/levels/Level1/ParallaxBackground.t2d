@@ -1,0 +1,1526 @@
+%levelContent = new t2dSceneGraph() {
+   canSaveDynamicFields = "1";
+   UseLayerSorting = "1";
+   layerSortMode0 = "Normal";
+   layerSortMode1 = "Normal";
+   layerSortMode2 = "Normal";
+   layerSortMode3 = "Normal";
+   layerSortMode4 = "Normal";
+   layerSortMode5 = "Normal";
+   layerSortMode6 = "Normal";
+   layerSortMode7 = "Normal";
+   layerSortMode8 = "Normal";
+   layerSortMode9 = "Normal";
+   layerSortMode10 = "Normal";
+   layerSortMode11 = "Normal";
+   layerSortMode12 = "Normal";
+   layerSortMode13 = "Normal";
+   layerSortMode14 = "Normal";
+   layerSortMode15 = "Normal";
+   layerSortMode16 = "Normal";
+   layerSortMode17 = "Normal";
+   layerSortMode18 = "Normal";
+   layerSortMode19 = "Normal";
+   layerSortMode20 = "Normal";
+   layerSortMode21 = "Normal";
+   layerSortMode22 = "Normal";
+   layerSortMode23 = "Normal";
+   layerSortMode24 = "Normal";
+   layerSortMode25 = "Normal";
+   layerSortMode26 = "Normal";
+   layerSortMode27 = "Normal";
+   layerSortMode28 = "Normal";
+   layerSortMode29 = "Normal";
+   layerSortMode30 = "Normal";
+   layerSortMode31 = "Normal";
+   DebugRendering = "0";
+      cameraPosition = "0 0";
+      cameraSize = "100.000 75";
+
+   new t2dScroller(BlueSkyLevel1) {
+      imageMap = "Newsky_CLImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "278.228 -928.986";
+      size = "10000.000 10000.000";
+      Layer = "31";
+      BlendColor = "0 0.847059 0.996078 1";
+         mountID = "2";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1493.067 -692.743";
+      size = "325 200";
+         mountID = "3";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-558.068 207.257";
+      size = "325 200";
+         mountID = "4";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "203.068 -847.743";
+      size = "325 200";
+         mountID = "5";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1050.614 484.116";
+      size = "325 200";
+         mountID = "6";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1630.401 1400.571";
+      size = "325 200";
+         mountID = "7";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "99.287 1487.256";
+      size = "325 200";
+         mountID = "8";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2365.177 1591.037";
+      size = "325 200";
+         mountID = "9";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2278.068 -537.256";
+      size = "325 200";
+         mountID = "10";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-766.932 -2007.257";
+      size = "325 200";
+         mountID = "11";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1481.932 -1834.288";
+      size = "325 200";
+         mountID = "12";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2686.933 -1695.913";
+      size = "325 200";
+         mountID = "13";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3275.027 -52.743";
+      size = "325 200";
+         mountID = "14";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3378.068 2074.772";
+      size = "325 200";
+         mountID = "15";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1233.068 2801.241";
+      size = "325 200";
+         mountID = "16";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1258.068 2817.743";
+      size = "325 200";
+         mountID = "17";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3471.933 2817.743";
+      size = "325 200";
+         mountID = "18";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3558.067 552.256";
+      size = "325 200";
+         mountID = "19";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3523.067 -1557.744";
+      size = "325 200";
+         mountID = "20";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4388.067 -2785.822";
+      size = "325 200";
+         mountID = "21";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4595.629 -589.119";
+      size = "325 200";
+         mountID = "22";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4681.933 1659.474";
+      size = "325 200";
+         mountID = "23";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2294.964 3647.743";
+      size = "325 200";
+         mountID = "24";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "81.932 3387.743";
+      size = "325 200";
+         mountID = "25";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2806.933 3405.040";
+      size = "325 200";
+         mountID = "26";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4156.933 1052.744";
+      size = "325 200";
+         mountID = "27";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4156.933 -1247.744";
+      size = "325 200";
+         mountID = "28";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3863.067 -2787.257";
+      size = "325 200";
+         mountID = "29";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1786.933 -3047.257";
+      size = "325 200";
+         mountID = "30";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "444.364 -2892.257";
+      size = "325 200";
+         mountID = "31";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2606.932 -2874.960";
+      size = "325 200";
+         mountID = "32";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3246.932 -4017.256";
+      size = "325 200";
+         mountID = "33";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1534.541 -3757.743";
+      size = "325 200";
+         mountID = "34";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-575.677 -3878.821";
+      size = "325 200";
+         mountID = "35";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2893.068 -3705.852";
+      size = "325 200";
+         mountID = "36";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4069.256 -4709.071";
+      size = "325 200";
+         mountID = "37";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1889.850 -4709.071";
+      size = "325 200";
+         mountID = "38";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "653.068 -4622.744";
+      size = "325 200";
+         mountID = "39";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2209.786 -4709.229";
+      size = "325 200";
+         mountID = "40";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4613.067 -4743.823";
+      size = "325 200";
+         mountID = "41";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4664.958 3592.743";
+      size = "325 200";
+         mountID = "42";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4208.067 3022.257";
+      size = "325 200";
+         mountID = "43";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4111.480 2242.014";
+      size = "325 200";
+         mountID = "44";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4761.545 2812.500";
+      size = "325 200";
+         mountID = "45";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4709.654 -5524.066";
+      size = "325 200";
+         mountID = "46";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2306.373 -5489.472";
+      size = "325 200";
+         mountID = "47";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "749.655 -5402.987";
+      size = "325 200";
+         mountID = "48";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1793.263 -5489.313";
+      size = "325 200";
+         mountID = "49";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3972.669 -5489.313";
+      size = "325 200";
+         mountID = "50";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2796.481 -4486.095";
+      size = "325 200";
+         mountID = "51";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-479.090 -4659.064";
+      size = "325 200";
+         mountID = "52";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1631.128 -4537.986";
+      size = "325 200";
+         mountID = "53";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3343.519 -4797.499";
+      size = "325 200";
+         mountID = "54";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2703.519 -3655.203";
+      size = "325 200";
+         mountID = "55";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "540.951 -3672.500";
+      size = "325 200";
+         mountID = "56";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1690.346 -3827.500";
+      size = "325 200";
+         mountID = "57";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3766.480 -3567.500";
+      size = "325 200";
+         mountID = "58";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4060.346 -2027.987";
+      size = "325 200";
+         mountID = "59";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4060.346 272.501";
+      size = "325 200";
+         mountID = "60";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2710.346 2624.797";
+      size = "325 200";
+         mountID = "61";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "178.519 2607.500";
+      size = "325 200";
+         mountID = "62";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2391.551 2867.500";
+      size = "325 200";
+         mountID = "63";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4778.520 879.231";
+      size = "325 200";
+         mountID = "64";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4692.216 -1369.362";
+      size = "325 200";
+         mountID = "65";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4484.654 -3566.065";
+      size = "325 200";
+         mountID = "66";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3619.654 -2337.987";
+      size = "325 200";
+         mountID = "67";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3654.654 -227.987";
+      size = "325 200";
+         mountID = "68";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3568.520 2037.500";
+      size = "325 200";
+         mountID = "69";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1354.655 2037.500";
+      size = "325 200";
+         mountID = "70";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1136.481 2020.998";
+      size = "325 200";
+         mountID = "71";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3281.481 1294.529";
+      size = "325 200";
+         mountID = "72";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3178.440 -832.986";
+      size = "325 200";
+         mountID = "73";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2590.346 -2476.156";
+      size = "325 200";
+         mountID = "74";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1578.519 -2614.531";
+      size = "325 200";
+         mountID = "75";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-670.345 -2787.500";
+      size = "325 200";
+         mountID = "76";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2374.655 -1317.499";
+      size = "325 200";
+         mountID = "77";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2461.764 810.794";
+      size = "325 200";
+         mountID = "78";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "195.874 707.013";
+      size = "325 200";
+         mountID = "79";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1533.814 620.328";
+      size = "325 200";
+         mountID = "80";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1147.201 -296.127";
+      size = "325 200";
+         mountID = "81";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "299.655 -1627.986";
+      size = "325 200";
+         mountID = "82";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-461.481 -572.986";
+      size = "325 200";
+         mountID = "83";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1396.480 -1472.986";
+      size = "325 200";
+         mountID = "84";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4951.470 2662.014";
+      size = "325 200";
+         mountID = "85";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3921.555 3232.500";
+      size = "325 200";
+         mountID = "86";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3869.664 -5104.066";
+      size = "325 200";
+         mountID = "87";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1466.383 -5069.473";
+      size = "325 200";
+         mountID = "88";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-90.335 -4982.987";
+      size = "325 200";
+         mountID = "89";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2633.253 -5069.313";
+      size = "325 200";
+         mountID = "90";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4812.659 -5069.313";
+      size = "325 200";
+         mountID = "91";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3636.471 -4066.095";
+      size = "325 200";
+         mountID = "92";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1319.080 -4239.064";
+      size = "325 200";
+         mountID = "93";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "791.138 -4117.985";
+      size = "325 200";
+         mountID = "94";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2503.529 -4377.499";
+      size = "325 200";
+         mountID = "95";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1863.529 -3235.203";
+      size = "325 200";
+         mountID = "96";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-299.039 -3252.500";
+      size = "325 200";
+         mountID = "97";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2530.336 -3407.500";
+      size = "325 200";
+         mountID = "98";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4606.470 -3147.500";
+      size = "325 200";
+         mountID = "99";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4900.336 -1607.987";
+      size = "325 200";
+         mountID = "100";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4900.336 692.501";
+      size = "325 200";
+         mountID = "101";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3550.336 3044.797";
+      size = "325 200";
+         mountID = "102";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-661.471 3027.500";
+      size = "325 200";
+         mountID = "103";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1551.561 3287.500";
+      size = "325 200";
+         mountID = "104";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3938.530 1299.231";
+      size = "325 200";
+         mountID = "105";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3852.226 -949.362";
+      size = "325 200";
+         mountID = "106";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3644.664 -3146.065";
+      size = "325 200";
+         mountID = "107";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2779.664 -1917.987";
+      size = "325 200";
+         mountID = "108";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2814.664 192.013";
+      size = "325 200";
+         mountID = "109";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2728.530 2457.500";
+      size = "325 200";
+         mountID = "110";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "514.665 2457.500";
+      size = "325 200";
+         mountID = "111";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1976.471 2440.998";
+      size = "325 200";
+         mountID = "112";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4121.471 1714.529";
+      size = "325 200";
+         mountID = "113";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-4018.430 -412.986";
+      size = "325 200";
+         mountID = "114";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3430.336 -2056.156";
+      size = "325 200";
+         mountID = "115";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "738.529 -2194.531";
+      size = "325 200";
+         mountID = "116";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1510.335 -2367.500";
+      size = "325 200";
+         mountID = "117";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1534.665 -897.499";
+      size = "325 200";
+         mountID = "118";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1621.774 1230.794";
+      size = "325 200";
+         mountID = "119";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-644.116 1127.013";
+      size = "325 200";
+         mountID = "120";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2373.804 1040.328";
+      size = "325 200";
+         mountID = "121";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "307.211 123.873";
+      size = "325 200";
+         mountID = "122";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-540.335 -1207.986";
+      size = "325 200";
+         mountID = "123";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1301.471 -152.986";
+      size = "325 200";
+         mountID = "124";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2236.470 -1052.986";
+      size = "325 200";
+         mountID = "125";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3601.251 2592.013";
+      size = "325 200";
+         mountID = "126";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "5271.774 3162.500";
+      size = "325 200";
+         mountID = "127";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "5219.883 -5174.066";
+      size = "325 200";
+         mountID = "128";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2816.602 -5139.474";
+      size = "325 200";
+         mountID = "129";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1259.884 -5052.987";
+      size = "325 200";
+         mountID = "130";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1283.034 -5139.313";
+      size = "325 200";
+         mountID = "131";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3462.440 -5139.313";
+      size = "325 200";
+         mountID = "132";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2286.252 -4136.096";
+      size = "325 200";
+         mountID = "133";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "31.139 -4309.064";
+      size = "325 200";
+         mountID = "134";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2141.357 -4187.985";
+      size = "325 200";
+         mountID = "135";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3853.748 -4447.500";
+      size = "325 200";
+         mountID = "136";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "3213.748 -3305.203";
+      size = "325 200";
+         mountID = "137";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1051.180 -3322.500";
+      size = "325 200";
+         mountID = "138";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1180.117 -3477.500";
+      size = "325 200";
+         mountID = "139";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3256.251 -3217.500";
+      size = "325 200";
+         mountID = "140";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3550.117 -1677.988";
+      size = "325 200";
+         mountID = "141";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-3550.117 622.500";
+      size = "325 200";
+         mountID = "142";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2200.117 2974.797";
+      size = "325 200";
+         mountID = "143";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "688.748 2957.500";
+      size = "325 200";
+         mountID = "144";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2901.780 3217.500";
+      size = "325 200";
+         mountID = "145";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "5288.749 1229.231";
+      size = "325 200";
+         mountID = "146";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "5202.445 -1019.362";
+      size = "325 200";
+         mountID = "147";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4994.883 -3216.065";
+      size = "325 200";
+         mountID = "148";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4129.883 -1987.988";
+      size = "325 200";
+         mountID = "149";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4164.883 122.012";
+      size = "325 200";
+         mountID = "150";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "4078.749 2387.500";
+      size = "325 200";
+         mountID = "151";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1864.884 2387.500";
+      size = "325 200";
+         mountID = "152";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-626.252 2370.998";
+      size = "325 200";
+         mountID = "153";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2771.252 1644.529";
+      size = "325 200";
+         mountID = "154";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2668.211 -482.986";
+      size = "325 200";
+         mountID = "155";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-2080.117 -2126.156";
+      size = "325 200";
+         mountID = "156";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2088.748 -2264.531";
+      size = "325 200";
+         mountID = "157";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-160.116 -2437.500";
+      size = "325 200";
+         mountID = "158";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2884.884 -967.499";
+      size = "325 200";
+         mountID = "159";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2971.993 1160.794";
+      size = "325 200";
+         mountID = "160";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "706.103 1057.012";
+      size = "325 200";
+         mountID = "161";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1023.585 970.328";
+      size = "325 200";
+         mountID = "162";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1657.430 53.873";
+      size = "325 200";
+         mountID = "163";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "809.884 -1277.986";
+      size = "325 200";
+         mountID = "164";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "48.748 -222.986";
+      size = "325 200";
+         mountID = "165";
+   };
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubbleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-886.251 -1122.986";
+      size = "325 200";
+         mountID = "166";
+   };
+};

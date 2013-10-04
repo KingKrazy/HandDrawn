@@ -1,0 +1,137 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(LoadGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "center";
+      VertSizing = "center";
+      Position = "256 168";
+      Extent = "496 296";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/data/images/SpeechBubble.png";
+      wrap = "0";
+
+      new GuiButtonCtrl(NMButton) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "center";
+         VertSizing = "top";
+         Position = "160 240";
+         Extent = "140 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "canvas.popdialog(LoadGui);";
+         Accelerator = "cmd s";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         text = "Never mind";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "center";
+         VertSizing = "top";
+         Position = "96 208";
+         Extent = "136 32";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "LoadGame(SFNSyntax(), 1, 1, 1, 1);";
+         Accelerator = "cmd o";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         text = "Load game";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiScrollCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "1";
+         Profile = "GuiScrollProfile";
+         HorizSizing = "center";
+         VertSizing = "bottom";
+         Position = "104 80";
+         Extent = "256 112";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiToolTipProfile";
+         hovertime = "1000";
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "dynamic";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+
+         new GuiTextListCtrl(LoadFileList) {
+            canSaveDynamicFields = "0";
+            isContainer = "1";
+            Profile = "GuiTextListProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            Position = "2 2";
+            Extent = "244 2";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            enumerate = "0";
+            resizeCell = "1";
+            columns = "0";
+            fitParentWidth = "1";
+            clipColumnText = "0";
+         };
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "center";
+         VertSizing = "top";
+         Position = "232 208";
+         Extent = "136 32";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "DeleteGameInt($LoadFolder, 1, 1, 1, 1);";
+         Accelerator = "cmd backspace";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         text = "Delete game";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+
+function SFNSyntax()
+{
+%returner = $LoadFolder;
+echo(%returner);
+return %returner;
+}

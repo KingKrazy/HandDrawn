@@ -1,0 +1,348 @@
+%levelContent = new t2dSceneGraph() {
+   canSaveDynamicFields = "1";
+   UseLayerSorting = "1";
+   layerSortMode0 = "Normal";
+   layerSortMode1 = "Normal";
+   layerSortMode2 = "Normal";
+   layerSortMode3 = "Normal";
+   layerSortMode4 = "Normal";
+   layerSortMode5 = "Normal";
+   layerSortMode6 = "Normal";
+   layerSortMode7 = "Normal";
+   layerSortMode8 = "Normal";
+   layerSortMode9 = "Normal";
+   layerSortMode10 = "Normal";
+   layerSortMode11 = "Normal";
+   layerSortMode12 = "Normal";
+   layerSortMode13 = "Normal";
+   layerSortMode14 = "Normal";
+   layerSortMode15 = "Normal";
+   layerSortMode16 = "Normal";
+   layerSortMode17 = "Normal";
+   layerSortMode18 = "Normal";
+   layerSortMode19 = "Normal";
+   layerSortMode20 = "Normal";
+   layerSortMode21 = "Normal";
+   layerSortMode22 = "Normal";
+   layerSortMode23 = "Normal";
+   layerSortMode24 = "Normal";
+   layerSortMode25 = "Normal";
+   layerSortMode26 = "Normal";
+   layerSortMode27 = "Normal";
+   layerSortMode28 = "Normal";
+   layerSortMode29 = "Normal";
+   layerSortMode30 = "Normal";
+   layerSortMode31 = "Normal";
+   DebugRendering = "0";
+      cameraPosition = "0 0";
+      cameraSize = "100 75";
+
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1095.195 109.671";
+      size = "79.610 39.961";
+         mountID = "2";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-940.331 73.503";
+      size = "54.019 27.115";
+      Layer = "2";
+         mountID = "3";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud3ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-774.220 113.142";
+      size = "67.166 33.715";
+         mountID = "4";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-655.898 90.089";
+      size = "71.294 35.787";
+         mountID = "5";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-534.979 70.473";
+      size = "49.985 25.091";
+         mountID = "6";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-316.296 80.426";
+      size = "71.294 35.787";
+         mountID = "7";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-54.656 67.987";
+      size = "49.985 25.091";
+      Layer = "14";
+         mountID = "8";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "325.234 -28.429";
+      size = "80.581 40.449";
+      Layer = "3";
+         mountID = "9";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "372.059 32.321";
+      size = "71.294 35.787";
+         mountID = "10";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "232.126 105.310";
+      size = "80.581 40.449";
+         mountID = "11";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "730.359 -43.920";
+      size = "49.985 25.091";
+         mountID = "12";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1064.655 -76.980";
+      size = "71.294 35.787";
+         mountID = "13";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1770.777 -76.444";
+      size = "51.883 26.043";
+         mountID = "14";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1841.153 -30.897";
+      size = "99.173 49.781";
+         mountID = "15";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-387.567 95.493";
+      size = "76.526 38.412";
+      Rotation = "15.5834";
+         mountID = "16";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2214.250 -118.033";
+      size = "99.173 49.781";
+      WorldLimitMin = "172.755 -1078.829";
+      WorldLimitMax = "2652.081 165.695";
+         mountID = "17";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud3ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2123.479 -18.869";
+      size = "81.293 40.806";
+         mountID = "18";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2358.025 -8.279";
+      size = "92.387 46.375";
+         mountID = "19";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "5.292 97.407";
+      size = "73.206 36.746";
+         mountID = "20";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-221.391 -56.524";
+      size = "49.985 25.091";
+         mountID = "21";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-198.172 -96.609";
+      size = "71.294 35.787";
+         mountID = "22";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "83.724 -52.862";
+      size = "76.526 38.412";
+      Rotation = "15.5834";
+         mountID = "23";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud3ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "115.290 47.777";
+      size = "88.228 44.287";
+         mountID = "24";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud3ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2511.946 25.391";
+      size = "88.228 44.287";
+         mountID = "25";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2782.759 -88.183";
+      size = "73.206 36.746";
+         mountID = "26";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2633.520 -48.835";
+      size = "54.019 27.115";
+      Layer = "2";
+         mountID = "27";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud3ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2861.613 -18.965";
+      size = "88.228 44.287";
+         mountID = "28";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "505.273 -102.585";
+      size = "73.206 36.746";
+         mountID = "29";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud3ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "432.147 -27.219";
+      size = "81.293 40.806";
+         mountID = "30";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "708.807 90.894";
+      size = "92.387 46.375";
+      Layer = "16";
+         mountID = "31";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2965.474 -91.567";
+      size = "72.123 36.203";
+         mountID = "32";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud3ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "636.237 11.304";
+      size = "81.293 40.806";
+         mountID = "33";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "654.196 -101.221";
+      size = "76.526 38.412";
+      Rotation = "15.5834";
+      Layer = "24";
+         mountID = "34";
+   };
+};

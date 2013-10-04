@@ -1,0 +1,68 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(TutorialOverGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiFadeinBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 0";
+      Extent = "1024 768";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      wrap = "0";
+      fadeinTime = "0";
+      waitTime = "0";
+      fadeoutTime = "1000";
+      done = "1";
+   };
+   new GuiMLTextCtrl(TutorialOverBanner) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiMLText5Profile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "16 32";
+      Extent = "992 36";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      lineSpacing = "2";
+      allowColorChars = "1";
+      maxChars = "-1";
+      text = "Congratulations! You have successfully completed the tutorial level of this game. You now can move on to the next level with confidence. Just note that while you do know the basics, there are plenty more things to discover. We haven\'t even gotten into the enemies yet… but all that will be covered throughout the game. To move on, please press the Okay button. It will move you to the first level! Stay tuned… the story has only begun.";
+   };
+   new GuiButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiButtonProfile";
+      HorizSizing = "center";
+      VertSizing = "top";
+      Position = "448 680";
+      Extent = "200 56";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      text = "Okay";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+   };
+};
+//--- OBJECT WRITE END ---

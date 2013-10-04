@@ -1,0 +1,83 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(MessageBoxOKDlg) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "width";
+   VertSizing = "height";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "296 256";
+      Extent = "440 256";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/data/images/SpeechBubble.png";
+      wrap = "0";
+
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "EditorButton";
+         HorizSizing = "right";
+         VertSizing = "top";
+         Position = "160 200";
+         Extent = "110 23";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Command = "MessageCallback(MessageBoxOKDlg,MessageBoxOKDlg.callback);";
+         Accelerator = "return";
+         hovertime = "1000";
+         text = "OK";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiMLTextCtrl(MBOKText) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "EditorMLTextProfile";
+         HorizSizing = "center";
+         VertSizing = "bottom";
+         Position = "104 104";
+         Extent = "236 12";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+      new GuiMLTextCtrl(MBOKFrame) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "EditorMLTextProfile";
+         HorizSizing = "center";
+         VertSizing = "bottom";
+         Position = "104 72";
+         Extent = "236 12";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,1076 @@
+%levelContent = new t2dSceneGraph() {
+   canSaveDynamicFields = "1";
+   UseLayerSorting = "1";
+   layerSortMode0 = "Normal";
+   layerSortMode1 = "Normal";
+   layerSortMode2 = "Normal";
+   layerSortMode3 = "Normal";
+   layerSortMode4 = "Normal";
+   layerSortMode5 = "Normal";
+   layerSortMode6 = "Normal";
+   layerSortMode7 = "Normal";
+   layerSortMode8 = "Normal";
+   layerSortMode9 = "Normal";
+   layerSortMode10 = "Normal";
+   layerSortMode11 = "Normal";
+   layerSortMode12 = "Normal";
+   layerSortMode13 = "Normal";
+   layerSortMode14 = "Normal";
+   layerSortMode15 = "Normal";
+   layerSortMode16 = "Normal";
+   layerSortMode17 = "Normal";
+   layerSortMode18 = "Normal";
+   layerSortMode19 = "Normal";
+   layerSortMode20 = "Normal";
+   layerSortMode21 = "Normal";
+   layerSortMode22 = "Normal";
+   layerSortMode23 = "Normal";
+   layerSortMode24 = "Normal";
+   layerSortMode25 = "Normal";
+   layerSortMode26 = "Normal";
+   layerSortMode27 = "Normal";
+   layerSortMode28 = "Normal";
+   layerSortMode29 = "Normal";
+   layerSortMode30 = "Normal";
+   layerSortMode31 = "Normal";
+   DebugRendering = "0";
+      cameraPosition = "0 0";
+      cameraSize = "190 142";
+      music = "VillageMusic";
+
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer2_a.lyr";
+      canSaveDynamicFields = "1";
+      Position = "10.000 20.000";
+      size = "400.000 200.000";
+      Layer = "5";
+      CollisionMaxIterations = "1";
+         mountID = "2";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "140.000 85.000";
+      size = "140.000 70.000";
+         mountID = "3";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "195.000 40.000";
+      size = "30.000 20.000";
+         mountID = "4";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "171.055 42.626";
+      size = "30.000 5.000";
+      Rotation = "-45";
+         mountID = "5";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-140.000 60.000";
+      size = "100.000 80.000";
+         mountID = "6";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-95.000 15.000";
+      size = "30.000 10.000";
+         mountID = "7";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-10.000 55.000";
+      size = "120.000 30.000";
+         mountID = "8";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-70.000 35.000";
+      size = "40.000 10.000";
+         mountID = "9";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-118.945 22.626";
+      size = "30.000 5.000";
+      Rotation = "-45";
+         mountID = "10";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-70.945 22.626";
+      size = "30.000 5.000";
+      Rotation = "45";
+         mountID = "11";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-27.945 -52.374";
+      size = "30.000 5.000";
+      Rotation = "45";
+         mountID = "12";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-78.124 -47.195";
+      size = "44.980 7.497";
+      Rotation = "315";
+         mountID = "13";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "19.055 -53.374";
+      size = "30.000 5.000";
+      Rotation = "-45";
+         mountID = "14";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-10.000 -70.000";
+      size = "300.000 20.000";
+         mountID = "15";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-125.000 -50.000";
+      size = "70.000 60.000";
+         mountID = "16";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "125.000 -45.000";
+      size = "30.000 30.000";
+         mountID = "17";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "195.000 -55.000";
+      size = "30.000 50.000";
+         mountID = "18";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-80.945 76.626";
+      size = "30.000 5.000";
+      Rotation = "-45";
+         mountID = "19";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer72_A.lyr";
+      canSaveDynamicFields = "1";
+      Position = "162.000 -23.908";
+      size = "6.000 132.183";
+      Layer = "20";
+      WorldLimitMin = "87.000 -1650.000";
+      WorldLimitMax = "237.000 1600.000";
+      CollisionMaxIterations = "1";
+         mountID = "20";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "162.000 -24.104";
+      size = "6.000 131.792";
+      FlipX = "1";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "21";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonSpawnImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-0.366 -14.565";
+      size = "16.000 16.000";
+         mountID = "22";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DragonActorTemplate	MinSpawnDistance	0	AutoDespawn	0";
+   };
+   new t2dAnimatedSprite(P1) {
+      animationName = "Person2Animation";
+      canSaveDynamicFields = "1";
+      Position = "-94.887 5.826";
+      size = "16.000 16.000";
+      FlipX = "1";
+      Layer = "9";
+      BlendColor = "0.898039 0.898039 0.898039 1";
+         mountID = "23";
+   };
+   new t2dAnimatedSprite(P2) {
+      animationName = "Person2Animation";
+      canSaveDynamicFields = "1";
+      Position = "111.000 45.511";
+      size = "16.000 16.000";
+      Layer = "4";
+      BlendColor = "0.568627 0.568627 0.568627 1";
+         mountID = "24";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-94.862 3.281";
+      size = "16.160 13.439";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "25";
+      _behavior0 = "SpeechDisplayBehavior	BlurbText	Ever since nasty 'ol King Krazy invaded the land and stole the Chrominator, we've been forced to the village.	BlurbText2	Speaking of which, you might consider going to the top of the map; I heared some guy opened a shop or something.	BlurbText3	I know, what could one of us possibly have to offer considering our situation? Well, I guess their's only one way to find out...	numLines	3	PlayerOnly	1	targetSpeaker	P1	speechDest	P1Dest";
+   };
+   new t2dAnimatedSprite(P3) {
+      animationName = "Person2Animation";
+      canSaveDynamicFields = "1";
+      Position = "0.000 -84.174";
+      size = "16.000 16.000";
+      Layer = "7";
+      BlendColor = "0.705882 0.705882 0.705882 1";
+         mountID = "26";
+   };
+   new t2dStaticSprite() {
+      imageMap = "WhiteBackGroundImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "198.747 39.191";
+      size = "1950.000 1604.201";
+      Layer = "31";
+         mountID = "27";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/tilemap5.lyr";
+      canSaveDynamicFields = "1";
+      Position = "695.000 -406.000";
+      size = "220.000 10.000";
+      Rotation = "180";
+      Layer = "6";
+      CollisionMaxIterations = "1";
+         mountID = "28";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "695.000 -406.000";
+      size = "220.000 10.000";
+         mountID = "29";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "VillageHouseImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "651.733 -439.245";
+      size = "69.562 56.490";
+      Layer = "3";
+         mountID = "30";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/tilemap5_a.lyr";
+      canSaveDynamicFields = "1";
+      Position = "703.483 -417.500";
+      size = "208.965 15.000";
+      Layer = "6";
+      CollisionMaxIterations = "1";
+         mountID = "31";
+   };
+   new t2dStaticSprite() {
+      imageMap = "grass_t1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "811.929 -415.071";
+      Rotation = "135";
+         mountID = "32";
+   };
+   new t2dStaticSprite() {
+      imageMap = "grass_t1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "598.929 -418.071";
+      Rotation = "-45";
+      Layer = "3";
+         mountID = "33";
+   };
+   new t2dStaticSprite() {
+      imageMap = "grass_t1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "591.929 -411.071";
+      Rotation = "-45";
+      Layer = "3";
+         mountID = "34";
+   };
+   new t2dStaticSprite() {
+      imageMap = "grass_t1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "804.929 -408.071";
+      Rotation = "135";
+         mountID = "35";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer73.lyr";
+      canSaveDynamicFields = "1";
+      Position = "795.000 -440.114";
+      size = "50.000 50.000";
+      CollisionMaxIterations = "1";
+         mountID = "36";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "768.098 -452.317";
+      size = "6.195 82.118";
+         mountID = "37";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "749.432 -500.396";
+      size = "46.233 14.208";
+         mountID = "38";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "643.600 -423.111";
+      size = "12.800 23.779";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "39";
+      _behavior0 = "WarpPickupBehavior	GoToObject	1	Destination	ShopDest";
+      _behavior1 = "PickupBehavior	DeleteOnPickup	0";
+   };
+   new t2dScroller() {
+      imageMap = "Gradient_greyImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "127.536 -1113.604";
+      size = "387.843 254.833";
+      Layer = "31";
+         mountID = "40";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer94a_1.lyr";
+      canSaveDynamicFields = "1";
+      Position = "110.000 -1020.000";
+      size = "500.000 100.000";
+      Rotation = "180";
+      Layer = "31";
+      CollisionMaxIterations = "1";
+      BlendColor = "0.235294 0.235294 0.235294 1";
+         mountID = "41";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer94a.lyr";
+      canSaveDynamicFields = "1";
+      Position = "310.000 -1130.000";
+      size = "500.000 100.000";
+      Rotation = "-90";
+      Layer = "31";
+      CollisionMaxIterations = "1";
+      BlendColor = "0.235294 0.235294 0.235294 1";
+         mountID = "42";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer94a.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-90.000 -1126.438";
+      size = "500.000 100.000";
+      Rotation = "90";
+      Layer = "31";
+      CollisionMaxIterations = "1";
+      BlendColor = "0.235294 0.235294 0.235294 1";
+         mountID = "43";
+   };
+   new t2dAnimatedSprite(ShopOwner) {
+      animationName = "Person2Animation";
+      canSaveDynamicFields = "1";
+      Position = "241.000 -1113.489";
+      size = "16.000 16.000";
+      FlipX = "1";
+      Layer = "4";
+      BlendColor = "0.835294 0.835294 0.835294 1";
+         mountID = "44";
+   };
+   new t2dScroller() {
+      imageMap = "PictureFrameImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "174.000 -1112.934";
+      size = "18.000 18.000";
+      Layer = "2";
+         mountID = "45";
+   };
+   new t2dScroller() {
+      imageMap = "PictureFrameImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "124.000 -1112.934";
+      size = "18.000 18.000";
+      Layer = "2";
+         mountID = "46";
+   };
+   new t2dScroller() {
+      imageMap = "PictureFrameImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "74.000 -1112.934";
+      size = "18.000 18.000";
+      Layer = "2";
+         mountID = "47";
+   };
+   new t2dScroller() {
+      imageMap = "PictureFrameImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "24.000 -1112.934";
+      size = "18.000 18.000";
+      Layer = "2";
+         mountID = "48";
+   };
+   new t2dScroller() {
+      imageMap = "PineCone_NormalImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "173.828 -1112.856";
+      size = "6.097 8.283";
+      Rotation = "-45";
+      Layer = "2";
+         mountID = "49";
+   };
+   new t2dScroller() {
+      imageMap = "PineCone_PoisenedImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "123.828 -1112.856";
+      size = "6.097 8.283";
+      Rotation = "-45";
+         mountID = "50";
+   };
+   new t2dScroller() {
+      imageMap = "PineCone_PoisenedImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "123.828 -1112.856";
+      size = "6.097 8.283";
+      Rotation = "-45";
+      Layer = "2";
+         mountID = "51";
+   };
+   new t2dScroller(ShopDest) {
+      imageMap = "PineCone_FrozenImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "73.828 -1112.856";
+      size = "6.097 8.283";
+      Rotation = "-45";
+      Layer = "2";
+         mountID = "52";
+   };
+   new t2dScroller() {
+      imageMap = "PineCone_BurningImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "23.828 -1112.856";
+      size = "6.097 8.283";
+      Rotation = "-45";
+      Layer = "2";
+         mountID = "53";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer81.lyr";
+      canSaveDynamicFields = "1";
+      Position = "242.311 -1090.790";
+      size = "30.000 43.580";
+      Rotation = "-40";
+      Layer = "15";
+      CollisionMaxIterations = "1";
+         mountID = "54";
+   };
+   new t2dTrigger(TempShopTrigger) {
+      canSaveDynamicFields = "1";
+      Position = "176.600 -1126.215";
+      size = "162.800 112.430";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         entermethod = "checkHauntersDead";
+         mountID = "55";
+      _behavior0 = "SpeechDisplayBehavior	BlurbText	You're right on time, man! The monsters showed up in my house because I stole some of their supplies to sell, and something tells me they aren't here to window-shop!	BlurbText2	Just get rid of them, please!	numLines	2	PlayerOnly	1	targetSpeaker	ShopOwner	speechDest	ShopOwnerDest";
+      _behavior1 = "TriggerExecBehavior	entermethod	checkHauntersDead	PlayerOnly	1";
+   };
+   new t2dSceneObject(ShopOwnerDest) {
+      canSaveDynamicFields = "1";
+      Position = "240.000 -1134.500";
+      size = "3.000 3.000";
+         mountID = "56";
+   };
+   new t2dStaticSprite(haunter1) {
+      imageMap = "DragonSpawnImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "137.634 -1084.565";
+      size = "16.000 16.000";
+      GraphGroup = "1";
+         mountID = "57";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	AutoDespawn	0";
+   };
+   new t2dStaticSprite(haunter2) {
+      imageMap = "DragonSpawnImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "169.634 -1084.565";
+      size = "16.000 16.000";
+      GraphGroup = "1";
+         mountID = "58";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	AutoDespawn	0";
+   };
+   new t2dStaticSprite(haunter3) {
+      imageMap = "DragonSpawnImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "189.634 -1084.565";
+      size = "16.000 16.000";
+      GraphGroup = "1";
+         mountID = "59";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	AutoDespawn	0";
+   };
+   new t2dStaticSprite(haunter5) {
+      imageMap = "DragonSpawnImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "229.634 -1084.565";
+      size = "16.000 16.000";
+      GraphGroup = "1";
+         mountID = "60";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	AutoDespawn	0";
+   };
+   new t2dStaticSprite(haunter4) {
+      imageMap = "DragonSpawnImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "207.634 -1104.565";
+      size = "16.000 16.000";
+      GraphGroup = "1";
+         mountID = "61";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	AutoDespawn	0";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "105.000 -1048.894";
+      size = "330.000 42.212";
+         mountID = "62";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "105.000 -1216.106";
+      size = "330.000 42.212";
+         mountID = "63";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-71.587 -1111.106";
+      size = "63.174 172.212";
+         mountID = "64";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "291.587 -1117.309";
+      size = "63.174 172.212";
+         mountID = "65";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer94a_1.lyr";
+      canSaveDynamicFields = "1";
+      Position = "110.000 -1243.000";
+      size = "500.000 100.000";
+      Rotation = "180";
+      Layer = "31";
+      CollisionMaxIterations = "1";
+      BlendColor = "0.235294 0.235294 0.235294 1";
+         mountID = "66";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/tilemap5.lyr";
+      canSaveDynamicFields = "1";
+      Position = "695.000 -408.500";
+      size = "220.000 15.000";
+      Rotation = "180";
+      Layer = "6";
+      CollisionMaxIterations = "1";
+         mountID = "67";
+   };
+   new t2dStaticSprite() {
+      imageMap = "VillageHouseImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-34.678 11.755";
+      size = "69.562 56.490";
+      FlipX = "1";
+      Layer = "24";
+         mountID = "68";
+   };
+   new t2dSceneObject(P1Dest) {
+      canSaveDynamicFields = "1";
+      Position = "-95.000 -12.500";
+      size = "3.000 3.000";
+         mountID = "69";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "0.138 -86.719";
+      size = "16.160 13.439";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "70";
+      _behavior0 = "SpeechDisplayBehavior	BlurbText	It might be boring to some people, but atleast we're alive, here at the village.	PlayerOnly	1	targetSpeaker	P3	speechDest	P3Dest";
+   };
+   new t2dSceneObject(P3Dest) {
+      canSaveDynamicFields = "1";
+      Position = "0.000 -102.500";
+      size = "3.000 3.000";
+         mountID = "71";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "111.138 43.281";
+      size = "16.160 13.439";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "72";
+      _behavior0 = "SpeechDisplayBehavior	BlurbText	I guess I'm supposed to talk to you, but I don't really feel like it.	BlurbText2	...Fine. There's a guy with a shop up the island, but I heard he ran in to trouble or something.	BlurbText3	I guess you could go and see what's wrong.	numLines	3	PlayerOnly	1	targetSpeaker	P2	speechDest	P2Dest";
+   };
+   new t2dSceneObject(P2Dest) {
+      canSaveDynamicFields = "1";
+      Position = "111.000 27.500";
+      size = "3.000 3.000";
+         mountID = "73";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "282.151 208.788";
+      size = "1973.193 38.203";
+         mountID = "74";
+      _behavior0 = "WarpPickupBehavior	Destination	None";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "251.500 -1132.500";
+      size = "15.000 125.000";
+         dontif = "$hauntersExist";
+         entermethod = "Shop";
+         mountID = "75";
+      _behavior0 = "TriggerExecBehavior	entermethod	Shop	PlayerOnly	1	dontif	$hauntersExist";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "241.020 -1107.606";
+      size = "25.872 2.646";
+         mountID = "76";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer2_b.lyr";
+      canSaveDynamicFields = "1";
+      Position = "408.747 19.687";
+      size = "400.000 200.000";
+      Rotation = "180";
+      Layer = "5";
+      CollisionMaxIterations = "1";
+         mountID = "77";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "247.306 -2.657";
+      size = "30.000 5.000";
+      Rotation = "135";
+         mountID = "78";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "278.361 -45.030";
+      size = "140.000 70.000";
+      Rotation = "180";
+         mountID = "79";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "224.614 0.283";
+      size = "30.000 20.000";
+      Rotation = "180";
+         mountID = "80";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "224.614 95.282";
+      size = "30.000 50.000";
+      Rotation = "180";
+         mountID = "81";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "293.361 84.970";
+      size = "30.000 30.000";
+      Rotation = "180";
+         mountID = "82";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "428.361 109.970";
+      size = "300.000 20.000";
+      Rotation = "180";
+         mountID = "83";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "428.858 -15.000";
+      size = "120.000 30.000";
+      Rotation = "180";
+         mountID = "84";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "399.306 93.344";
+      size = "30.000 5.000";
+      Rotation = "135";
+         mountID = "85";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "447.306 92.344";
+      size = "30.000 5.000";
+      Rotation = "225";
+         mountID = "86";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "496.485 87.165";
+      size = "44.980 7.497";
+      Rotation = "135";
+         mountID = "87";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "489.306 17.344";
+      size = "30.000 5.000";
+      Rotation = "225";
+         mountID = "88";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "499.306 -36.656";
+      size = "30.000 5.000";
+      Rotation = "135";
+         mountID = "89";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "537.306 17.344";
+      size = "30.000 5.000";
+      Rotation = "135";
+         mountID = "90";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "513.361 24.970";
+      size = "30.000 10.000";
+      Rotation = "180";
+         mountID = "91";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "558.361 -20.030";
+      size = "100.000 80.000";
+      Rotation = "180";
+         mountID = "92";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "543.361 89.970";
+      size = "70.000 60.000";
+      Rotation = "180";
+         mountID = "93";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "423.361 84.970";
+      size = "30.000 10.000";
+      Rotation = "180";
+         mountID = "94";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer2_c.lyr";
+      canSaveDynamicFields = "1";
+      Position = "458.747 -259.313";
+      size = "400.000 200.000";
+      Rotation = "90";
+      Layer = "5";
+      CollisionMaxIterations = "1";
+         mountID = "95";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "401.616 -349.452";
+      size = "30.000 5.000";
+      Rotation = "45";
+         mountID = "96";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "418.242 -408.507";
+      size = "100.000 80.000";
+      Rotation = "90";
+         mountID = "97";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "455.616 -387.452";
+      size = "30.000 5.000";
+      Rotation = "45";
+         mountID = "98";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "455.616 -339.452";
+      size = "30.000 5.000";
+      Rotation = "135";
+         mountID = "99";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "463.242 -363.507";
+      size = "30.000 10.000";
+      Rotation = "90";
+         mountID = "100";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "423.242 -278.507";
+      size = "120.000 30.000";
+      Rotation = "90";
+         mountID = "101";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "528.242 -393.507";
+      size = "70.000 60.000";
+      Rotation = "90";
+         mountID = "102";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "548.242 -278.507";
+      size = "300.000 20.000";
+      Rotation = "90";
+         mountID = "103";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "523.242 -143.507";
+      size = "30.000 30.000";
+      Rotation = "90";
+         mountID = "104";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "531.616 -249.452";
+      size = "30.000 5.000";
+      Rotation = "45";
+         mountID = "105";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "523.242 -273.507";
+      size = "30.000 10.000";
+      Rotation = "90";
+         mountID = "106";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "530.616 -297.452";
+      size = "30.000 5.000";
+      Rotation = "135";
+         mountID = "107";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "525.437 -346.631";
+      size = "44.980 7.497";
+      Rotation = "45";
+         mountID = "108";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "533.554 -74.760";
+      size = "30.000 50.000";
+      Rotation = "90";
+         mountID = "109";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "435.615 -97.452";
+      size = "30.000 5.000";
+      Rotation = "45";
+         mountID = "110";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "438.555 -74.760";
+      size = "30.000 20.000";
+      Rotation = "90";
+         mountID = "111";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "393.242 -128.507";
+      size = "140.000 70.000";
+      Rotation = "90";
+         mountID = "112";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "elevator_bottomImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "358.767 -27.500";
+      size = "19.548 5.000";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "348.798 -30.000";
+      WorldLimitMax = "368.549 100.000";
+      LinearVelocity = "0.000 50.000";
+         mountID = "113";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer81.lyr";
+      canSaveDynamicFields = "1";
+      Position = "443.690 -117.182";
+      size = "30.000 50.000";
+      Rotation = "17.5";
+      Layer = "9";
+      CollisionMaxIterations = "1";
+         mountID = "114";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "448.606 -135.855";
+      size = "25.112 4.185";
+      Rotation = "17.5";
+         mountID = "115";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer81.lyr";
+      canSaveDynamicFields = "1";
+      Position = "533.690 -177.182";
+      size = "30.000 50.000";
+      Rotation = "-17.5";
+      Layer = "8";
+      CollisionMaxIterations = "1";
+         mountID = "116";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "527.606 -195.855";
+      size = "25.112 4.185";
+      Rotation = "-17.5";
+         mountID = "117";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer81.lyr";
+      canSaveDynamicFields = "1";
+      Position = "435.690 -247.182";
+      size = "30.000 50.000";
+      Rotation = "20";
+      Layer = "8";
+      CollisionMaxIterations = "1";
+         mountID = "118";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "441.606 -265.855";
+      size = "25.112 4.185";
+      Rotation = "20";
+         mountID = "119";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer81.lyr";
+      canSaveDynamicFields = "1";
+      Position = "533.690 -307.182";
+      size = "30.000 50.000";
+      Rotation = "-40";
+      Layer = "15";
+      CollisionMaxIterations = "1";
+         mountID = "120";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "520.606 -321.855";
+      size = "25.112 4.185";
+      Rotation = "-40";
+         mountID = "121";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+};

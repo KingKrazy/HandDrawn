@@ -1,0 +1,41 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(StartupVideo) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   };
+
+   new GuiTheoraCtrl(MyVideo) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "0 0";
+      extent = "1024 768";
+      minExtent = "8 2";
+      visible = "1";
+      done = "0";
+      stopOnSleep = "1";
+      backgroundColor = "0 0 0 255";
+   };
+   
+   new GuiButtonCtrl(stopButton){
+      profile = "GuiButtonProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      class= "introVideo";
+      position = "0 0";
+      extent = "25 25";
+      minExtent = "8 2";
+      visible = "1";
+      Command = "stopVideo();";
+   };
+};
+//--- OBJECT WRITE END ---

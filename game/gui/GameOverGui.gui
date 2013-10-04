@@ -1,0 +1,83 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiBitmapCtrl(GameOverGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   bitmap = "~/data/images/Black_Patch.png";
+   wrap = "0";
+
+   new GuiTheoraCtrl(GameOverVideo) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 0";
+      Extent = "1024 768";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      done = "0";
+      stopOnSleep = "0";
+      backgroundColor = "0 0 0 255";
+      showBackground = "1";
+      loop = "0";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "left";
+      VertSizing = "bottom";
+      Position = "920 8";
+      Extent = "100 134";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "0";
+      Command = "_returnToMenu();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/data/images/GUI/Next_Black";
+   };
+   new GuiBitmapButtonCtrl(GOarrow) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "left";
+      VertSizing = "bottom";
+      Position = "920 8";
+      Command = "startMenuLevel();";
+      Extent = "100 134";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/data/images/GUI/Next_Black";
+   };
+};
+//--- OBJECT WRITE END ---
+
+function gameOverGui::onWake()
+{
+alxStopAll();
+gameOverTheora();
+}
+
+function gameOverGui::onSleep()
+{
+GOarrow.setActive(false);
+}

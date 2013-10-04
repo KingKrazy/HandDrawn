@@ -1,0 +1,366 @@
+%levelContent = new t2dSceneGraph() {
+   canSaveDynamicFields = "1";
+   UseLayerSorting = "1";
+   layerSortMode0 = "Normal";
+   layerSortMode1 = "Normal";
+   layerSortMode2 = "Normal";
+   layerSortMode3 = "Normal";
+   layerSortMode4 = "Normal";
+   layerSortMode5 = "Normal";
+   layerSortMode6 = "Normal";
+   layerSortMode7 = "Normal";
+   layerSortMode8 = "Normal";
+   layerSortMode9 = "Normal";
+   layerSortMode10 = "Normal";
+   layerSortMode11 = "Normal";
+   layerSortMode12 = "Normal";
+   layerSortMode13 = "Normal";
+   layerSortMode14 = "Normal";
+   layerSortMode15 = "Normal";
+   layerSortMode16 = "Normal";
+   layerSortMode17 = "Normal";
+   layerSortMode18 = "Normal";
+   layerSortMode19 = "Normal";
+   layerSortMode20 = "Normal";
+   layerSortMode21 = "Normal";
+   layerSortMode22 = "Normal";
+   layerSortMode23 = "Normal";
+   layerSortMode24 = "Normal";
+   layerSortMode25 = "Normal";
+   layerSortMode26 = "Normal";
+   layerSortMode27 = "Normal";
+   layerSortMode28 = "Normal";
+   layerSortMode29 = "Normal";
+   layerSortMode30 = "Normal";
+   layerSortMode31 = "Normal";
+   DebugRendering = "0";
+      cameraPosition = "-100 0";
+      cameraSize = "100 75";
+
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/groundLayer.lyr";
+      canSaveDynamicFields = "1";
+      Position = "80.000 -22.000";
+      size = "450.000 100.000";
+         mountID = "2";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_tree4ImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "-80.000 -21.002";
+      size = "20.000 20.000";
+      Layer = "1";
+         mountID = "3";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_tree1ImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "4.463 -19.651";
+      size = "20.000 20.000";
+      Rotation = "17.2388";
+      Layer = "1";
+         mountID = "4";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DrillFallImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "103.855 -7.177";
+      size = "15.000 12.000";
+      FlipX = "1";
+         mountID = "5";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonRunImageMap";
+      frame = "2";
+      canSaveDynamicFields = "1";
+      Position = "-125.471 -5.429";
+      size = "15.000 15.000";
+         mountID = "6";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonJump_to_FallImageMap";
+      frame = "1";
+      canSaveDynamicFields = "1";
+      Position = "-32.500 -12.500";
+      size = "15.000 15.000";
+         mountID = "7";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonRunImageMap";
+      frame = "8";
+      canSaveDynamicFields = "1";
+      Position = "-87.500 -15.063";
+      size = "15.000 15.000";
+         mountID = "8";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonRun_to_SlideImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "32.500 -5.782";
+      size = "15.000 15.000";
+         mountID = "9";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonFallImageMap";
+      frame = "2";
+      canSaveDynamicFields = "1";
+      Position = "96.498 -19.411";
+      size = "15.000 15.000";
+         mountID = "10";
+   };
+   new t2dScroller() {
+      imageMap = "water_btImageMap";
+      repeatX = "46";
+      scrollX = "-2";
+      scrollPositionX = "-0.0306895";
+      canSaveDynamicFields = "1";
+      Position = "75.000 23.000";
+      size = "460.000 10.000";
+         mountID = "11";
+   };
+   new t2dScroller() {
+      imageMap = "water_ftImageMap";
+      repeatX = "46";
+      scrollX = "-2";
+      scrollPositionX = "-0.950964";
+      canSaveDynamicFields = "1";
+      Position = "75.000 20.000";
+      size = "460.000 10.000";
+         mountID = "12";
+   };
+   new t2dScroller() {
+      imageMap = "scroll_hillsImageMap";
+      repeatX = "4";
+      scrollX = "-1.5";
+      scrollPositionX = "-0.131914";
+      canSaveDynamicFields = "1";
+      Position = "155.000 -2.327";
+      size = "620.000 43.185";
+      Layer = "15";
+         mountID = "13";
+   };
+   new t2dScroller() {
+      imageMap = "sky_duskImageMap";
+      canSaveDynamicFields = "1";
+      Position = "75.000 0.000";
+      size = "460.000 80.000";
+      FlipY = "1";
+      Layer = "30";
+         mountID = "14";
+   };
+   new t2dScroller() {
+      imageMap = "water_btImageMap";
+      repeatX = "46";
+      scrollX = "-2";
+      scrollPositionX = "-0.818667";
+      canSaveDynamicFields = "1";
+      Position = "75.000 17.000";
+      size = "460.000 10.000";
+      Layer = "10";
+         mountID = "15";
+   };
+   new t2dStaticSprite() {
+      imageMap = "eggImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "-10.000 -18.500";
+      size = "4.167 5.000";
+         mountID = "16";
+   };
+   new t2dStaticSprite() {
+      imageMap = "yummy_pepperImageMap";
+      frame = "3";
+      canSaveDynamicFields = "1";
+      Position = "-77.376 -15.385";
+      size = "5.249 5.249";
+         mountID = "17";
+   };
+   new t2dStaticSprite() {
+      imageMap = "yummy_pepperImageMap";
+      frame = "5";
+      canSaveDynamicFields = "1";
+      Position = "62.376 2.625";
+      size = "5.249 5.249";
+         mountID = "18";
+   };
+   new t2dStaticSprite() {
+      imageMap = "yummy_pepperImageMap";
+      frame = "2";
+      canSaveDynamicFields = "1";
+      Position = "70.375 2.625";
+      size = "5.249 5.249";
+         mountID = "19";
+   };
+   new t2dStaticSprite() {
+      imageMap = "yummy_pepperImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "78.375 2.625";
+      size = "5.249 5.249";
+         mountID = "20";
+   };
+   new t2dStaticSprite() {
+      imageMap = "yummy_pepperImageMap";
+      frame = "3";
+      canSaveDynamicFields = "1";
+      Position = "86.375 2.625";
+      size = "5.249 5.249";
+         mountID = "21";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_tree3ImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "84.146 -0.854";
+      size = "21.707 21.707";
+      Layer = "1";
+         mountID = "22";
+   };
+   new t2dStaticSprite() {
+      imageMap = "yummy_pepperImageMap";
+      frame = "3";
+      canSaveDynamicFields = "1";
+      Position = "232.624 -15.385";
+      size = "5.249 5.249";
+         mountID = "23";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonRunImageMap";
+      frame = "8";
+      canSaveDynamicFields = "1";
+      Position = "222.500 -15.063";
+      size = "15.000 15.000";
+         mountID = "24";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonJump_to_FallImageMap";
+      frame = "1";
+      canSaveDynamicFields = "1";
+      Position = "277.500 -12.500";
+      size = "15.000 15.000";
+         mountID = "25";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonRunImageMap";
+      frame = "2";
+      canSaveDynamicFields = "1";
+      Position = "184.529 -5.429";
+      size = "15.000 15.000";
+         mountID = "26";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_tree4ImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "230.000 -21.002";
+      size = "20.000 20.000";
+      Layer = "1";
+         mountID = "27";
+   };
+   new t2dStaticSprite() {
+      imageMap = "water_bImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "75.000 33.911";
+      size = "460.000 12.177";
+         mountID = "28";
+   };
+   new t2dStaticSprite(mCameraMount) {
+      imageMap = "elevator_gearImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      class = "MenuCameraMount";
+      Visible = "0";
+      Position = "-100.000 0.000";
+      WorldLimitMode = "NULL";
+      WorldLimitMin = "-110.000 -10.000";
+      WorldLimitMax = "215.000 10.000";
+      WorldLimitCallback = "1";
+      LinearVelocity = "5.000 0.000";
+         mountID = "29";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonFlyImageMap";
+      frame = "4";
+      canSaveDynamicFields = "1";
+      Position = "147.500 -17.500";
+      size = "15.000 15.000";
+         mountID = "30";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_mushroomImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "-58.004 -7.741";
+      size = "14.142 14.142";
+      Rotation = "45";
+      Layer = "1";
+         mountID = "31";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud4ImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "28.762 -26.275";
+      size = "25.000 12.549";
+         mountID = "32";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud2ImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "43.548 -31.752";
+      size = "22.904 11.497";
+         mountID = "33";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_tree1ImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "125.259 -21.827";
+      size = "23.655 23.655";
+      Layer = "1";
+         mountID = "34";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud1ImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "-127.421 -28.765";
+      size = "24.842 12.470";
+         mountID = "35";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_cloud1ImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "182.579 -28.765";
+      size = "24.842 12.470";
+         mountID = "36";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_mushroomImageMap";
+      frame = "0";
+      canSaveDynamicFields = "1";
+      Position = "251.996 -7.741";
+      size = "14.142 14.142";
+      Rotation = "45";
+      Layer = "1";
+         mountID = "37";
+   };
+   new t2dScroller() {
+      imageMap = "scroll_mountainsImageMap";
+      repeatX = "4";
+      scrollX = "-3.5";
+      scrollPositionX = "-0.972719";
+      canSaveDynamicFields = "1";
+      Position = "155.000 -10.367";
+      size = "620.000 59.265";
+      Layer = "16";
+         mountID = "38";
+   };
+};

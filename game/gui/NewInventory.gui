@@ -1,0 +1,56 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(NewInventoryGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiScrollCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiScrollProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "251 168";
+      Extent = "669 499";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiToolTipProfile";
+      hovertime = "1000";
+      willFirstRespond = "1";
+      hScrollBar = "alwaysOff";
+      vScrollBar = "alwaysOn";
+      constantThumbHeight = "0";
+      childMargin = "0 0";
+
+      new GuiTextListCtrl(InventoryList) {
+         canSaveDynamicFields = "0";
+         isContainer = "1";
+         Profile = "GuiTextListProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         Position = "2 2";
+         Extent = "648 8";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiToolTipProfile";
+         hovertime = "1000";
+         enumerate = "0";
+         resizeCell = "1";
+         columns = "0";
+         fitParentWidth = "1";
+         clipColumnText = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+

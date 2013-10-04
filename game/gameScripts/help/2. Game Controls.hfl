@@ -1,0 +1,27 @@
+<lmargin%:15><rmargin%:85><just:center><font:Arial Bold:20>Default Control Setup
+
+<font:Arial Bold:16>Movement<font:Arial:16>
+<bitmap:game/gameScripts/help/separator>
+<just:left>Right Arrow and Left Arrow<just:right>Forward and Back
+<just:left>Space<just:right>Jump
+<just:left>Down Arrow<just:right>Crouch
+
+<just:center><font:Arial Bold:16>Miscellaneous<font:Arial:16>
+<bitmap:game/gameScripts/help/separator>
+<just:left>Shift ~<just:right>Console (Use commands at your own risk!)
+<just:left>(In game) Esc<just:right>Pause
+<just:left>(In some GUIs) Enter<just:right>Yes
+<just:left>(In some GUIs) Esc<just:right>No
+<just:left>Control P<just:right>Take Screenshot
+<just:left>Alt Enter<just:right>Set Game to Fullscreen
+<just:left>Command P<just:right>Quit
+
+<font:Arial Bold:16>Mac Specific<font:Arial:16>
+<just:left>Command Q<just:right>Quit
+<just:left>Command Alt (Option) Esc<just:right>Force Quit (Use only in cases of emergency)
+<just:left>Command M<just:right>Minimize (Windowed Mode)
+<just:left>Command H<just:right>Hide (Windowed Mode)
+
+<font:Arial Bold:16>Windows Specific<font:Arial:16>
+<just:left>Control Q<just:right>Quit
+<just:left>Alt (Option) F4<just:right>Force Quit (Use only in cases of emergency)

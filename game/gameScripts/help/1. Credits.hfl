@@ -1,0 +1,19 @@
+<just:center><lmargin%:5><rmargin%:95><font:Arial Bold:20>CREDITS
+
+HandDrawn Developer<font:Arial:16>
+<bitmap:art/gui/help/separator>
+George Mellabey
+
+<bitmap:art/gui/help/separator>
+<font:Arial Bold:20>Game Engine Suppliers<font:Arial:16>
+All this was made possible by <a:www.garagegames.com/>GarageGames</a>, <a:www.garagegames.com/products/62>Torque 2D</a>, and the Platformer Starter Kit by Violent Tulip.
+<bitmap:game/gameScripts/help/torque2d>
+<bitmap:game/gameScripts/help/GarageGames>
+<bitmap:game/gameScripts/help/JRP>
+<sbreak>
+<sbreak>
+<sbreak>
+<font:Arial Bold:20>Special Thanks<font:Arial:16>
+GarageGames Associates
+Everyone who posted resources or codes on the <a:www.garagegames.com/>GarageGames</a> website
+And players like you. Thank you.

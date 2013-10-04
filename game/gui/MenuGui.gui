@@ -1,0 +1,214 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiBitmapCtrl(MenuGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   bitmap = "~/data/images/MenuGui.002.png";
+   wrap = "0";
+
+   new GuiControl(MenuContent) {
+      canSaveDynamicFields = "1";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "384 48";
+      Extent = "408 240";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "231 54";
+      Extent = "152 57";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "canvas.pushDialog(PlayGui);";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/data/images/mainMenu/play";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "231 110";
+      Extent = "152 58";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "canvas.pushdialog(DatabaseGui);";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/data/images/mainMenu/help";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "231 224";
+      Extent = "152 58";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "canvas.pushdialog(OptionsMenuGui);";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/data/images/mainMenu/options";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "231 167";
+      Extent = "152 58";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "quit();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/data/images/mainMenu/exit";
+   };
+   new GuiMLTextCtrl(JokeBanner) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiMLText4Profile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "16 720";
+      Extent = "992 12";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      lineSpacing = "2";
+      allowColorChars = "1";
+      maxChars = "-1";
+   };
+
+   new GuiTheoraCtrl(MenuTheora) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 0";
+      Extent = "1024 768";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      theoraFile = "~/data/video/MenuVideo.ogv";
+      done = "1";
+      stopOnSleep = "1";
+      backgroundColor = "0 0 0 0";
+   };
+};
+//--- OBJECT WRITE END ---
+
+function storeClass::StoreObject(%this)
+{
+}
+
+function menuTheora::onClick( %this )
+{
+MenuTheora.Delete();
+}
+
+$Joke[1] = "Luca Brasi sleeps with the fishes!";
+$Joke[2] = "100% Java free GAURENTEED!";
+$Joke[3] = "She sells seashells at the sea shore... who sells shells at a place where you could get 'em for free?";
+$Joke[4] = "Viva la Resistance!";
+$Joke[5] = "Sugar & gluten free, low calories, no transfat!";
+$Joke[6] = "May contain nuts! Seriously!";
+$Joke[7] = "Krazy... KING Krazy.";
+$Joke[8] = "Agent 3 is his birth name!";
+$Joke[9] = "Only Mac users can see this properly: ";
+$Joke[10] = "60 FPS is KILLER!";
+$Joke[11] = "Would you like fries with that?";
+$Joke[12] = "Of bug!";
+$Joke[13] = "Who says black isn't a color?";
+$Joke[14] = "Binary schminary.";
+$Joke[15] = "Let's eat, Joe! Let's eat Joe! Grammar saves lives!";
+$Joke[16] = "Choking hazard: small parts not for children under 3 years.";
+$Joke[17] = "Errors make me sad. :'(";
+$Joke[18] = "When are 3D computers coming out?";
+$Joke[19] = "Anyone for enchiladas?";
+$Joke[20] = "Going somewhere, Solo?";
+$Joke[22] = "All work and no play makes Jack a dull boy. Too true!";
+$Joke[23] = "Don't oust your democratically elected presidents!";
+$Joke[24] = "So easy a caveman could do it!";
+$Joke[25] = "Don't sing your evil schemes while dancing around your room. Stupid way to be foiled.";
+$Joke[26] = "First Insides Outsides Last! Or is it First Inside Outside Last? Or Firsts Insides Outsides Lasts? Maybe Firsts Inside Outside Lasts? I'M NOT PROGRAMMED FOR ALGEBRA!";
+$Joke[27] = "I can tell you first hand that cake is not chocolate...";
+$Joke[28] = "Maintenant! French for \"now.\" Sounds like \"main tenant!\"";
+$Joke[29] = "You chose wisely!";
+$Joke[30] = "Sometimes, when I'm bored, I root around in your files and read all of your personal documents. By the way, you misspelled your street name on your taxes.";
+$Joke[31] = "Jam? In a CAKE? Whose idea WAS this?";
+$Joke[32] = "Never eat something that will break your toe when dropped.";
+$Joke[33] = "I don't know why people like a code language that's named after coffee.";
+
+
+function MenuGui::deleteTheora(%this)
+{
+MenuTheora.Delete();
+%this.GenJoke();
+
+error("Theora Deleted!");
+}
+
+function MenuGui::GenJoke(%this)
+{
+    //Load jokes
+    %JokeOpt[1] = $Joke[getRandom(1,33)];
+    %JokeOpt[2] = $Joke[getRandom(1,33)];
+
+    %JokeOpt = %JokeOpt[getRandom(1,2)];
+    %len = strlen(%JokeOpt);
+    
+    for (%i = 1; %i <= %len; %i++)
+    {
+        %tempStr = getSubStr(%JokeOpt, 0, %i);
+        %time = %i * 10;
+        %this.schedule(%time, "updateJokeText", %tempStr);
+    }
+}
+
+function MenuGui::updateJokeText(%this, %string)
+{
+    JokeBanner.setText(%string);
+    //echo(%string);
+    //playsound(talk);
+}

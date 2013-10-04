@@ -1,0 +1,11 @@
+sceneWindow2D.loadLevel( expandFilename("~/data/levels/level1.t2d") )
+
+
+sceneWindow2D.loadLevel( expandFilename("~/data/levels/level2.t2d") )
+
+sceneWindow2D.loadLevel( expandFilename("~/data/levels/level3.t2d") );
+sceneWindow2D.loadLevel( expandFilename("~/data/levels/MenuScene.t2d") );
+
+sceneWindow2D.loadLevel( expandFilename("game/data/levels/demolevel 2.t2d") );
+
+sceneWindow2D.loadLevel( expandFilename("game/data/levels/MenuLevel.t2d") );

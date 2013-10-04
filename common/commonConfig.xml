@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TorqueGameConfiguration>
+   <Company>JackRabbit Productions</Company>
+   <GameName>HandDrawn</GameName>
+   <Resolution>800 600 32</Resolution>
+   <FullScreen>false</FullScreen>
+   <CommonVer>114</CommonVer>
+   <ConsoleKey>tilde</ConsoleKey>
+   <ScreenShotKey>p</ScreenShotKey>
+   <FullscreenKey>alt enter</FullscreenKey>
+   <UsesNetwork>1</UsesNetwork>
+   <UsesAudio>1</UsesAudio>
+   <DefaultScene>~/data/levels/Level2.t2d</DefaultScene>
+</TorqueGameConfiguration>

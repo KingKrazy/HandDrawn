@@ -1,0 +1,89 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(DatabaseGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiWindowCtrl(DatabaseWindow) {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiWindowProfile";
+      HorizSizing = "center";
+      VertSizing = "center";
+      Position = "192 320";
+      Extent = "576 112";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      text = "Write in the name of what you want information on! (i.e. Vert, King Krazy, Reverse Zones)";
+      maxLength = "1024";
+      closeCommand = "canvas.popdialog(DatabaseGui);";
+      canMove = "1";
+      canClose = "1";
+
+      new GuiTextEditCtrl(WikiSearch) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiTextEditProfile";
+         HorizSizing = "center";
+         VertSizing = "bottom";
+         Position = "24 40";
+         Extent = "520 16";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         maxLength = "1024";
+         historySize = "0";
+         password = "0";
+         tabComplete = "1";
+         sinkAllKeyEvents = "0";
+         password = "0";
+         passwordMask = "•";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         Position = "217 69";
+         Extent = "140 30";
+         MinExtent = "8 2";
+         accelerator = "return";
+         canSave = "1";
+         Visible = "1";
+         Command = "goToWebpage(\"http://handdrawn.wikia.com/wiki/Special:Search?ns0=1&ns14=1&search=\" @ WikiSearch.getText() @ \"&fulltext=Search&ns0=1&ns14=1&advanced=&ab=51\");";
+         hovertime = "1000";
+         text = "Search...";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+
+function MissionTitleGui::onWake(%this)
+{
+DatabaseWindow.Extent.y = 0;
+DataMake();
+}
+
+function DataMake()
+{
+if(DatabaseWindow.extent.y < 112)
+{
+DatabaseWindow.extent.y += 0.0001;
+schedule(20, 0, "DataMake");
+}
+}

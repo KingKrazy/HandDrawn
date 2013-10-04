@@ -1,0 +1,1674 @@
+%levelContent = new t2dSceneGraph() {
+   canSaveDynamicFields = "1";
+   UseLayerSorting = "1";
+   layerSortMode0 = "Normal";
+   layerSortMode1 = "Normal";
+   layerSortMode2 = "Normal";
+   layerSortMode3 = "Normal";
+   layerSortMode4 = "Normal";
+   layerSortMode5 = "Normal";
+   layerSortMode6 = "Normal";
+   layerSortMode7 = "Normal";
+   layerSortMode8 = "Normal";
+   layerSortMode9 = "Normal";
+   layerSortMode10 = "Normal";
+   layerSortMode11 = "Normal";
+   layerSortMode12 = "Normal";
+   layerSortMode13 = "Normal";
+   layerSortMode14 = "Normal";
+   layerSortMode15 = "Normal";
+   layerSortMode16 = "Normal";
+   layerSortMode17 = "Normal";
+   layerSortMode18 = "Normal";
+   layerSortMode19 = "Normal";
+   layerSortMode20 = "Normal";
+   layerSortMode21 = "Normal";
+   layerSortMode22 = "Normal";
+   layerSortMode23 = "Normal";
+   layerSortMode24 = "Normal";
+   layerSortMode25 = "Normal";
+   layerSortMode26 = "Normal";
+   layerSortMode27 = "Normal";
+   layerSortMode28 = "Normal";
+   layerSortMode29 = "Normal";
+   layerSortMode30 = "Normal";
+   layerSortMode31 = "Normal";
+   DebugRendering = "0";
+      cameraPosition = "0.000000 0.000000";
+      cameraSize = "190.000000 142.000000";
+      levelName = "TIMING IS EVERYTHING";
+      LevelNumber = "3";
+      music = "OneTwoThreeFour";
+      OnLevelLoad = "level3";
+      OnLevelLoad2 = "cantPause";
+      ParallaxLayer1 = "FG demoLevel/ParallaxClouds 1.2";
+      LevelNumber = 3;
+      
+   new t2dScroller() {
+      imageMap = "cave_w_blankImageMap";
+      repeatX = "100";
+      repeatY = "100";
+      scrollPositionX = "0.994";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Visible = "0";
+      Position = "280.000 -285.000";
+      size = "1000.000 1000.000";
+      Layer = "31";
+         mountID = "2";
+      _behavior0 = "ParallaxBehavior	ScrollRate	0.5 0.5";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "95.000 37.500";
+      size = "20.000 5.000";
+         mountID = "3";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer88_b.lyr";
+      canSaveDynamicFields = "1";
+      Position = "35.000 85.000";
+      size = "180.000 100.000";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "4";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-35.000 103.194";
+      size = "40.000 136.388";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "5";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "115.000 37.500";
+      size = "20.000 5.000";
+         mountID = "6";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	2";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "135.000 37.500";
+      size = "20.000 5.000";
+         mountID = "7";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	3";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "155.000 37.500";
+      size = "20.000 5.000";
+         mountID = "8";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	4";
+   };
+   new t2dStaticSprite() {
+      imageMap = "DragonSpawnImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "0.000 -50.000";
+         mountID = "9";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DragonActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	1000	AutoDespawn	0";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "65.000 60.000";
+      size = "40.000 50.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "10";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "15.000 65.000";
+      size = "60.000 40.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "11";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "85.000 105.000";
+      size = "60.000 60.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "12";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-10.979 42.071";
+      size = "15.000 5.000";
+      Rotation = "45";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "13";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "41.021 42.071";
+      size = "15.000 5.000";
+      Rotation = "315";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "14";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/tileLayer12.lyr";
+      canSaveDynamicFields = "1";
+      Position = "210.000 70.250";
+      size = "290.000 70.499";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "15";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "342.000 -7.500";
+      size = "20.000 5.000";
+         mountID = "16";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "362.000 -12.500";
+      size = "20.000 5.000";
+         mountID = "17";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	2";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "382.000 -17.500";
+      size = "20.000 5.000";
+         mountID = "18";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	3";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "402.000 -22.500";
+      size = "20.000 5.000";
+         mountID = "19";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	4";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer65.lyr";
+      canSaveDynamicFields = "1";
+      Position = "427.789 12.869";
+      size = "40.000 90.000";
+      Rotation = "10.3917";
+      Layer = "13";
+      CollisionMaxIterations = "1";
+         mountID = "20";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "465.000 -29.500";
+      size = "20.000 5.000";
+         mountID = "21";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "475.000 -59.500";
+      size = "20.000 5.000";
+         mountID = "22";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior	Number	2";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "465.000 -89.500";
+      size = "20.000 5.000";
+         mountID = "23";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior	Number	3";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "475.000 -119.500";
+      size = "20.000 5.000";
+         mountID = "24";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior	Number	4";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer7.lyr";
+      canSaveDynamicFields = "1";
+      Position = "405.000 -5.000";
+      size = "100.000 260.000";
+      Layer = "17";
+      CollisionMaxIterations = "1";
+         mountID = "25";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer65.lyr";
+      canSaveDynamicFields = "1";
+      Position = "411.586 101.402";
+      size = "40.000 90.000";
+      Rotation = "190.392";
+      Layer = "13";
+      CollisionMaxIterations = "1";
+         mountID = "26";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "379.375 186.557";
+      size = "718.750 13.115";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "27";
+      _behavior0 = "AreaDamageBehavior	Amount	1000";
+   };
+   new t2dScroller() {
+      imageMap = "White_patchImageMap";
+      repeatX = "100";
+      repeatY = "100";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "290.779 -315.516";
+      size = "1331.558 1128.968";
+      Layer = "31";
+         mountID = "28";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "235.000 90.000";
+      size = "240.000 30.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "29";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "425.000 -130.000";
+      size = "60.000 10.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "30";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "385.000 -120.000";
+      size = "60.000 10.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "31";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "392.071 -127.929";
+      size = "15.000 5.000";
+      Rotation = "315";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "32";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "Grass_imageImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "335.000 -115.000";
+      size = "40.000 40.000";
+         mountID = "33";
+      _behavior0 = "PlatformTimerBehavior	size	40 40";
+      _behavior1 = "PlatformBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "Grass_imageImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "295.000 -125.000";
+      size = "40.000 40.000";
+         mountID = "34";
+      _behavior0 = "PlatformTimerBehavior	Number	2	size	40 40";
+      _behavior1 = "PlatformBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "Grass_imageImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "255.000 -135.000";
+      size = "40.000 40.000";
+         mountID = "35";
+      _behavior0 = "PlatformTimerBehavior	Number	3	size	40 40";
+      _behavior1 = "PlatformBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "Grass_imageImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "215.000 -145.000";
+      size = "40.000 40.000";
+         mountID = "36";
+      _behavior0 = "PlatformTimerBehavior	Number	4	size	40 40";
+      _behavior1 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer18.lyr";
+      canSaveDynamicFields = "1";
+      Position = "98.677 -160.000";
+      size = "40.000 10.000";
+      CollisionMaxIterations = "1";
+         mountID = "37";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	size	40 10";
+      _behavior2 = "FallingPlatformBehavior	AutoRotate	1	RecoverTimeOut	3";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer18.lyr";
+      canSaveDynamicFields = "1";
+      Position = "58.677 -160.000";
+      size = "40.000 10.000";
+      CollisionMaxIterations = "1";
+         mountID = "38";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	2	size	40 10";
+      _behavior2 = "FallingPlatformBehavior	AutoRotate	1	RecoverTimeOut	3";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer18.lyr";
+      canSaveDynamicFields = "1";
+      Position = "18.677 -160.000";
+      size = "40.000 10.000";
+      CollisionMaxIterations = "1";
+         mountID = "39";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	3	size	40 10";
+      _behavior2 = "FallingPlatformBehavior	AutoRotate	1	RecoverTimeOut	3";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer18.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-21.323 -160.000";
+      size = "40.000 10.000";
+      CollisionMaxIterations = "1";
+         mountID = "40";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	4	size	40 10";
+      _behavior2 = "FallingPlatformBehavior	AutoRotate	1	RecoverTimeOut	3";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer65_b.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-46.118 -294.945";
+      size = "40.000 90.000";
+      Rotation = "-15.5501";
+      Layer = "13";
+      CollisionMaxIterations = "1";
+         mountID = "41";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer65_a.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-22.347 -209.490";
+      size = "40.000 90.000";
+      Rotation = "164.522";
+      Layer = "17";
+      CollisionMaxIterations = "1";
+         mountID = "42";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-38.000 -187.500";
+      size = "20.000 5.000";
+         mountID = "43";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-8.000 -207.500";
+      size = "20.000 5.000";
+         mountID = "44";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	2";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-48.000 -227.500";
+      size = "20.000 5.000";
+         mountID = "45";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	3";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-18.000 -247.500";
+      size = "20.000 5.000";
+         mountID = "46";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	4";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-58.000 -267.500";
+      size = "20.000 5.000";
+         mountID = "47";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-28.000 -287.500";
+      size = "20.000 5.000";
+         mountID = "48";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	2";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-68.000 -307.500";
+      size = "20.000 5.000";
+         mountID = "49";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	3";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-38.000 -327.500";
+      size = "20.000 5.000";
+         mountID = "50";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	4";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "164.177 -184.035";
+      size = "10.000 60.000";
+      Rotation = "45";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "51";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "252.177 -272.035";
+      size = "10.000 60.000";
+      Rotation = "45";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "52";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "206.177 -226.035";
+      size = "10.000 60.000";
+      Rotation = "45";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "53";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "137.612 -278.481";
+      size = "10.000 60.000";
+      Rotation = "330";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "54";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "246.177 -266.035";
+      size = "10.000 60.000";
+      Rotation = "45";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "55";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer54_a.lyr";
+      canSaveDynamicFields = "1";
+      Position = "165.000 -131.648";
+      size = "60.000 66.705";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "56";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "167.447 -226.831";
+      size = "10.000 60.000";
+      Rotation = "330";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "57";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "67.447 -286.831";
+      size = "10.000 60.000";
+      Rotation = "45";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "58";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/tileLayer9i_c.lyr";
+      canSaveDynamicFields = "1";
+      Position = "130.777 -317.171";
+      size = "290.000 30.499";
+      Rotation = "5";
+      CollisionMaxIterations = "1";
+         mountID = "59";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-2.388 -298.481";
+      size = "10.000 60.000";
+      Rotation = "45";
+      Layer = "16";
+      CollisionMaxIterations = "1";
+         mountID = "60";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "27.447 -246.831";
+      size = "10.000 60.000";
+      Rotation = "45";
+      Layer = "16";
+      CollisionMaxIterations = "1";
+         mountID = "61";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "17.447 -236.831";
+      size = "10.000 60.000";
+      Rotation = "45";
+      Layer = "20";
+      CollisionMaxIterations = "1";
+         mountID = "62";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "57.447 -258.831";
+      size = "10.000 60.000";
+      Rotation = "70";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "63";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "106.447 -289.831";
+      size = "10.000 60.000";
+      Rotation = "45";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "64";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "170.447 -281.831";
+      size = "10.000 60.000";
+      Rotation = "59.6239";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "65";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "284.177 -230.035";
+      size = "10.000 60.000";
+      Rotation = "135";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "66";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "326.177 -188.035";
+      size = "10.000 60.000";
+      Rotation = "135";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "67";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "366.177 -148.035";
+      size = "10.000 60.000";
+      Rotation = "135";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "68";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "268.177 -246.035";
+      size = "10.000 60.000";
+      Rotation = "135";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "69";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "273.177 -252.035";
+      size = "10.000 60.000";
+      Rotation = "330";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "70";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "260.177 -239.035";
+      size = "10.000 60.000";
+      Rotation = "294.772";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "71";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "132.918 -194.062";
+      size = "10.000 60.000";
+      Rotation = "147.473";
+      Layer = "16";
+      CollisionMaxIterations = "1";
+         mountID = "72";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "101.142 -243.251";
+      size = "10.000 60.000";
+      Rotation = "147.473";
+      Layer = "16";
+      CollisionMaxIterations = "1";
+         mountID = "73";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-18.000 -187.500";
+      size = "20.000 5.000";
+         mountID = "74";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "12.000 -207.500";
+      size = "20.000 5.000";
+         mountID = "75";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior	Number	2";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-28.000 -227.500";
+      size = "20.000 5.000";
+         mountID = "76";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior	Number	3";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2.000 -247.500";
+      size = "20.000 5.000";
+         mountID = "77";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior	Number	4";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-18.000 -327.500";
+      size = "20.000 5.000";
+         mountID = "78";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior	Number	4";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-48.000 -307.500";
+      size = "20.000 5.000";
+         mountID = "79";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior	Number	3";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-8.000 -287.500";
+      size = "20.000 5.000";
+         mountID = "80";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior	Number	2";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-38.000 -267.500";
+      size = "20.000 5.000";
+         mountID = "81";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "PlatformTimerBehavior";
+   };
+   new t2dSceneObject(Cache) {
+      canSaveDynamicFields = "1";
+      Position = "-373.145 108.893";
+      size = "15.866 15.810";
+         mountID = "82";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "417.710 66.967";
+      size = "40.000 200.000";
+      Rotation = "10.392";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "83";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer54.lyr";
+      canSaveDynamicFields = "1";
+      Position = "295.000 20.754";
+      size = "60.000 31.509";
+      Layer = "8";
+      CollisionMaxIterations = "1";
+         mountID = "84";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "260.000 55.000";
+      size = "190.000 40.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "85";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "295.000 20.000";
+      size = "60.000 30.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "86";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "95.000 37.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "87";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "115.000 37.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "88";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "135.000 37.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "89";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "155.000 37.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "90";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "342.000 -7.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "91";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "362.000 -12.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "92";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "382.000 -17.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "93";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "402.000 -22.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "94";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "465.000 -29.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "95";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "475.000 -59.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "96";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "465.000 -89.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "97";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "475.000 -119.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "98";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-38.000 -187.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "99";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-18.000 -187.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "100";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-8.000 -207.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "101";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "12.000 -207.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "102";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-28.000 -227.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "103";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-48.000 -227.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "104";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-18.000 -247.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "105";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "2.000 -247.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "106";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-58.000 -267.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "107";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-38.000 -267.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "108";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-28.000 -287.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "109";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-8.000 -287.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "110";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-68.000 -307.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "111";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-48.000 -307.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "112";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-38.000 -327.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "113";
+   };
+   new t2dStaticSprite() {
+      imageMap = "platform_invisibleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-18.000 -327.500";
+      size = "20.000 5.000";
+      Layer = "4";
+         mountID = "114";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "244.009 116.557";
+      size = "286.017 13.115";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "115";
+      _behavior0 = "AreaDamageBehavior	Amount	1000";
+   };
+   new t2dScroller() {
+      imageMap = "Grass_imageImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "305.000 -295.000";
+      size = "40.000 40.000";
+         mountID = "116";
+      _behavior0 = "PlatformTimerBehavior	size	40 40";
+      _behavior1 = "PlatformBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "355.000 -277.500";
+      size = "20.000 5.000";
+         mountID = "117";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	2";
+   };
+   new t2dScroller() {
+      imageMap = "Grass_imageImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "405.000 -295.000";
+      size = "40.000 40.000";
+         mountID = "118";
+      _behavior0 = "PlatformTimerBehavior	Number	3	size	40 40";
+      _behavior1 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/tileLayer9i_d.lyr";
+      canSaveDynamicFields = "1";
+      Position = "360.777 -357.171";
+      size = "290.000 30.499";
+      CollisionMaxIterations = "1";
+         mountID = "119";
+   };
+   new t2dScroller() {
+      imageMap = "elevator_bottomImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "455.000 -277.500";
+      size = "20.000 5.000";
+         mountID = "120";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "PlatformTimerBehavior	Number	4";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/tileLayer9i_d.lyr";
+      canSaveDynamicFields = "1";
+      Position = "630.000 -290.049";
+      size = "290.000 30.499";
+      CollisionMaxIterations = "1";
+         mountID = "121";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "496.177 -328.035";
+      size = "10.000 60.000";
+      Rotation = "13.6312";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "122";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "470.177 -326.035";
+      size = "10.000 60.000";
+      Rotation = "135";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "123";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "480.177 -326.035";
+      size = "10.000 60.000";
+      Rotation = "150.471";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "124";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "280.447 -331.831";
+      size = "10.000 60.000";
+      Rotation = "45";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "125";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "250.447 -331.831";
+      size = "10.000 60.000";
+      Rotation = "22.3559";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "126";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      canSaveDynamicFields = "1";
+      Position = "230.447 -331.831";
+      size = "10.000 60.000";
+      Rotation = "342.537";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "127";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "593.284 -247.104";
+      size = "703.432 7.791";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "128";
+      _behavior0 = "AreaDamageBehavior	Amount	1000";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "213.071 -375.929";
+      size = "15.000 5.000";
+      Rotation = "315";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "129";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "509.071 -375.929";
+      size = "15.000 5.000";
+      Rotation = "45";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "130";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "361.170 -357.488";
+      size = "289.780 30.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "131";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "630.000 -290.000";
+      size = "290.000 30.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "132";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "251.557 26.881";
+         mountID = "133";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "51.557 26.881";
+         mountID = "134";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "141.557 -170.119";
+         mountID = "135";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1.557 -360.119";
+         mountID = "136";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "81.557 -390.119";
+         mountID = "137";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "301.557 -330.119";
+         mountID = "138";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "531.557 -320.119";
+         mountID = "139";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "561.557 -320.119";
+         mountID = "140";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dTileLayer() {
+      canSaveDynamicFields = "1";
+      Position = "671.675 -364.476";
+      size = "6.000 42.000";
+      CollisionMaxIterations = "1";
+         mountID = "141";
+   };
+   new t2dTileLayer() {
+      canSaveDynamicFields = "1";
+      Position = "2525.323 1508.809";
+      size = "6.000 36.000";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "142";
+   };
+   new t2dTileLayer() {
+      canSaveDynamicFields = "1";
+      Position = "2525.323 1508.809";
+      size = "6.000 36.000";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "143";
+   };
+   new t2dTileLayer() {
+      canSaveDynamicFields = "1";
+      Position = "2525.323 1508.809";
+      size = "6.000 36.000";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "144";
+   };
+   new t2dTileLayer() {
+      canSaveDynamicFields = "1";
+      Position = "2525.323 1508.809";
+      size = "6.000 36.000";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "145";
+   };
+   new t2dTileLayer() {
+      canSaveDynamicFields = "1";
+      Position = "2525.323 1508.809";
+      size = "6.000 36.000";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "146";
+   };
+   new t2dTileLayer() {
+      canSaveDynamicFields = "1";
+      Position = "2525.323 1508.809";
+      size = "6.000 36.000";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "147";
+   };
+   new t2dTileLayer() {
+      canSaveDynamicFields = "1";
+      Position = "2525.323 1508.809";
+      size = "6.000 36.000";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "148";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer52.lyr";
+      canSaveDynamicFields = "1";
+      Position = "752.000 -370.000";
+      size = "6.000 120.000";
+      Layer = "10";
+      CollisionMaxIterations = "1";
+         mountID = "149";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "752.000 -370.000";
+      size = "6.000 120.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "150";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "590.000 -410.000";
+      size = "290.000 30.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "151";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/tileLayer9i_d.lyr";
+      canSaveDynamicFields = "1";
+      Position = "590.000 -410.049";
+      size = "290.000 30.499";
+      CollisionMaxIterations = "1";
+         mountID = "152";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/tileLayer9i_d.lyr";
+      canSaveDynamicFields = "1";
+      Position = "640.000 -530.049";
+      size = "290.000 30.499";
+      CollisionMaxIterations = "1";
+         mountID = "153";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/tileLayer9i_d.lyr";
+      canSaveDynamicFields = "1";
+      Position = "590.000 -650.049";
+      size = "290.000 30.499";
+      CollisionMaxIterations = "1";
+         mountID = "154";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer52.lyr";
+      canSaveDynamicFields = "1";
+      Position = "482.000 -490.000";
+      size = "6.000 120.000";
+      Layer = "10";
+      CollisionMaxIterations = "1";
+         mountID = "155";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer52.lyr";
+      canSaveDynamicFields = "1";
+      Position = "752.000 -610.000";
+      size = "6.000 120.000";
+      Layer = "10";
+      CollisionMaxIterations = "1";
+         mountID = "156";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "482.000 -490.000";
+      size = "6.000 120.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "157";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "752.000 -610.000";
+      size = "6.000 120.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "158";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "640.000 -530.000";
+      size = "290.000 30.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "159";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "590.000 -650.000";
+      size = "290.000 30.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "160";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "501.557 -440.119";
+         mountID = "161";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "721.557 -560.119";
+      FlipX = "1";
+         mountID = "162";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "491.557 -680.119";
+         mountID = "163";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "DrillIdleAnimation";
+      canSaveDynamicFields = "1";
+      Position = "521.557 -680.119";
+         mountID = "164";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/User/Platform_29x6_V.lyr";
+      canSaveDynamicFields = "1";
+      Position = "459.777 -530.086";
+      size = "269.829 30.499";
+      Rotation = "90";
+      Layer = "1";
+      WorldLimitMin = "-3165.223 -921.409";
+      WorldLimitMax = "4084.777 -158.933";
+      CollisionMaxIterations = "1";
+         mountID = "165";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "459.890 -530.000";
+      size = "30.000 270.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "166";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "AppleImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "494.333 -582.500";
+      size = "5.000 5.000";
+         mountID = "167";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "FoodPickupBehavior	TargetType	Apple";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "710.000 -433.570";
+         mountID = "168";
+      _behavior0 = "PickupBehavior	AddToInventory	1";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "700.000 -433.570";
+         mountID = "169";
+      _behavior0 = "PickupBehavior	AddToInventory	1";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "690.000 -433.570";
+         mountID = "170";
+      _behavior0 = "PickupBehavior	AddToInventory	1";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "680.000 -433.570";
+         mountID = "171";
+      _behavior0 = "PickupBehavior	AddToInventory	1";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "131.976 122.803";
+      size = "12.800 15.147";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "172";
+   };
+   new t2dScroller(RedHurtLines) {
+      scrollX = "10";
+      scrollPositionX = "3.47086e-23";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1129.798 -69.120";
+      size = "240.000 240.000";
+         mountID = "173";
+   };
+};

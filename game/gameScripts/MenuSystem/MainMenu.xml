@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<MenuConfiguration>
+	<ButtonStack>
+		<Name>DefaultStack</Name>
+		<Position>20, 450</Position>
+		<Extent>150, 350</Extent>
+		<HorizSizing>right</HorizSizing>
+		<VertSizing>top</VertSizing>
+		<StackDefaults>
+			<Margin>0 50</Margin>
+			<Extent>150, 30</Extent>
+		</StackDefaults>
+		</ButtonElement>
+	</ButtonStack>
+</MenuConfiguration>

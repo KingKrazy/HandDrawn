@@ -1,0 +1,200 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(LevelCompleteGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiFadeinBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 0";
+      Extent = "1024 776";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/data/images/FinishImage.png";
+      wrap = "0";
+      fadeinTime = "1000";
+      waitTime = "0";
+      fadeoutTime = "0";
+      done = "1";
+   };
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "176 136";
+      Extent = "152 96";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "common/data/images/SpeechBubble.png";
+      wrap = "0";
+
+      new GuiMLTextCtrl(LCGPoints) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiMLTextProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "16 48";
+         Extent = "112 12";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+   };
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "176 272";
+      Extent = "152 96";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "common/data/images/SpeechBubble.png";
+      wrap = "0";
+
+      new GuiMLTextCtrl(LCGLives) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiMLTextProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "16 48";
+         Extent = "112 12";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+   };
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "176 408";
+      Extent = "152 96";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "common/data/images/SpeechBubble.png";
+      wrap = "0";
+
+      new GuiMLTextCtrl(LCGLevel) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiMLTextProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "24 40";
+         Extent = "112 12";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+   };
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "176 584";
+      Extent = "152 96";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/data/images/SpeechBubble.png";
+      wrap = "0";
+
+      new GuiMLTextCtrl(LCGTotal) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiMLTextProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "16 48";
+         Extent = "112 12";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "896 656";
+      Extent = "112 96";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "FinishDone();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/data/images/GUI/Next_Black";
+   };
+};
+//--- OBJECT WRITE END ---
+
+function LevelCompleteGui::onWake(%this)
+{
+canvas.showCursor();
+$shakeEnabled = 0;
+LCGPoints.setText($pref::points);
+LCGLives.setText($game::player.lives / 1);
+LCGLevel.setText($playerlevel);
+LCGTotal.setText(LCGLives.text * LCGLives.text * LCGPoints.text / 5 + LCGPoints.text);
+}
+
+function finishDone()
+{
+$playerLevel = $onCompleteNumber;
+echo("On Complete number... " @ $onCompleteNumber);
+stopMusic();
+canvas.schedule(32, "popdialog", LevelCompleteGui);
+schedule(64, 0, "gotolevelselect");
+}
