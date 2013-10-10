@@ -6681,7 +6681,7 @@
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2535.000 -710.000";
+      Position = "2534.000 -710.000";
       size = "310.000 80.000";
          mountID = "674";
       _behavior0 = "PlatformBehavior";
@@ -6689,28 +6689,28 @@
    new t2dTileLayer() {
       LayerFile = "~/data/tilemaps/Level1/Level_1FinalAscent.lyr";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -1330.000";
+      Position = "2619.000 -1330.000";
       size = "260.000 1500.000";
       CollisionMaxIterations = "1";
          mountID = "675";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2535.000 -710.000";
+      Position = "2534.000 -710.000";
       size = "310.000 80.000";
          mountID = "676";
       _behavior0 = "PlatformBehavior";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2620.000 -625.000";
+      Position = "2619.000 -625.000";
       size = "260.000 90.000";
          mountID = "677";
       _behavior0 = "PlatformBehavior";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2505.000 -1439.483";
+      Position = "2504.000 -1439.483";
       size = "30.000 1278.967";
          mountID = "678";
       _behavior0 = "PlatformBehavior";
@@ -6718,9 +6718,12 @@
    new t2dTileLayer(FruitSalad) {
       LayerFile = "~/data/tilemaps/demoLevel/tileLayer98_b.lyr";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -745.000";
+      Position = "2619.000 -744.999";
       size = "140.000 10.000";
       Layer = "5";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-4700.000 20.000";
+      WorldLimitMax = "-1905.000 270.000";
       CollisionMaxIterations = "1";
          mountID = "679";
       _behavior0 = "PlatformBehavior";
@@ -6729,19 +6732,19 @@
       pathType = "LINEAR";
       pathModeEnum = "WRAP";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -1410.000";
+      Position = "2619.000 -1410.000";
       size = "4.000 1330.001";
       FlipX = "1";
          mountID = "680";
-         node0 = "2620.000244 -2075.000000 0.000000 10.000000";
-         node1 = "2620.000244 -744.999268 0.000000 10.000000";
+         node0 = "2619.000244 -2075.000000 0.000000 10.000000";
+         node1 = "2619.000244 -744.999268 0.000000 10.000000";
          nodeCount = "2";
          objectCount = "0";
    };
    new t2dTrigger(Latch1) {
       canSaveDynamicFields = "1";
-      Position = "2620.000 -755.000";
-      size = "20.000 10.000";
+      Position = "2619.000 -755.000";
+      size = "100.000 10.000";
       FlipX = "1";
       CollisionActiveSend = "1";
       CollisionActiveReceive = "1";
@@ -6942,7 +6945,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "2525.000 -1090.000";
+      Position = "2524.000 -1090.000";
       size = "4.750 4.733";
       FlipX = "1";
       Layer = "1";
@@ -6954,7 +6957,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "2705.000 -1450.000";
+      Position = "2704.000 -1450.000";
       size = "4.750 4.733";
       FlipX = "1";
       Layer = "1";
@@ -6966,7 +6969,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "2575.000 -1520.000";
+      Position = "2574.000 -1520.000";
       size = "4.750 4.733";
       FlipX = "1";
       Layer = "1";
@@ -6978,7 +6981,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "2645.000 -1680.000";
+      Position = "2644.000 -1680.000";
       size = "4.750 4.733";
       FlipX = "1";
       Layer = "1";
@@ -6990,7 +6993,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "2705.000 -1880.000";
+      Position = "2704.000 -1880.000";
       size = "4.750 4.733";
       FlipX = "1";
       Layer = "1";
@@ -7002,7 +7005,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "2535.000 -1880.000";
+      Position = "2534.000 -1880.000";
       size = "4.750 4.733";
       FlipX = "1";
       Layer = "1";
@@ -7011,42 +7014,42 @@
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2735.000 -1415.000";
+      Position = "2734.000 -1415.000";
       size = "30.000 1330.000";
          mountID = "705";
       _behavior0 = "PlatformBehavior";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2705.000 -1095.000";
+      Position = "2704.000 -1095.000";
       size = "30.000 690.000";
          mountID = "706";
       _behavior0 = "PlatformBehavior";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2705.000 -1665.000";
+      Position = "2704.000 -1665.000";
       size = "30.000 410.000";
          mountID = "707";
       _behavior0 = "PlatformBehavior";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2535.000 -1485.000";
+      Position = "2534.000 -1485.000";
       size = "30.000 770.000";
          mountID = "708";
       _behavior0 = "PlatformBehavior";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2535.000 -1985.000";
+      Position = "2534.000 -1985.000";
       size = "30.000 190.000";
          mountID = "709";
       _behavior0 = "PlatformBehavior";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2705.000 -1985.000";
+      Position = "2704.000 -1985.000";
       size = "30.000 190.000";
          mountID = "710";
       _behavior0 = "PlatformBehavior";
@@ -7056,14 +7059,14 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "2517.895 -2090.000";
+      Position = "2516.895 -2090.000";
       size = "40.000 40.000";
       Layer = "15";
          mountID = "711";
    };
    new t2dTrigger(KrazyTrigger) {
       canSaveDynamicFields = "1";
-      Position = "2520.200 -2097.353";
+      Position = "2519.200 -2097.353";
       size = "30.400 35.293";
       CollisionActiveSend = "1";
       CollisionActiveReceive = "1";
@@ -7769,7 +7772,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -765.000";
+      Position = "2619.000 -765.000";
          mountID = "800";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7777,7 +7780,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -775.000";
+      Position = "2619.000 -775.000";
          mountID = "801";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7785,7 +7788,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -785.000";
+      Position = "2619.000 -785.000";
          mountID = "802";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7793,7 +7796,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -795.000";
+      Position = "2619.000 -795.000";
          mountID = "803";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7801,7 +7804,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -805.000";
+      Position = "2619.000 -805.000";
          mountID = "804";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7809,7 +7812,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -815.000";
+      Position = "2619.000 -815.000";
          mountID = "805";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7817,7 +7820,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -825.000";
+      Position = "2619.000 -825.000";
          mountID = "806";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7825,7 +7828,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -835.000";
+      Position = "2619.000 -835.000";
          mountID = "807";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7833,7 +7836,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2620.000 -845.000";
+      Position = "2619.000 -845.000";
          mountID = "808";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7841,7 +7844,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2670.000 -935.000";
+      Position = "2669.000 -935.000";
          mountID = "809";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7849,7 +7852,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2670.000 -925.000";
+      Position = "2669.000 -925.000";
          mountID = "810";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7857,7 +7860,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2670.000 -915.000";
+      Position = "2669.000 -915.000";
          mountID = "811";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7865,7 +7868,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2670.000 -905.000";
+      Position = "2669.000 -905.000";
          mountID = "812";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7873,7 +7876,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2670.000 -895.000";
+      Position = "2669.000 -895.000";
          mountID = "813";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7881,7 +7884,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2670.000 -885.000";
+      Position = "2669.000 -885.000";
          mountID = "814";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7889,7 +7892,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2670.000 -875.000";
+      Position = "2669.000 -875.000";
          mountID = "815";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7897,7 +7900,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2670.000 -865.000";
+      Position = "2669.000 -865.000";
          mountID = "816";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7905,7 +7908,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2580.000 -1045.000";
+      Position = "2579.000 -1045.000";
          mountID = "817";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7913,7 +7916,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2580.000 -1035.000";
+      Position = "2579.000 -1035.000";
          mountID = "818";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7921,7 +7924,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2580.000 -1025.000";
+      Position = "2579.000 -1025.000";
          mountID = "819";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7929,7 +7932,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2580.000 -1015.000";
+      Position = "2579.000 -1015.000";
          mountID = "820";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7937,7 +7940,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2580.000 -1005.000";
+      Position = "2579.000 -1005.000";
          mountID = "821";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7945,7 +7948,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2580.000 -995.000";
+      Position = "2579.000 -995.000";
          mountID = "822";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7953,7 +7956,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2580.000 -985.000";
+      Position = "2579.000 -985.000";
          mountID = "823";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7961,7 +7964,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2580.000 -975.000";
+      Position = "2579.000 -975.000";
          mountID = "824";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7969,7 +7972,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2610.000 -1155.000";
+      Position = "2609.000 -1155.000";
          mountID = "825";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7977,7 +7980,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2610.000 -1145.000";
+      Position = "2609.000 -1145.000";
          mountID = "826";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7985,7 +7988,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2610.000 -1135.000";
+      Position = "2609.000 -1135.000";
          mountID = "827";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -7993,7 +7996,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2610.000 -1125.000";
+      Position = "2609.000 -1125.000";
          mountID = "828";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8001,7 +8004,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2610.000 -1115.000";
+      Position = "2609.000 -1115.000";
          mountID = "829";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8009,7 +8012,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2610.000 -1105.000";
+      Position = "2609.000 -1105.000";
          mountID = "830";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8017,7 +8020,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2610.000 -1095.000";
+      Position = "2609.000 -1095.000";
          mountID = "831";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8025,7 +8028,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2610.000 -1085.000";
+      Position = "2609.000 -1085.000";
          mountID = "832";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8033,7 +8036,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2660.000 -1325.000";
+      Position = "2659.000 -1325.000";
          mountID = "833";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8041,7 +8044,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2660.000 -1315.000";
+      Position = "2659.000 -1315.000";
          mountID = "834";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8049,7 +8052,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2660.000 -1305.000";
+      Position = "2659.000 -1305.000";
          mountID = "835";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8057,7 +8060,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2660.000 -1295.000";
+      Position = "2659.000 -1295.000";
          mountID = "836";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8065,7 +8068,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2660.000 -1285.000";
+      Position = "2659.000 -1285.000";
          mountID = "837";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8073,7 +8076,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2660.000 -1275.000";
+      Position = "2659.000 -1275.000";
          mountID = "838";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8081,7 +8084,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2660.000 -1265.000";
+      Position = "2659.000 -1265.000";
          mountID = "839";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8089,7 +8092,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2660.000 -1255.000";
+      Position = "2659.000 -1255.000";
          mountID = "840";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8097,7 +8100,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1445.000";
+      Position = "2589.000 -1445.000";
          mountID = "841";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8105,7 +8108,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1435.000";
+      Position = "2589.000 -1435.000";
          mountID = "842";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8113,7 +8116,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1425.000";
+      Position = "2589.000 -1425.000";
          mountID = "843";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8121,7 +8124,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1415.000";
+      Position = "2589.000 -1415.000";
          mountID = "844";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8129,7 +8132,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1405.000";
+      Position = "2589.000 -1405.000";
          mountID = "845";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8137,7 +8140,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1395.000";
+      Position = "2589.000 -1395.000";
          mountID = "846";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8145,7 +8148,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1385.000";
+      Position = "2589.000 -1385.000";
          mountID = "847";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8153,7 +8156,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1375.000";
+      Position = "2589.000 -1375.000";
          mountID = "848";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8161,7 +8164,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1605.000";
+      Position = "2649.000 -1605.000";
          mountID = "849";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8169,7 +8172,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1595.000";
+      Position = "2649.000 -1595.000";
          mountID = "850";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8177,7 +8180,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1585.000";
+      Position = "2649.000 -1585.000";
          mountID = "851";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8185,7 +8188,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1575.000";
+      Position = "2649.000 -1575.000";
          mountID = "852";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8193,7 +8196,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1565.000";
+      Position = "2649.000 -1565.000";
          mountID = "853";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8201,7 +8204,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1555.000";
+      Position = "2649.000 -1555.000";
          mountID = "854";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8209,7 +8212,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1545.000";
+      Position = "2649.000 -1545.000";
          mountID = "855";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8217,7 +8220,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1535.000";
+      Position = "2649.000 -1535.000";
          mountID = "856";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8225,7 +8228,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1765.000";
+      Position = "2589.000 -1765.000";
          mountID = "857";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8233,7 +8236,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1755.000";
+      Position = "2589.000 -1755.000";
          mountID = "858";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8241,7 +8244,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1745.000";
+      Position = "2589.000 -1745.000";
          mountID = "859";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8249,7 +8252,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1735.000";
+      Position = "2589.000 -1735.000";
          mountID = "860";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8257,7 +8260,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1725.000";
+      Position = "2589.000 -1725.000";
          mountID = "861";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8265,7 +8268,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1715.000";
+      Position = "2589.000 -1715.000";
          mountID = "862";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8273,7 +8276,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1705.000";
+      Position = "2589.000 -1705.000";
          mountID = "863";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8281,7 +8284,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1695.000";
+      Position = "2589.000 -1695.000";
          mountID = "864";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8289,7 +8292,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1925.000";
+      Position = "2649.000 -1925.000";
          mountID = "865";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8297,7 +8300,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1915.000";
+      Position = "2649.000 -1915.000";
          mountID = "866";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8305,7 +8308,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1905.000";
+      Position = "2649.000 -1905.000";
          mountID = "867";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8313,7 +8316,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1895.000";
+      Position = "2649.000 -1895.000";
          mountID = "868";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8321,7 +8324,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1885.000";
+      Position = "2649.000 -1885.000";
          mountID = "869";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8329,7 +8332,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1875.000";
+      Position = "2649.000 -1875.000";
          mountID = "870";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8337,7 +8340,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1865.000";
+      Position = "2649.000 -1865.000";
          mountID = "871";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8345,7 +8348,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2650.000 -1855.000";
+      Position = "2649.000 -1855.000";
          mountID = "872";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8353,7 +8356,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -2065.000";
+      Position = "2589.000 -2065.000";
          mountID = "873";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8361,7 +8364,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -2055.000";
+      Position = "2589.000 -2055.000";
          mountID = "874";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8369,7 +8372,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -2045.000";
+      Position = "2589.000 -2045.000";
          mountID = "875";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8377,7 +8380,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -2035.000";
+      Position = "2589.000 -2035.000";
          mountID = "876";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8385,7 +8388,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -2025.000";
+      Position = "2589.000 -2025.000";
          mountID = "877";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8393,7 +8396,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -2015.000";
+      Position = "2589.000 -2015.000";
          mountID = "878";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8401,7 +8404,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -2005.000";
+      Position = "2589.000 -2005.000";
          mountID = "879";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8409,7 +8412,7 @@
    new t2dAnimatedSprite() {
       animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2590.000 -1995.000";
+      Position = "2589.000 -1995.000";
          mountID = "880";
       _behavior0 = "PickupBehavior";
       _behavior1 = "PepperPickupBehavior";
@@ -8488,5 +8491,32 @@
       ConstantForce = "-20.000 0.000";
       LinearVelocity = "-10.000 0.000";
          mountID = "885";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "511.288 -777.500";
+      size = "1482.575 605.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "886";
+      _behavior0 = "AreaDamageBehavior	amount	1000";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "3477.713 -1054.638";
+      size = "1482.575 605.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "887";
+      _behavior0 = "AreaDamageBehavior	amount	1000";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "1762.337 -1721.604";
+      size = "1482.575 160.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "888";
+      _behavior0 = "AreaDamageBehavior	amount	1000";
    };
 };
