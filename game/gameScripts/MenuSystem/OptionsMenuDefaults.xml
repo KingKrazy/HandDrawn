@@ -42,7 +42,7 @@
 		<MasterEnabled>1</MasterEnabled>
 		<MasterVolume>1</MasterVolume>
 		<SFXEnabled>1</SFXEnabled>
-		<SFXVolume>1</SFXVolume>
+		<SFXVolume>0.75</SFXVolume>
 		<MusicEnabled>1</MusicEnabled>
 		<MusicVolume>1</MusicVolume>
 	</AudioSettings>

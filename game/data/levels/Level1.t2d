@@ -40,6 +40,7 @@
       music = "AttackOfTheShardsMusic";
       ParallaxLayer0 = "FG Level1/ParallaxClouds 1.05";
       ParallaxLayer1 = "BG Level1/ParallaxBackGround 0.2";
+      LevelName = "Attack of the Shards";
 
    new t2dTileLayer() {
       LayerFile = "~/data/tilemaps/Parallax/TP1_Middle.lyr";

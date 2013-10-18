@@ -34,1641 +34,4516 @@
    layerSortMode30 = "Normal";
    layerSortMode31 = "Normal";
    DebugRendering = "0";
-      cameraPosition = "0.000000 0.000000";
-      cameraSize = "190.000000 142.000000";
-      levelName = "TIMING IS EVERYTHING";
+      cameraPosition = "0 0";
+      cameraSize = "190 142";
+      LevelName = "Down into the Dark";
       LevelNumber = "3";
-      music = "OneTwoThreeFour";
-      OnLevelLoad = "level3";
-      OnLevelLoad2 = "cantPause";
-      ParallaxLayer1 = "FG demoLevel/ParallaxClouds 1.2";
-      LevelNumber = 3;
-      
-   new t2dScroller() {
-      imageMap = "cave_w_blankImageMap";
-      repeatX = "100";
-      repeatY = "100";
-      scrollPositionX = "0.994";
+      Music = "EdgeclimbAndDescendMusic";
+      ParallaxLayer0 = "BG Level3/ParallaxBackgroundUp1 0.3";
+      ParallaxLayer1 = "BG Level3/ParallaxBackground 0.2";
+
+   new t2dStaticSprite(Level3Temp) {
+      imageMap = "sky_cave_tImageMap";
+      frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Visible = "0";
-      Position = "280.000 -285.000";
-      size = "1000.000 1000.000";
+      size = "4440.000 4440.000";
+      FlipX = "1";
       Layer = "31";
          mountID = "2";
-      _behavior0 = "ParallaxBehavior	ScrollRate	0.5 0.5";
-   };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "95.000 37.500";
-      size = "20.000 5.000";
-         mountID = "3";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior";
-   };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer88_b.lyr";
-      canSaveDynamicFields = "1";
-      Position = "35.000 85.000";
-      size = "180.000 100.000";
-      Layer = "1";
-      CollisionMaxIterations = "1";
-         mountID = "4";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "-35.000 103.194";
-      size = "40.000 136.388";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "5";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "115.000 37.500";
-      size = "20.000 5.000";
-         mountID = "6";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	2";
-   };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "135.000 37.500";
-      size = "20.000 5.000";
-         mountID = "7";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	3";
-   };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "155.000 37.500";
-      size = "20.000 5.000";
-         mountID = "8";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	4";
+         Music = "Peristalsis";
    };
    new t2dStaticSprite() {
       imageMap = "DragonSpawnImageMap";
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "0.000 -50.000";
-         mountID = "9";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DragonActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	1000	AutoDespawn	0";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "65.000 60.000";
-      size = "40.000 50.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "10";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "15.000 65.000";
-      size = "60.000 40.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "11";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "85.000 105.000";
-      size = "60.000 60.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "12";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "-10.979 42.071";
-      size = "15.000 5.000";
-      Rotation = "45";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "13";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "41.021 42.071";
-      size = "15.000 5.000";
-      Rotation = "315";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "14";
-      _behavior0 = "PlatformBehavior";
+      Position = "9.000 -69.000";
+      size = "16.000 16.000";
+         mountID = "3";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DragonActorTemplate	MinSpawnDistance	0	AutoDespawn	0";
    };
    new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/User/tileLayer12.lyr";
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer38.lyr";
       canSaveDynamicFields = "1";
-      Position = "210.000 70.250";
-      size = "290.000 70.499";
-      Layer = "2";
+      Position = "-10.000 -20.000";
+      size = "70.000 70.000";
       CollisionMaxIterations = "1";
+         mountID = "4";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer30.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-55.000 10.000";
+      size = "60.000 60.000";
+      CollisionMaxIterations = "1";
+         mountID = "5";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer103.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-125.000 85.000";
+      size = "120.000 120.000";
+      CollisionMaxIterations = "1";
+      LinkPoints = "0.661 0.709";
+         mountID = "6";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer35.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-2.500 -85.000";
+      size = "125.000 60.000";
+      CollisionMaxIterations = "1";
+         mountID = "8";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-10.663 -20.176";
+      size = "65.948 3.387";
+         mountID = "9";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-10.785 -10.401";
+      size = "26.253 3.387";
+         mountID = "10";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-25.952 9.671";
+      size = "35.920 3.242";
+         mountID = "11";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-60.600 -15.314";
+      size = "46.442 2.707";
+         mountID = "12";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-95.900 29.905";
+      size = "35.890 2.933";
+         mountID = "13";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-115.940 39.960";
+      size = "15.920 2.933";
+         mountID = "14";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-145.940 39.960";
+      size = "15.920 2.933";
          mountID = "15";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "342.000 -7.500";
-      size = "20.000 5.000";
+      Position = "-155.900 59.905";
+      size = "35.890 2.933";
          mountID = "16";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "362.000 -12.500";
-      size = "20.000 5.000";
+      Position = "-110.765 79.905";
+      size = "25.619 2.933";
          mountID = "17";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	2";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "382.000 -17.500";
-      size = "20.000 5.000";
+      Position = "-120.765 109.905";
+      size = "25.619 2.933";
          mountID = "18";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	3";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "402.000 -22.500";
-      size = "20.000 5.000";
+      Position = "-50.000 -85.000";
+      size = "30.000 60.000";
          mountID = "19";
       _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	4";
    };
    new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer65.lyr";
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
       canSaveDynamicFields = "1";
-      Position = "427.789 12.869";
-      size = "40.000 90.000";
-      Rotation = "10.3917";
-      Layer = "13";
+      Position = "-85.340 127.540";
+      size = "10.000 60.000";
+      Rotation = "125";
+      Layer = "1";
       CollisionMaxIterations = "1";
+      MountOffset = "0.661 0.709";
+         mountID = "7";
+         mountToID = "6";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-86.334 126.974";
+      size = "60.000 2.000";
+      Rotation = "35";
          mountID = "20";
-   };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "465.000 -29.500";
-      size = "20.000 5.000";
-         mountID = "21";
       _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer38.lyr";
       canSaveDynamicFields = "1";
-      Position = "475.000 -59.500";
-      size = "20.000 5.000";
+      Position = "-61.811 178.487";
+      size = "70.000 70.000";
+      CollisionMaxIterations = "1";
+         mountID = "21";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-62.516 178.533";
+      size = "64.969 2.933";
          mountID = "22";
       _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior	Number	2";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "465.000 -89.500";
-      size = "20.000 5.000";
+      Position = "-63.108 188.533";
+      size = "26.215 2.933";
          mountID = "23";
       _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior	Number	3";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "475.000 -119.500";
-      size = "20.000 5.000";
+      Position = "-77.500 208.533";
+      size = "34.999 2.933";
          mountID = "24";
       _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior	Number	4";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer7.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "405.000 -5.000";
-      size = "100.000 260.000";
-      Layer = "17";
-      CollisionMaxIterations = "1";
+      Position = "-10.000 -85.000";
+      size = "50.000 60.000";
          mountID = "25";
+      _behavior0 = "PlatformBehavior";
    };
    new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer65.lyr";
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer80.lyr";
       canSaveDynamicFields = "1";
-      Position = "411.586 101.402";
-      size = "40.000 90.000";
-      Rotation = "190.392";
-      Layer = "13";
+      Position = "-10.000 -61.000";
+      size = "30.000 20.000";
+      Rotation = "180";
+      Layer = "6";
       CollisionMaxIterations = "1";
          mountID = "26";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "379.375 186.557";
-      size = "718.750 13.115";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
+      Position = "25.000 -85.000";
+      size = "20.000 60.000";
          mountID = "27";
-      _behavior0 = "AreaDamageBehavior	Amount	1000";
+      _behavior0 = "PlatformBehavior";
    };
    new t2dScroller() {
-      imageMap = "White_patchImageMap";
-      repeatX = "100";
-      repeatY = "100";
+      imageMap = "black_holeImageMap";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "290.779 -315.516";
-      size = "1331.558 1128.968";
-      Layer = "31";
+      Position = "6.280 -96.673";
+      size = "802.561 53.346";
+      Rotation = "180";
          mountID = "28";
    };
-   new t2dSceneObject() {
+   new t2dScroller() {
+      imageMap = "Black_PatchImageMap";
+      sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "235.000 90.000";
-      size = "240.000 30.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
+      Position = "21.088 -269.557";
+      size = "497.824 293.825";
+      FlipX = "1";
+      FlipY = "1";
          mountID = "29";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "425.000 -130.000";
-      size = "60.000 10.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "30";
-      _behavior0 = "PlatformBehavior	OneWay	1";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "385.000 -120.000";
-      size = "60.000 10.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "31";
-      _behavior0 = "PlatformBehavior	OneWay	1";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "392.071 -127.929";
-      size = "15.000 5.000";
-      Rotation = "315";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "32";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dScroller() {
-      imageMap = "Grass_imageImageMap";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "335.000 -115.000";
-      size = "40.000 40.000";
-         mountID = "33";
-      _behavior0 = "PlatformTimerBehavior	size	40 40";
-      _behavior1 = "PlatformBehavior";
-   };
-   new t2dScroller() {
-      imageMap = "Grass_imageImageMap";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "295.000 -125.000";
-      size = "40.000 40.000";
-         mountID = "34";
-      _behavior0 = "PlatformTimerBehavior	Number	2	size	40 40";
-      _behavior1 = "PlatformBehavior";
-   };
-   new t2dScroller() {
-      imageMap = "Grass_imageImageMap";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "255.000 -135.000";
-      size = "40.000 40.000";
-         mountID = "35";
-      _behavior0 = "PlatformTimerBehavior	Number	3	size	40 40";
-      _behavior1 = "PlatformBehavior";
-   };
-   new t2dScroller() {
-      imageMap = "Grass_imageImageMap";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "215.000 -145.000";
-      size = "40.000 40.000";
-         mountID = "36";
-      _behavior0 = "PlatformTimerBehavior	Number	4	size	40 40";
-      _behavior1 = "PlatformBehavior";
    };
    new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer18.lyr";
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer41.lyr";
       canSaveDynamicFields = "1";
-      Position = "98.677 -160.000";
-      size = "40.000 10.000";
+      Position = "-117.000 246.386";
+      size = "60.000 80.000";
+      Rotation = "180";
       CollisionMaxIterations = "1";
+         mountID = "30";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer31.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-151.978 260.000";
+      size = "50.000 30.000";
+      CollisionMaxIterations = "1";
+         mountID = "31";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer43.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-176.761 280.485";
+      size = "20.000 30.000";
+      Rotation = "180";
+      CollisionMaxIterations = "1";
+         mountID = "32";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer35.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-225.000 315.000";
+      size = "130.000 60.000";
+      CollisionMaxIterations = "1";
+         mountID = "33";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer88_a.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-340.000 355.000";
+      size = "180.000 100.000";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "34";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-235.000 315.000";
+      size = "30.000 60.000";
+         mountID = "35";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-275.000 315.000";
+      size = "30.000 60.000";
+         mountID = "36";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-200.000 315.000";
+      size = "20.000 60.000";
          mountID = "37";
       _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	size	40 10";
-      _behavior2 = "FallingPlatformBehavior	AutoRotate	1	RecoverTimeOut	3";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer18.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "58.677 -160.000";
-      size = "40.000 10.000";
-      CollisionMaxIterations = "1";
+      Position = "-290.000 375.000";
+      size = "60.000 60.000";
          mountID = "38";
       _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	2	size	40 10";
-      _behavior2 = "FallingPlatformBehavior	AutoRotate	1	RecoverTimeOut	3";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer18.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "18.677 -160.000";
-      size = "40.000 10.000";
-      CollisionMaxIterations = "1";
+      Position = "-315.000 330.000";
+      size = "50.000 50.000";
          mountID = "39";
       _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	3	size	40 10";
-      _behavior2 = "FallingPlatformBehavior	AutoRotate	1	RecoverTimeOut	3";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer18.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-21.323 -160.000";
-      size = "40.000 10.000";
-      CollisionMaxIterations = "1";
+      Position = "-405.000 330.000";
+      size = "50.000 50.000";
          mountID = "40";
       _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	4	size	40 10";
-      _behavior2 = "FallingPlatformBehavior	AutoRotate	1	RecoverTimeOut	3";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer65_b.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-46.118 -294.945";
-      size = "40.000 90.000";
-      Rotation = "-15.5501";
-      Layer = "13";
-      CollisionMaxIterations = "1";
+      Position = "-360.000 335.000";
+      size = "40.000 40.000";
          mountID = "41";
+      _behavior0 = "PlatformBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer65_a.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-22.347 -209.490";
-      size = "40.000 90.000";
-      Rotation = "164.522";
-      Layer = "17";
-      CollisionMaxIterations = "1";
+      Position = "-152.501 249.961";
+      size = "44.999 2.933";
          mountID = "42";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-38.000 -187.500";
-      size = "20.000 5.000";
+      Position = "-110.883 281.466";
+      size = "44.999 2.933";
          mountID = "43";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-8.000 -207.500";
-      size = "20.000 5.000";
+      Position = "-177.041 291.000";
+      size = "18.596 2.000";
          mountID = "44";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	2";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
       canSaveDynamicFields = "1";
-      Position = "-48.000 -227.500";
-      size = "20.000 5.000";
+      Position = "-111.344 94.000";
+      size = "10.000 22.688";
+      Rotation = "90";
+      Layer = "1";
+      CollisionMaxIterations = "1";
          mountID = "45";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	3";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
       canSaveDynamicFields = "1";
-      Position = "-18.000 -247.500";
-      size = "20.000 5.000";
+      Position = "-112.798 87.347";
+      size = "10.000 22.688";
+      Rotation = "125";
+      Layer = "1";
+      CollisionMaxIterations = "1";
          mountID = "46";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	4";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
       canSaveDynamicFields = "1";
-      Position = "-58.000 -267.500";
-      size = "20.000 5.000";
+      Position = "-148.427 54.727";
+      size = "10.000 10.768";
+      Rotation = "-17.682";
+      Layer = "1";
+      CollisionMaxIterations = "1";
          mountID = "47";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
       canSaveDynamicFields = "1";
-      Position = "-28.000 -287.500";
-      size = "20.000 5.000";
+      Position = "-83.760 40.155";
+      size = "16.926 30.000";
+      Rotation = "-28.1729";
+      Layer = "1";
+      CollisionMaxIterations = "1";
          mountID = "48";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	2";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "-68.000 -307.500";
-      size = "20.000 5.000";
+      Position = "-15.000 4.000";
+      Layer = "1";
          mountID = "49";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	3";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "-38.000 -327.500";
-      size = "20.000 5.000";
+      Position = "-25.000 4.000";
+      Layer = "1";
          mountID = "50";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	4";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "164.177 -184.035";
-      size = "10.000 60.000";
-      Rotation = "45";
+      Position = "-35.000 4.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "51";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "252.177 -272.035";
-      size = "10.000 60.000";
-      Rotation = "45";
+      Position = "-85.000 24.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "52";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "206.177 -226.035";
-      size = "10.000 60.000";
-      Rotation = "45";
+      Position = "-95.000 24.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "53";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "137.612 -278.481";
-      size = "10.000 60.000";
-      Rotation = "330";
+      Position = "-105.000 24.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "54";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "246.177 -266.035";
-      size = "10.000 60.000";
-      Rotation = "45";
+      Position = "-115.000 34.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "55";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer54_a.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "165.000 -131.648";
-      size = "60.000 66.705";
+      Position = "-145.000 34.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "56";
-      _behavior0 = "PlatformBehavior";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "167.447 -226.831";
-      size = "10.000 60.000";
-      Rotation = "330";
+      Position = "-145.000 54.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "57";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "67.447 -286.831";
-      size = "10.000 60.000";
-      Rotation = "45";
+      Position = "-155.000 54.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "58";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/User/tileLayer9i_c.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "130.777 -317.171";
-      size = "290.000 30.499";
-      Rotation = "5";
-      CollisionMaxIterations = "1";
+      Position = "-165.000 54.000";
+      Layer = "1";
          mountID = "59";
-      _behavior0 = "PlatformBehavior";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "-2.388 -298.481";
-      size = "10.000 60.000";
-      Rotation = "45";
-      Layer = "16";
-      CollisionMaxIterations = "1";
+      Position = "-105.000 74.000";
+      Layer = "1";
          mountID = "60";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "27.447 -246.831";
-      size = "10.000 60.000";
-      Rotation = "45";
-      Layer = "16";
-      CollisionMaxIterations = "1";
+      Position = "-115.000 74.000";
+      Layer = "1";
          mountID = "61";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "17.447 -236.831";
-      size = "10.000 60.000";
-      Rotation = "45";
-      Layer = "20";
-      CollisionMaxIterations = "1";
+      Position = "-115.000 104.000";
+      Layer = "1";
          mountID = "62";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "57.447 -258.831";
-      size = "10.000 60.000";
-      Rotation = "70";
+      Position = "-125.000 104.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "63";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "106.447 -289.831";
-      size = "10.000 60.000";
-      Rotation = "45";
+      Position = "-95.000 274.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "64";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "170.447 -281.831";
-      size = "10.000 60.000";
-      Rotation = "59.6239";
-      Layer = "3";
-      CollisionMaxIterations = "1";
+      Position = "-105.000 274.000";
+      Layer = "1";
          mountID = "65";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "284.177 -230.035";
-      size = "10.000 60.000";
-      Rotation = "135";
+      Position = "-115.000 274.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "66";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "326.177 -188.035";
-      size = "10.000 60.000";
-      Rotation = "135";
+      Position = "-125.000 274.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "67";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "366.177 -148.035";
-      size = "10.000 60.000";
-      Rotation = "135";
+      Position = "-135.000 244.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "68";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "268.177 -246.035";
-      size = "10.000 60.000";
-      Rotation = "135";
+      Position = "-145.000 244.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "69";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "273.177 -252.035";
-      size = "10.000 60.000";
-      Rotation = "330";
+      Position = "-155.000 244.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "70";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "260.177 -239.035";
-      size = "10.000 60.000";
-      Rotation = "294.772";
+      Position = "-165.000 244.000";
       Layer = "1";
-      CollisionMaxIterations = "1";
          mountID = "71";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "132.918 -194.062";
-      size = "10.000 60.000";
-      Rotation = "147.473";
-      Layer = "16";
-      CollisionMaxIterations = "1";
+      Position = "-195.000 280.000";
+      Layer = "1";
          mountID = "72";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "101.142 -243.251";
-      size = "10.000 60.000";
-      Rotation = "147.473";
-      Layer = "16";
-      CollisionMaxIterations = "1";
+      Position = "-205.000 280.000";
+      Layer = "1";
          mountID = "73";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "-18.000 -187.500";
-      size = "20.000 5.000";
+      Position = "-225.000 280.000";
+      Layer = "1";
          mountID = "74";
-      _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "12.000 -207.500";
-      size = "20.000 5.000";
+      Position = "-235.000 280.000";
+      Layer = "1";
          mountID = "75";
-      _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior	Number	2";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "-28.000 -227.500";
-      size = "20.000 5.000";
+      Position = "-245.000 280.000";
+      Layer = "1";
          mountID = "76";
-      _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior	Number	3";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "2.000 -247.500";
-      size = "20.000 5.000";
+      Position = "-265.000 280.000";
+      Layer = "1";
          mountID = "77";
-      _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior	Number	4";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "-18.000 -327.500";
-      size = "20.000 5.000";
+      Position = "-275.000 280.000";
+      Layer = "1";
          mountID = "78";
-      _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior	Number	4";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "-48.000 -307.500";
-      size = "20.000 5.000";
+      Position = "-285.000 280.000";
+      Layer = "1";
          mountID = "79";
-      _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior	Number	3";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "-8.000 -287.500";
-      size = "20.000 5.000";
+      Position = "-295.000 300.000";
+      Layer = "1";
          mountID = "80";
-      _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior	Number	2";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "-38.000 -267.500";
-      size = "20.000 5.000";
+      Position = "-305.000 300.000";
+      Layer = "1";
          mountID = "81";
-      _behavior0 = "PlatformBehavior	OneWay	1";
-      _behavior1 = "PlatformTimerBehavior";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dSceneObject(Cache) {
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "-373.145 108.893";
-      size = "15.866 15.810";
+      Position = "-315.000 300.000";
+      Layer = "1";
          mountID = "82";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dSceneObject() {
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "417.710 66.967";
-      size = "40.000 200.000";
-      Rotation = "10.392";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
+      Position = "-325.000 300.000";
+      Layer = "1";
          mountID = "83";
-      _behavior0 = "PlatformBehavior";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-335.000 300.000";
+      Layer = "1";
+         mountID = "84";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-345.000 300.000";
+      Layer = "1";
+         mountID = "85";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-355.000 300.000";
+      Layer = "1";
+         mountID = "86";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-375.000 300.000";
+      Layer = "1";
+         mountID = "87";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-365.000 300.000";
+      Layer = "1";
+         mountID = "88";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-375.000 310.000";
+      Layer = "1";
+         mountID = "89";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-365.000 310.000";
+      Layer = "1";
+         mountID = "90";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-355.000 310.000";
+      Layer = "1";
+         mountID = "91";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-345.000 310.000";
+      Layer = "1";
+         mountID = "92";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-385.000 300.000";
+      Layer = "1";
+         mountID = "93";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-395.000 300.000";
+      Layer = "1";
+         mountID = "94";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-405.000 300.000";
+      Layer = "1";
+         mountID = "95";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-415.000 300.000";
+      Layer = "1";
+         mountID = "96";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-425.000 300.000";
+      Layer = "1";
+         mountID = "97";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
    new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer54.lyr";
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer85.lyr";
       canSaveDynamicFields = "1";
-      Position = "295.000 20.754";
-      size = "60.000 31.509";
-      Layer = "8";
+      Position = "-445.000 321.684";
+      size = "50.000 40.000";
+      Layer = "31";
       CollisionMaxIterations = "1";
-         mountID = "84";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "260.000 55.000";
-      size = "190.000 40.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "85";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "295.000 20.000";
-      size = "60.000 30.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "86";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "95.000 37.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "87";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "115.000 37.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "88";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "135.000 37.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "89";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "155.000 37.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "90";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "342.000 -7.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "91";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "362.000 -12.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "92";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "382.000 -17.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "93";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "402.000 -22.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "94";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "465.000 -29.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "95";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "475.000 -59.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "96";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "465.000 -89.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "97";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "475.000 -119.500";
-      size = "20.000 5.000";
-      Layer = "4";
          mountID = "98";
    };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer30.lyr";
       canSaveDynamicFields = "1";
-      Position = "-38.000 -187.500";
-      size = "20.000 5.000";
-      Layer = "4";
+      Position = "-480.000 305.000";
+      size = "60.000 60.000";
+      CollisionMaxIterations = "1";
          mountID = "99";
    };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer106.lyr";
       canSaveDynamicFields = "1";
-      Position = "-18.000 -187.500";
-      size = "20.000 5.000";
-      Layer = "4";
+      Position = "-535.358 286.583";
+      size = "10.000 60.000";
+      Rotation = "74.7398";
+      CollisionMaxIterations = "1";
          mountID = "100";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1";
    };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer4.lyr";
       canSaveDynamicFields = "1";
-      Position = "-8.000 -207.500";
-      size = "20.000 5.000";
-      Layer = "4";
+      Position = "-558.873 310.000";
+      size = "30.000 40.000";
+      CollisionMaxIterations = "1";
          mountID = "101";
    };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer4.lyr";
       canSaveDynamicFields = "1";
-      Position = "12.000 -207.500";
-      size = "20.000 5.000";
-      Layer = "4";
+      Position = "-528.873 310.000";
+      size = "30.000 40.000";
+      CollisionMaxIterations = "1";
          mountID = "102";
    };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer106.lyr";
       canSaveDynamicFields = "1";
-      Position = "-28.000 -227.500";
-      size = "20.000 5.000";
-      Layer = "4";
+      Position = "-541.404 330.000";
+      size = "10.000 60.000";
+      Rotation = "90";
+      CollisionMaxIterations = "1";
          mountID = "103";
    };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer106.lyr";
       canSaveDynamicFields = "1";
-      Position = "-48.000 -227.500";
-      size = "20.000 5.000";
-      Layer = "4";
+      Position = "-522.043 304.608";
+      size = "10.000 60.000";
+      Rotation = "29.3037";
+      CollisionMaxIterations = "1";
          mountID = "104";
    };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer106.lyr";
       canSaveDynamicFields = "1";
-      Position = "-18.000 -247.500";
-      size = "20.000 5.000";
-      Layer = "4";
+      Position = "-491.754 329.321";
+      size = "10.000 60.000";
+      Rotation = "111.421";
+      CollisionMaxIterations = "1";
          mountID = "105";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "2.000 -247.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "106";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "-58.000 -267.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "107";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "-38.000 -267.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "108";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "-28.000 -287.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "109";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "-8.000 -287.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "110";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "-68.000 -307.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "111";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "-48.000 -307.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "112";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "-38.000 -327.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "113";
-   };
-   new t2dStaticSprite() {
-      imageMap = "platform_invisibleImageMap";
-      frame = "0";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "-18.000 -327.500";
-      size = "20.000 5.000";
-      Layer = "4";
-         mountID = "114";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "244.009 116.557";
-      size = "286.017 13.115";
+      Position = "-450.000 306.466";
+      size = "40.000 2.933";
+         mountID = "106";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-483.189 279.780";
+      size = "40.000 2.933";
+         mountID = "107";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-530.174 294.732";
+      size = "25.935 2.668";
+         mountID = "108";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-560.174 294.732";
+      size = "25.935 2.668";
+         mountID = "109";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "672.500 552.653";
+      size = "7825.000 161.821";
       CollisionActiveSend = "1";
       CollisionActiveReceive = "1";
+         mountID = "110";
+      _behavior0 = "AreaDamageBehavior	amount	1000	Interval	1";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-149.743 24.029";
+      size = "26.000 26.000";
+         mountID = "111";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	200";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-115.463 94.800";
+      size = "26.000 26.000";
+         mountID = "112";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	200";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-42.000 168.000";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "113";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	200";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-41.920 168.107";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "114";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-305.319 293.000";
+      size = "26.000 26.000";
+      FlipX = "1";
          mountID = "115";
-      _behavior0 = "AreaDamageBehavior	Amount	1000";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	200";
    };
-   new t2dScroller() {
-      imageMap = "Grass_imageImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dTrigger() {
       canSaveDynamicFields = "1";
-      Position = "305.000 -295.000";
-      size = "40.000 40.000";
+      Position = "-304.800 290.147";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
          mountID = "116";
-      _behavior0 = "PlatformTimerBehavior	size	40 40";
-      _behavior1 = "PlatformBehavior";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
       canSaveDynamicFields = "1";
-      Position = "355.000 -277.500";
-      size = "20.000 5.000";
+      Position = "-493.000 272.000";
+      size = "26.000 26.000";
          mountID = "117";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	2";
-   };
-   new t2dScroller() {
-      imageMap = "Grass_imageImageMap";
-      sourceRect = "0 0 0 0";
-      canSaveDynamicFields = "1";
-      Position = "405.000 -295.000";
-      size = "40.000 40.000";
-         mountID = "118";
-      _behavior0 = "PlatformTimerBehavior	Number	3	size	40 40";
-      _behavior1 = "PlatformBehavior";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
    };
    new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/User/tileLayer9i_d.lyr";
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer85.lyr";
       canSaveDynamicFields = "1";
-      Position = "360.777 -357.171";
-      size = "290.000 30.499";
+      Position = "-590.000 318.408";
+      size = "50.000 16.817";
+      Layer = "31";
+      CollisionMaxIterations = "1";
+         mountID = "118";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer64.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-605.000 300.000";
+      size = "20.000 30.000";
       CollisionMaxIterations = "1";
          mountID = "119";
    };
-   new t2dScroller() {
-      imageMap = "elevator_bottomImageMap";
-      sourceRect = "0 0 0 0";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "455.000 -277.500";
-      size = "20.000 5.000";
+      Position = "-590.595 314.732";
+      size = "46.778 2.668";
          mountID = "120";
-      _behavior0 = "PlatformBehavior";
-      _behavior1 = "PlatformTimerBehavior	Number	4";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/User/tileLayer9i_d.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "630.000 -290.049";
-      size = "290.000 30.499";
-      CollisionMaxIterations = "1";
+      Position = "-606.140 289.732";
+      size = "15.687 2.668";
          mountID = "121";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "496.177 -328.035";
-      size = "10.000 60.000";
-      Rotation = "13.6312";
-      Layer = "1";
-      CollisionMaxIterations = "1";
+      Position = "-541.691 330.016";
+      size = "60.173 2.213";
          mountID = "122";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer38.lyr";
       canSaveDynamicFields = "1";
-      Position = "470.177 -326.035";
-      size = "10.000 60.000";
-      Rotation = "135";
-      Layer = "1";
+      Position = "-600.062 326.000";
+      size = "70.000 70.000";
       CollisionMaxIterations = "1";
          mountID = "123";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "480.177 -326.035";
-      size = "10.000 60.000";
-      Rotation = "150.471";
-      Layer = "1";
-      CollisionMaxIterations = "1";
+      Position = "-601.067 325.794";
+      size = "65.691 3.749";
          mountID = "124";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "280.447 -331.831";
-      size = "10.000 60.000";
-      Rotation = "45";
-      Layer = "1";
-      CollisionMaxIterations = "1";
+      Position = "-600.474 335.332";
+      size = "25.935 2.668";
          mountID = "125";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "250.447 -331.831";
-      size = "10.000 60.000";
-      Rotation = "22.3559";
-      Layer = "1";
-      CollisionMaxIterations = "1";
+      Position = "-615.540 355.523";
+      size = "36.067 3.050";
          mountID = "126";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer105.lyr";
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer103_a.lyr";
       canSaveDynamicFields = "1";
-      Position = "230.447 -331.831";
-      size = "10.000 60.000";
-      Rotation = "342.537";
-      Layer = "1";
+      Position = "-635.000 277.579";
+      size = "120.000 117.235";
       CollisionMaxIterations = "1";
          mountID = "127";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "593.284 -247.104";
-      size = "703.432 7.791";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
+      Position = "-631.147 303.666";
+      size = "25.673 2.668";
          mountID = "128";
-      _behavior0 = "AreaDamageBehavior	Amount	1000";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "213.071 -375.929";
-      size = "15.000 5.000";
-      Rotation = "315";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
+      Position = "-621.147 273.666";
+      size = "25.673 2.668";
          mountID = "129";
-      _behavior0 = "PlatformBehavior";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "509.071 -375.929";
-      size = "15.000 5.000";
-      Rotation = "45";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
+      Position = "-666.050 253.666";
+      size = "35.479 2.668";
          mountID = "130";
-      _behavior0 = "PlatformBehavior";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "361.170 -357.488";
-      size = "289.780 30.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
+      Position = "-655.913 233.666";
+      size = "15.205 2.668";
          mountID = "131";
-      _behavior0 = "PlatformBehavior";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "630.000 -290.000";
-      size = "290.000 30.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
+      Position = "-625.913 233.666";
+      size = "15.205 2.668";
          mountID = "132";
-      _behavior0 = "PlatformBehavior";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "251.557 26.881";
+      Position = "-605.891 223.666";
+      size = "35.250 2.668";
          mountID = "133";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
-      canSaveDynamicFields = "1";
-      Position = "51.557 26.881";
-         mountID = "134";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
-      canSaveDynamicFields = "1";
-      Position = "141.557 -170.119";
-         mountID = "135";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
-      canSaveDynamicFields = "1";
-      Position = "1.557 -360.119";
-         mountID = "136";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
-      canSaveDynamicFields = "1";
-      Position = "81.557 -390.119";
-         mountID = "137";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
-      canSaveDynamicFields = "1";
-      Position = "301.557 -330.119";
-         mountID = "138";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
-      canSaveDynamicFields = "1";
-      Position = "531.557 -320.119";
-         mountID = "139";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
-      canSaveDynamicFields = "1";
-      Position = "561.557 -320.119";
-         mountID = "140";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer101.lyr";
       canSaveDynamicFields = "1";
-      Position = "671.675 -364.476";
-      size = "6.000 42.000";
+      Position = "-642.000 268.000";
+      size = "6.000 66.000";
+      Layer = "5";
+      CollisionMaxIterations = "1";
+         mountID = "134";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-641.901 268.165";
+      size = "6.198 66.329";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "135";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-673.000 242.000";
+      size = "26.000 26.000";
+         mountID = "136";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-600.000 217.000";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "137";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-529.000 288.000";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "138";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-524.800 290.147";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "139";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-594.800 220.147";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "140";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/Cranky.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-725.000 281.383";
+      size = "120.000 117.235";
       CollisionMaxIterations = "1";
          mountID = "141";
    };
-   new t2dTileLayer() {
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2525.323 1508.809";
-      size = "6.000 36.000";
-      Layer = "3";
-      CollisionMaxIterations = "1";
+      Position = "-731.655 257.697";
+      size = "86.689 2.606";
          mountID = "142";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dTileLayer() {
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2525.323 1508.809";
-      size = "6.000 36.000";
-      Layer = "3";
-      CollisionMaxIterations = "1";
+      Position = "-706.754 227.615";
+      size = "56.492 2.668";
          mountID = "143";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dTileLayer() {
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2525.323 1508.809";
-      size = "6.000 36.000";
-      Layer = "3";
-      CollisionMaxIterations = "1";
+      Position = "-711.151 277.666";
+      size = "25.681 2.668";
          mountID = "144";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dTileLayer() {
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2525.323 1508.809";
-      size = "6.000 36.000";
-      Layer = "3";
-      CollisionMaxIterations = "1";
+      Position = "-721.151 307.666";
+      size = "25.681 2.668";
          mountID = "145";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer54_a.lyr";
       canSaveDynamicFields = "1";
-      Position = "2525.323 1508.809";
-      size = "6.000 36.000";
-      Layer = "3";
+      Position = "-700.000 360.000";
+      size = "60.000 40.000";
       CollisionMaxIterations = "1";
          mountID = "146";
    };
-   new t2dTileLayer() {
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2525.323 1508.809";
-      size = "6.000 36.000";
-      Layer = "3";
-      CollisionMaxIterations = "1";
+      Position = "-681.151 327.666";
+      size = "25.681 2.668";
          mountID = "147";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dTileLayer() {
+   new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "2525.323 1508.809";
-      size = "6.000 36.000";
-      Layer = "3";
-      CollisionMaxIterations = "1";
+      Position = "-700.000 360.000";
+      size = "60.000 40.000";
          mountID = "148";
-   };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer52.lyr";
-      canSaveDynamicFields = "1";
-      Position = "752.000 -370.000";
-      size = "6.000 120.000";
-      Layer = "10";
-      CollisionMaxIterations = "1";
-         mountID = "149";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "752.000 -370.000";
-      size = "6.000 120.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "150";
-      _behavior0 = "LadderBehavior";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "590.000 -410.000";
-      size = "290.000 30.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "151";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/User/tileLayer9i_d.lyr";
-      canSaveDynamicFields = "1";
-      Position = "590.000 -410.049";
-      size = "290.000 30.499";
-      CollisionMaxIterations = "1";
-         mountID = "152";
-   };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/User/tileLayer9i_d.lyr";
-      canSaveDynamicFields = "1";
-      Position = "640.000 -530.049";
-      size = "290.000 30.499";
-      CollisionMaxIterations = "1";
-         mountID = "153";
-   };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/User/tileLayer9i_d.lyr";
-      canSaveDynamicFields = "1";
-      Position = "590.000 -650.049";
-      size = "290.000 30.499";
-      CollisionMaxIterations = "1";
-         mountID = "154";
-   };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer52.lyr";
-      canSaveDynamicFields = "1";
-      Position = "482.000 -490.000";
-      size = "6.000 120.000";
-      Layer = "10";
-      CollisionMaxIterations = "1";
-         mountID = "155";
-   };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/demoLevel/tileLayer52.lyr";
-      canSaveDynamicFields = "1";
-      Position = "752.000 -610.000";
-      size = "6.000 120.000";
-      Layer = "10";
-      CollisionMaxIterations = "1";
-         mountID = "156";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "482.000 -490.000";
-      size = "6.000 120.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "157";
-      _behavior0 = "LadderBehavior";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "752.000 -610.000";
-      size = "6.000 120.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "158";
-      _behavior0 = "LadderBehavior";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "640.000 -530.000";
-      size = "290.000 30.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "159";
-      _behavior0 = "PlatformBehavior";
-   };
-   new t2dSceneObject() {
-      canSaveDynamicFields = "1";
-      Position = "590.000 -650.000";
-      size = "290.000 30.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "160";
       _behavior0 = "PlatformBehavior";
    };
    new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "501.557 -440.119";
-         mountID = "161";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
-      canSaveDynamicFields = "1";
-      Position = "721.557 -560.119";
-      FlipX = "1";
-         mountID = "162";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
-      canSaveDynamicFields = "1";
-      Position = "491.557 -680.119";
-         mountID = "163";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dAnimatedSprite() {
-      animationName = "DrillIdleAnimation";
-      canSaveDynamicFields = "1";
-      Position = "521.557 -680.119";
-         mountID = "164";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate";
-   };
-   new t2dTileLayer() {
-      LayerFile = "~/data/tilemaps/User/Platform_29x6_V.lyr";
-      canSaveDynamicFields = "1";
-      Position = "459.777 -530.086";
-      size = "269.829 30.499";
-      Rotation = "90";
+      Position = "-575.000 320.000";
       Layer = "1";
-      WorldLimitMin = "-3165.223 -921.409";
-      WorldLimitMax = "4084.777 -158.933";
-      CollisionMaxIterations = "1";
-         mountID = "165";
-      _behavior0 = "PlatformBehavior";
+         mountID = "149";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
    };
-   new t2dSceneObject() {
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
       canSaveDynamicFields = "1";
-      Position = "459.890 -530.000";
-      size = "30.000 270.000";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
+      Position = "-585.000 320.000";
+      Layer = "1";
+         mountID = "150";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-595.000 320.000";
+      Layer = "1";
+         mountID = "151";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-605.000 320.000";
+      Layer = "1";
+         mountID = "152";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-615.000 320.000";
+      Layer = "1";
+         mountID = "153";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-625.000 320.000";
+      Layer = "1";
+         mountID = "154";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-623.000 297.000";
+      Layer = "1";
+         mountID = "155";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-633.000 297.000";
+      Layer = "1";
+         mountID = "156";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-603.000 284.000";
+      Layer = "1";
+         mountID = "157";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-613.000 267.000";
+      Layer = "1";
+         mountID = "158";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-623.000 267.000";
+      Layer = "1";
+         mountID = "159";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-769.000 251.000";
+      Layer = "1";
+         mountID = "160";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-759.000 251.000";
+      Layer = "1";
+         mountID = "161";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-749.000 251.000";
+      Layer = "1";
+         mountID = "162";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-739.000 251.000";
+      Layer = "1";
+         mountID = "163";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-729.000 251.000";
+      Layer = "1";
+         mountID = "164";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-719.000 251.000";
+      Layer = "1";
+         mountID = "165";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-709.000 251.000";
+      Layer = "1";
          mountID = "166";
-      _behavior0 = "PlatformBehavior";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-699.000 251.000";
+      Layer = "1";
+         mountID = "167";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-679.000 221.000";
+      Layer = "1";
+         mountID = "168";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-689.000 221.000";
+      Layer = "1";
+         mountID = "169";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-699.000 221.000";
+      Layer = "1";
+         mountID = "170";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-709.000 221.000";
+      Layer = "1";
+         mountID = "171";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-719.000 221.000";
+      Layer = "1";
+         mountID = "172";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-729.000 221.000";
+      Layer = "1";
+         mountID = "173";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-763.000 248.000";
+      size = "26.000 26.000";
+         mountID = "174";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-785.000 257.500";
+      size = "20.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+         mountID = "175";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-815.000 257.500";
+      size = "20.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.414 1.000 -0.414 1.000 0.414 -1.000 0.414";
+         mountID = "176";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-845.000 257.500";
+      size = "20.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.414 1.000 -0.414 1.000 0.414 -1.000 0.414";
+         mountID = "177";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 257.500";
+      size = "20.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.414 1.000 -0.414 1.000 0.414 -1.000 0.414";
+         mountID = "178";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 257.500";
+      size = "20.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.414 1.000 -0.414 1.000 0.414 -1.000 0.414";
+         mountID = "179";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Ground/Friendol.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-900.000 195.000";
+      size = "240.000 480.000";
+      Layer = "14";
+      CollisionMaxIterations = "1";
+         mountID = "180";
    };
    new t2dStaticSprite() {
-      imageMap = "AppleImageMap";
+      imageMap = "Ledge_RightImageMap";
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "494.333 -582.500";
-      size = "5.000 5.000";
-         mountID = "167";
-      _behavior0 = "PickupBehavior";
-      _behavior1 = "FoodPickupBehavior	TargetType	Apple";
+      Position = "-995.000 260.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "181";
    };
-   new t2dAnimatedSprite() {
-      animationName = "yummy_pepperAnimation";
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "710.000 -433.570";
-         mountID = "168";
-      _behavior0 = "PickupBehavior	AddToInventory	1";
-      _behavior1 = "PepperPickupBehavior";
+      Position = "-960.000 260.000";
+      size = "60.000 10.000";
+         mountID = "182";
    };
-   new t2dAnimatedSprite() {
-      animationName = "yummy_pepperAnimation";
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "700.000 -433.570";
-         mountID = "169";
-      _behavior0 = "PickupBehavior	AddToInventory	1";
-      _behavior1 = "PepperPickupBehavior";
+      Position = "-925.000 260.000";
+         mountID = "183";
    };
-   new t2dAnimatedSprite() {
-      animationName = "yummy_pepperAnimation";
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "690.000 -433.570";
-         mountID = "170";
-      _behavior0 = "PickupBehavior	AddToInventory	1";
-      _behavior1 = "PepperPickupBehavior";
+      Position = "-920.000 240.000";
+      size = "60.000 10.000";
+         mountID = "184";
    };
-   new t2dAnimatedSprite() {
-      animationName = "yummy_pepperAnimation";
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "680.000 -433.570";
-         mountID = "171";
-      _behavior0 = "PickupBehavior	AddToInventory	1";
-      _behavior1 = "PepperPickupBehavior";
+      Position = "-885.000 240.000";
+         mountID = "185";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 240.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "186";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-950.000 210.000";
+      size = "40.000 10.000";
+         mountID = "187";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-925.000 210.000";
+         mountID = "188";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-975.000 210.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "189";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-855.000 210.000";
+         mountID = "190";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-880.000 210.000";
+      size = "40.000 10.000";
+         mountID = "191";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 210.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "192";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-815.000 190.000";
+         mountID = "193";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-830.000 190.000";
+      size = "20.000 10.000";
+         mountID = "194";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-845.000 190.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "195";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-815.000 170.000";
+         mountID = "196";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-835.000 170.000";
+      size = "30.000 10.000";
+         mountID = "197";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-855.000 170.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "198";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-887.500 160.000";
+      size = "15.000 10.000";
+         mountID = "199";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 160.000";
+         mountID = "200";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-895.000 160.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "201";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-915.000 140.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "202";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-907.500 140.000";
+      size = "15.000 10.000";
+         mountID = "203";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-895.000 140.000";
+         mountID = "204";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-965.000 130.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "205";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 130.000";
+         mountID = "206";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-945.000 130.000";
+         mountID = "207";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1015.000 110.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "208";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1000.000 110.000";
+      size = "20.000 10.000";
+         mountID = "209";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-985.000 110.000";
+         mountID = "210";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-965.000 90.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "211";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-940.000 90.000";
+      size = "40.000 10.000";
+         mountID = "212";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-915.000 90.000";
+         mountID = "213";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 80.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "214";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-895.000 80.000";
+         mountID = "215";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 70.000";
+         mountID = "216";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-835.000 70.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "217";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-795.000 40.000";
+         mountID = "218";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-805.000 40.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "219";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 10.000";
+         mountID = "220";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-835.000 10.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "221";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-908.000 10.000";
+         mountID = "222";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-912.000 10.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "223";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-948.000 10.000";
+         mountID = "224";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-952.000 10.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "225";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-978.000 -10.000";
+         mountID = "226";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-982.000 -10.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "227";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_RightImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-978.000 -30.000";
+         mountID = "228";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-982.000 -30.000";
+      FlipX = "1";
+      Layer = "1";
+         mountID = "229";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "131.976 122.803";
-      size = "12.800 15.147";
-      CollisionActiveSend = "1";
-      CollisionActiveReceive = "1";
-         mountID = "172";
+      Position = "-960.000 260.000";
+      size = "80.000 3.500";
+         mountID = "230";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
-   new t2dScroller(RedHurtLines) {
-      scrollX = "10";
-      scrollPositionX = "3.47086e-23";
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-920.000 240.000";
+      size = "80.000 3.500";
+         mountID = "231";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-950.000 210.000";
+      size = "60.000 3.500";
+         mountID = "232";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-880.000 210.000";
+      size = "60.000 3.500";
+         mountID = "233";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-830.000 190.000";
+      size = "40.000 3.500";
+         mountID = "234";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-835.000 170.000";
+      size = "50.000 3.500";
+         mountID = "235";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-885.000 160.000";
+      size = "30.000 3.500";
+         mountID = "236";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-905.000 140.000";
+      size = "30.000 3.500";
+         mountID = "237";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-955.000 130.000";
+      size = "30.000 3.500";
+         mountID = "238";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-1000.000 110.000";
+      size = "40.000 3.500";
+         mountID = "239";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-940.000 90.000";
+      size = "60.000 3.500";
+         mountID = "240";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-900.000 80.000";
+      size = "20.000 3.500";
+         mountID = "241";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-830.000 70.000";
+      size = "20.000 3.500";
+         mountID = "242";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-800.000 40.000";
+      size = "20.000 3.500";
+         mountID = "243";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-830.000 10.000";
+      size = "20.000 3.500";
+         mountID = "244";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-909.908 10.000";
+      size = "14.000 3.500";
+         mountID = "245";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-949.908 10.000";
+      size = "14.000 3.500";
+         mountID = "246";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-979.908 -10.000";
+      size = "14.000 3.500";
+         mountID = "247";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-979.908 -30.000";
+      size = "14.000 3.500";
+         mountID = "248";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "-1129.798 -69.120";
-      size = "240.000 240.000";
-         mountID = "173";
+      Position = "-981.812 -10.000";
+      FlipX = "1";
+         mountID = "249";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-981.812 -30.000";
+      FlipX = "1";
+         mountID = "250";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-951.812 10.000";
+      FlipX = "1";
+         mountID = "251";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-911.812 10.000";
+      FlipX = "1";
+         mountID = "252";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-835.000 10.000";
+      FlipX = "1";
+         mountID = "253";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-805.000 40.000";
+      FlipX = "1";
+         mountID = "254";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-835.000 70.000";
+      FlipX = "1";
+         mountID = "255";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 80.000";
+      FlipX = "1";
+         mountID = "256";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-965.000 90.000";
+      FlipX = "1";
+         mountID = "257";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-1015.000 110.000";
+      FlipX = "1";
+         mountID = "258";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-965.000 130.000";
+      FlipX = "1";
+         mountID = "259";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-915.000 140.000";
+      FlipX = "1";
+         mountID = "260";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-895.000 160.000";
+      FlipX = "1";
+         mountID = "261";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-855.000 170.000";
+      FlipX = "1";
+         mountID = "262";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-845.000 190.000";
+      FlipX = "1";
+         mountID = "263";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 210.000";
+      FlipX = "1";
+         mountID = "264";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-975.000 210.000";
+      FlipX = "1";
+         mountID = "265";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 240.000";
+      FlipX = "1";
+         mountID = "266";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Ledge_RightImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-995.000 260.000";
+      FlipX = "1";
+         mountID = "267";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-1003.000 98.000";
+      size = "26.000 26.000";
+         mountID = "268";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-816.800 186.147";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "269";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-822.000 183.000";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "270";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-796.800 36.147";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "271";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-802.000 33.000";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "272";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-978.000 -18.000";
+      size = "26.000 26.000";
+         mountID = "273";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-900.000 -43.250";
+      size = "240.000 3.500";
+         mountID = "274";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer72_A.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-808.000 -114.000";
+      size = "6.000 132.000";
+      Layer = "20";
+      WorldLimitMin = "87.000 -1650.000";
+      WorldLimitMax = "237.000 1600.000";
+      CollisionMaxIterations = "1";
+         mountID = "275";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer52.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-787.000 -160.000";
+      size = "6.000 120.000";
+      Layer = "10";
+      CollisionMaxIterations = "1";
+         mountID = "276";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer84.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-797.000 -202.000";
+      size = "6.000 36.000";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "277";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer84.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-807.000 -212.000";
+      size = "6.000 36.000";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "278";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer84.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-817.000 -222.000";
+      size = "6.000 36.000";
+      Layer = "3";
+      CollisionMaxIterations = "1";
+         mountID = "279";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer72_A.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-837.000 -231.000";
+      size = "6.000 132.000";
+      Layer = "20";
+      WorldLimitMin = "87.000 -1650.000";
+      WorldLimitMax = "237.000 1600.000";
+      CollisionMaxIterations = "1";
+         mountID = "280";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-836.970 -231.007";
+      size = "6.059 132.013";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "281";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-808.029 -113.993";
+      size = "6.059 132.013";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "282";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-786.971 -160.000";
+      size = "6.059 120.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "283";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-796.971 -201.991";
+      size = "6.059 36.018";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "284";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-806.971 -211.991";
+      size = "6.059 36.018";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "285";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-816.971 -221.991";
+      size = "6.059 36.018";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "286";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dStaticSprite(Check1) {
+      imageMap = "eggImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 -51.000";
+      AutoRotation = "90";
+         mountID = "287";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "CheckPointPickupBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Ground/Friendol.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-900.000 -485.000";
+      size = "240.000 480.000";
+      Layer = "30";
+      CollisionMaxIterations = "1";
+         mountID = "288";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-835.000 -292.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-875.000 -355.000";
+      WorldLimitMax = "-790.000 -230.000";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "20.000 0.000";
+         mountID = "289";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -312.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-957.314 -355.000";
+      WorldLimitMax = "-790.000 -230.000";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "-20.000 0.000";
+         mountID = "290";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-965.000 -332.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-1020.000 -391.929";
+      WorldLimitMax = "-852.686 -266.929";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "30.000 0.000";
+         mountID = "291";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_largeboardImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-796.831 -182.500";
+      size = "20.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+         mountID = "292";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_largeboardImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-786.831 -102.500";
+      size = "20.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+         mountID = "293";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dStaticSprite() {
+      imageMap = "stuff_largeboardImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-836.831 -165.500";
+      size = "20.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+         mountID = "294";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-799.000 251.000";
+      Layer = "1";
+         mountID = "295";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-829.000 251.000";
+      Layer = "1";
+         mountID = "296";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-819.000 251.000";
+      Layer = "1";
+         mountID = "297";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-809.000 251.000";
+      Layer = "1";
+         mountID = "298";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-839.000 251.000";
+      Layer = "1";
+         mountID = "299";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-849.000 251.000";
+      Layer = "1";
+         mountID = "300";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-789.000 251.000";
+      Layer = "1";
+         mountID = "301";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-779.000 251.000";
+      Layer = "1";
+         mountID = "302";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-859.000 251.000";
+      Layer = "1";
+         mountID = "303";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-869.000 251.000";
+      Layer = "1";
+         mountID = "304";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-879.000 251.000";
+      Layer = "1";
+         mountID = "305";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-889.000 251.000";
+      Layer = "1";
+         mountID = "306";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-899.000 251.000";
+      Layer = "1";
+         mountID = "307";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-909.000 251.000";
+      Layer = "1";
+         mountID = "308";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-925.000 253.000";
+      Layer = "1";
+         mountID = "309";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-935.000 253.000";
+      Layer = "1";
+         mountID = "310";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-945.000 253.000";
+      Layer = "1";
+         mountID = "311";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 253.000";
+      Layer = "1";
+         mountID = "312";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-965.000 253.000";
+      Layer = "1";
+         mountID = "313";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-985.000 253.000";
+      Layer = "1";
+         mountID = "314";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-975.000 253.000";
+      Layer = "1";
+         mountID = "315";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 233.000";
+      Layer = "1";
+         mountID = "316";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-945.000 233.000";
+      Layer = "1";
+         mountID = "317";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-935.000 233.000";
+      Layer = "1";
+         mountID = "318";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-925.000 233.000";
+      Layer = "1";
+         mountID = "319";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-915.000 233.000";
+      Layer = "1";
+         mountID = "320";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 233.000";
+      Layer = "1";
+         mountID = "321";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-895.000 233.000";
+      Layer = "1";
+         mountID = "322";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 233.000";
+      Layer = "1";
+         mountID = "323";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-975.000 203.000";
+      Layer = "1";
+         mountID = "324";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-965.000 203.000";
+      Layer = "1";
+         mountID = "325";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-975.000 193.000";
+      Layer = "1";
+         mountID = "326";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-965.000 193.000";
+      Layer = "1";
+         mountID = "327";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 193.000";
+      Layer = "1";
+         mountID = "328";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-945.000 193.000";
+      Layer = "1";
+         mountID = "329";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 203.000";
+      Layer = "1";
+         mountID = "330";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-945.000 203.000";
+      Layer = "1";
+         mountID = "331";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-935.000 203.000";
+      Layer = "1";
+         mountID = "332";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-925.000 203.000";
+      Layer = "1";
+         mountID = "333";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-935.000 193.000";
+      Layer = "1";
+         mountID = "334";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-925.000 193.000";
+      Layer = "1";
+         mountID = "335";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 203.000";
+      Layer = "1";
+         mountID = "336";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-895.000 203.000";
+      Layer = "1";
+         mountID = "337";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 193.000";
+      Layer = "1";
+         mountID = "338";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-895.000 193.000";
+      Layer = "1";
+         mountID = "339";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 193.000";
+      Layer = "1";
+         mountID = "340";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 193.000";
+      Layer = "1";
+         mountID = "341";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 203.000";
+      Layer = "1";
+         mountID = "342";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 203.000";
+      Layer = "1";
+         mountID = "343";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-865.000 203.000";
+      Layer = "1";
+         mountID = "344";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-855.000 203.000";
+      Layer = "1";
+         mountID = "345";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-865.000 193.000";
+      Layer = "1";
+         mountID = "346";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-855.000 193.000";
+      Layer = "1";
+         mountID = "347";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-965.000 83.000";
+      Layer = "1";
+         mountID = "348";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 83.000";
+      Layer = "1";
+         mountID = "349";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-945.000 83.000";
+      Layer = "1";
+         mountID = "350";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-935.000 83.000";
+      Layer = "1";
+         mountID = "351";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-925.000 83.000";
+      Layer = "1";
+         mountID = "352";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-915.000 83.000";
+      Layer = "1";
+         mountID = "353";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-835.000 63.000";
+      Layer = "1";
+         mountID = "354";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 63.000";
+      Layer = "1";
+         mountID = "355";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-835.000 3.000";
+      Layer = "1";
+         mountID = "356";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 3.000";
+      Layer = "1";
+         mountID = "357";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-915.000 3.000";
+      Layer = "1";
+         mountID = "358";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 3.000";
+      Layer = "1";
+         mountID = "359";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 3.000";
+      Layer = "1";
+         mountID = "360";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-945.000 3.000";
+      Layer = "1";
+         mountID = "361";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-985.000 -37.000";
+      Layer = "1";
+         mountID = "362";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-975.000 -37.000";
+      Layer = "1";
+         mountID = "363";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "PencilLifeImageAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-806.963 -235.000";
+      AutoRotation = "180";
+      Layer = "1";
+         mountID = "364";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "LifePickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-855.000 -297.000";
+      Layer = "1";
+         mountID = "365";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-865.000 -297.000";
+      Layer = "1";
+         mountID = "366";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -297.000";
+      Layer = "1";
+         mountID = "367";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-815.000 -297.000";
+      Layer = "1";
+         mountID = "368";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-805.000 -297.000";
+      Layer = "1";
+         mountID = "369";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-795.000 -297.000";
+      Layer = "1";
+         mountID = "370";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-865.000 -317.000";
+      Layer = "1";
+         mountID = "371";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -317.000";
+      Layer = "1";
+         mountID = "372";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -317.000";
+      Layer = "1";
+         mountID = "373";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-895.000 -317.000";
+      Layer = "1";
+         mountID = "374";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-905.000 -317.000";
+      Layer = "1";
+         mountID = "375";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-855.000 -317.000";
+      Layer = "1";
+         mountID = "376";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-845.000 -317.000";
+      Layer = "1";
+         mountID = "377";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-965.000 -337.000";
+      Layer = "1";
+         mountID = "378";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-975.000 -337.000";
+      Layer = "1";
+         mountID = "379";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 -337.000";
+      Layer = "1";
+         mountID = "380";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-945.000 -337.000";
+      Layer = "1";
+         mountID = "381";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-985.000 -337.000";
+      Layer = "1";
+         mountID = "382";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-995.000 -337.000";
+      Layer = "1";
+         mountID = "383";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-935.000 -337.000";
+      Layer = "1";
+         mountID = "384";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-845.000 -297.000";
+      Layer = "1";
+         mountID = "385";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 -297.000";
+      Layer = "1";
+         mountID = "386";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -352.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-962.314 -411.244";
+      WorldLimitMax = "-795.000 -286.244";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "30.000 0.000";
+         mountID = "387";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 -372.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-951.026 -451.881";
+      WorldLimitMax = "-783.712 -326.881";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "-30.000 0.000";
+         mountID = "388";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -357.000";
+      Layer = "1";
+         mountID = "389";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -357.000";
+      Layer = "1";
+         mountID = "390";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-865.000 -357.000";
+      Layer = "1";
+         mountID = "391";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 -377.000";
+      Layer = "1";
+         mountID = "392";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 -387.000";
+      Layer = "1";
+         mountID = "393";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-835.000 -377.000";
+      Layer = "1";
+         mountID = "394";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-815.000 -377.000";
+      Layer = "1";
+         mountID = "395";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-925.000 -392.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-1020.000 -457.650";
+      WorldLimitMax = "-780.000 -332.650";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "30.000 0.000";
+         mountID = "396";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 -412.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-1020.000 -457.650";
+      WorldLimitMax = "-780.000 -332.650";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "-30.000 0.000";
+         mountID = "397";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-945.000 -422.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-1020.000 -457.650";
+      WorldLimitMax = "-780.000 -332.650";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "20.000 0.000";
+         mountID = "398";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -452.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-950.000 -526.376";
+      WorldLimitMax = "-780.000 -401.376";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "-20.000 0.000";
+         mountID = "399";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-935.000 -397.000";
+      Layer = "1";
+         mountID = "400";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-925.000 -397.000";
+      Layer = "1";
+         mountID = "401";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-915.000 -397.000";
+      Layer = "1";
+         mountID = "402";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-955.000 -427.000";
+      Layer = "1";
+         mountID = "403";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-945.000 -427.000";
+      Layer = "1";
+         mountID = "404";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-935.000 -427.000";
+      Layer = "1";
+         mountID = "405";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -457.000";
+      Layer = "1";
+         mountID = "406";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -457.000";
+      Layer = "1";
+         mountID = "407";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-865.000 -457.000";
+      Layer = "1";
+         mountID = "408";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-835.000 -417.000";
+      Layer = "1";
+         mountID = "409";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 -417.000";
+      Layer = "1";
+         mountID = "410";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-815.000 -417.000";
+      Layer = "1";
+         mountID = "411";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-935.000 -472.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-1020.000 -555.000";
+      WorldLimitMax = "-850.000 -430.000";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "40.000 0.000";
+         mountID = "412";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-825.000 -502.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-950.000 -588.133";
+      WorldLimitMax = "-780.000 -463.133";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "15.000 0.000";
+         mountID = "413";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer72_A.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-857.000 -561.000";
+      size = "6.000 132.000";
+      Layer = "20";
+      WorldLimitMin = "87.000 -1650.000";
+      WorldLimitMax = "237.000 1600.000";
+      CollisionMaxIterations = "1";
+         mountID = "414";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-856.970 -561.007";
+      size = "6.059 132.013";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "415";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-855.000 -622.500";
+      size = "30.000 5.000";
+      Layer = "1";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-1020.000 -690.000";
+      WorldLimitMax = "-780.000 -565.000";
+      CollisionPolyList = "-1.000 -0.393 1.000 -0.393 1.000 0.393 -1.000 0.393";
+      LinearVelocity = "-30.000 0.000";
+         mountID = "416";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer72_A.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-907.000 -691.000";
+      size = "6.000 132.000";
+      Layer = "20";
+      WorldLimitMin = "87.000 -1650.000";
+      WorldLimitMax = "237.000 1600.000";
+      CollisionMaxIterations = "1";
+         mountID = "417";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-906.970 -691.007";
+      size = "6.059 132.013";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "418";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-900.000 -723.250";
+      size = "240.000 3.500";
+         mountID = "419";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "MushroomAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-880.000 -724.129";
+      Layer = "31";
+      CollisionPolyList = "-0.550 -0.756 0.020 -1.000 0.599 -0.761 1.000 -0.216 1.000 1.000 -1.000 1.000 -1.000 -0.196";
+      BlendColor = "0 0.792157 1 1";
+         mountID = "420";
+      _behavior0 = "PlatformBehavior";
+      _behavior1 = "TrampolineBehavior	BounceForce	500	JumpModifier	1";
+   };
+   new t2dStaticSprite(Warp1) {
+      imageMap = "Vert_dieImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Visible = "0";
+      Position = "-894.577 -739.083";
+      size = "5.000 5.000";
+         mountID = "421";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-880.000 -1580.000";
+      size = "300.000 20.000";
+         mountID = "422";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Stub.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-880.000 -1580.000";
+      size = "300.000 20.000";
+      CollisionMaxIterations = "1";
+         mountID = "423";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer85.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-707.072 -1572.898";
+      size = "50.000 40.000";
+      Layer = "31";
+      CollisionMaxIterations = "1";
+         mountID = "424";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer85.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-629.895 -1583.021";
+      size = "50.000 40.000";
+      Rotation = "-18.7645";
+      Layer = "31";
+      CollisionMaxIterations = "1";
+         mountID = "425";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer85.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-553.336 -1590.000";
+      size = "50.000 40.000";
+      Layer = "31";
+      CollisionMaxIterations = "1";
+         mountID = "426";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer85.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-445.533 -1602.470";
+      size = "50.000 40.000";
+      Rotation = "-30.1853";
+      Layer = "31";
+      CollisionMaxIterations = "1";
+         mountID = "427";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-707.238 -1587.733";
+      size = "45.000 3.619";
+      FlipY = "1";
+         mountID = "428";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-635.651 -1596.652";
+      size = "45.000 3.619";
+      Rotation = "-18.764";
+      FlipY = "1";
+         mountID = "429";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-554.469 -1604.939";
+      size = "45.000 3.619";
+      FlipY = "1";
+         mountID = "430";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-452.944 -1615.420";
+      size = "45.000 3.619";
+      Rotation = "-30.185";
+      FlipY = "1";
+         mountID = "431";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-670.899 -1588.200";
+      size = "30.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.414 1.000 -0.414 1.000 0.414 -1.000 0.414";
+         mountID = "432";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1	FallTimeOut	0.2	RecoverTimeOut	3";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-593.926 -1604.254";
+      size = "30.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.414 1.000 -0.414 1.000 0.414 -1.000 0.414";
+         mountID = "433";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1	FallTimeOut	0.2	RecoverTimeOut	3";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-516.926 -1604.254";
+      size = "30.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.414 1.000 -0.414 1.000 0.414 -1.000 0.414";
+         mountID = "434";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1	FallTimeOut	0.2	RecoverTimeOut	3";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-486.449 -1603.379";
+      size = "30.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.414 1.000 -0.414 1.000 0.414 -1.000 0.414";
+         mountID = "435";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1	FallTimeOut	0.2	RecoverTimeOut	3";
+   };
+   new t2dScroller() {
+      imageMap = "stuff_largeboardImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-418.705 -1626.502";
+      size = "30.000 5.000";
+      Layer = "3";
+      CollisionPolyList = "-1.000 -0.414 1.000 -0.414 1.000 0.414 -1.000 0.414";
+         mountID = "436";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+      _behavior1 = "FallingPlatformBehavior	AutoRotate	1	FallTimeOut	0.2	RecoverTimeOut	3";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer54_a.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-702.500 -1555.000";
+      size = "55.000 40.000";
+      CollisionMaxIterations = "1";
+         mountID = "437";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Kook_123.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-554.000 -1555.000";
+      size = "40.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "438";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Kook.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-634.334 -1555.000";
+      size = "61.332 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "439";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Kook.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-652.500 -1555.000";
+      size = "55.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "440";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Kook_123.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-427.344 -1570.226";
+      size = "40.000 40.000";
+      Rotation = "-30.185";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "441";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-667.500 -1555.000";
+      size = "125.000 40.000";
+         mountID = "442";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -737.000";
+      Layer = "1";
+         mountID = "443";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -747.000";
+      Layer = "1";
+         mountID = "444";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -767.000";
+      Layer = "1";
+         mountID = "445";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -757.000";
+      Layer = "1";
+         mountID = "446";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -787.000";
+      Layer = "1";
+         mountID = "447";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -777.000";
+      Layer = "1";
+         mountID = "448";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -807.000";
+      Layer = "1";
+         mountID = "449";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -797.000";
+      Layer = "1";
+         mountID = "450";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -827.000";
+      Layer = "1";
+         mountID = "451";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -817.000";
+      Layer = "1";
+         mountID = "452";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -847.000";
+      Layer = "1";
+         mountID = "453";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -837.000";
+      Layer = "1";
+         mountID = "454";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -867.000";
+      Layer = "1";
+         mountID = "455";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -857.000";
+      Layer = "1";
+         mountID = "456";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -887.000";
+      Layer = "1";
+         mountID = "457";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -877.000";
+      Layer = "1";
+         mountID = "458";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -907.000";
+      Layer = "1";
+         mountID = "459";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -897.000";
+      Layer = "1";
+         mountID = "460";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -927.000";
+      Layer = "1";
+         mountID = "461";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -917.000";
+      Layer = "1";
+         mountID = "462";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1007.000";
+      Layer = "1";
+         mountID = "463";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -997.000";
+      Layer = "1";
+         mountID = "464";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -977.000";
+      Layer = "1";
+         mountID = "465";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -987.000";
+      Layer = "1";
+         mountID = "466";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -967.000";
+      Layer = "1";
+         mountID = "467";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -957.000";
+      Layer = "1";
+         mountID = "468";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -937.000";
+      Layer = "1";
+         mountID = "469";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -947.000";
+      Layer = "1";
+         mountID = "470";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1087.000";
+      Layer = "1";
+         mountID = "471";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1077.000";
+      Layer = "1";
+         mountID = "472";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1057.000";
+      Layer = "1";
+         mountID = "473";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1067.000";
+      Layer = "1";
+         mountID = "474";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1047.000";
+      Layer = "1";
+         mountID = "475";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1037.000";
+      Layer = "1";
+         mountID = "476";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1017.000";
+      Layer = "1";
+         mountID = "477";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1027.000";
+      Layer = "1";
+         mountID = "478";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1167.000";
+      Layer = "1";
+         mountID = "479";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1157.000";
+      Layer = "1";
+         mountID = "480";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1137.000";
+      Layer = "1";
+         mountID = "481";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1147.000";
+      Layer = "1";
+         mountID = "482";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1127.000";
+      Layer = "1";
+         mountID = "483";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1117.000";
+      Layer = "1";
+         mountID = "484";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1097.000";
+      Layer = "1";
+         mountID = "485";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1107.000";
+      Layer = "1";
+         mountID = "486";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1237.000";
+      Layer = "1";
+         mountID = "487";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1227.000";
+      Layer = "1";
+         mountID = "488";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1197.000";
+      Layer = "1";
+         mountID = "489";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1187.000";
+      Layer = "1";
+         mountID = "490";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1317.000";
+      Layer = "1";
+         mountID = "491";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1307.000";
+      Layer = "1";
+         mountID = "492";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1277.000";
+      Layer = "1";
+         mountID = "493";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1267.000";
+      Layer = "1";
+         mountID = "494";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1397.000";
+      Layer = "1";
+         mountID = "495";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1387.000";
+      Layer = "1";
+         mountID = "496";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1357.000";
+      Layer = "1";
+         mountID = "497";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1347.000";
+      Layer = "1";
+         mountID = "498";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1457.000";
+      Layer = "1";
+         mountID = "499";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1447.000";
+      Layer = "1";
+         mountID = "500";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1417.000";
+      Layer = "1";
+         mountID = "501";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1407.000";
+      Layer = "1";
+         mountID = "502";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1537.000";
+      Layer = "1";
+         mountID = "503";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1527.000";
+      Layer = "1";
+         mountID = "504";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-885.000 -1497.000";
+      Layer = "1";
+         mountID = "505";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-875.000 -1487.000";
+      Layer = "1";
+         mountID = "506";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "PepperPickupBehavior";
+   };
+   new t2dAnimatedSprite(Warp2) {
+      animationName = "yummy_pepperAnimation";
+      canSaveDynamicFields = "1";
+      Visible = "0";
+      Position = "-935.000 -757.000";
+      Layer = "1";
+         mountID = "507";
    };
 };

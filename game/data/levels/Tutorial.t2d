@@ -41,6 +41,8 @@
       ParallaxLayer1 = "BG demoLevel/ParallaxMountains 0.5";
       ParallaxLayer2 = "FG tutorial/Parallax1 1.2";
       LevelNumber = 1;
+      LevelName = "Learn to Play";
+
    new t2dTileLayer() {
       LayerFile = "~/data/tilemaps/Ground/TutorialMap.lyr";
       canSaveDynamicFields = "1";

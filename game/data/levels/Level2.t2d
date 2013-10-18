@@ -39,6 +39,7 @@
       LevelNumber = "2";
       Reverse = "1";
       Snowy = "1";
+      LevelName = "The Terrors and the Lights";
 
    new t2dScroller() {
       imageMap = "water_fImageMap";
@@ -3111,7 +3112,7 @@
       canSaveDynamicFields = "1";
       Position = "-1438.000 298.000";
       size = "26.000 26.000";
-      Layer = "2";
+      layer = "3";
          mountID = "358";
       _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	ScrapperActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300";
    };
