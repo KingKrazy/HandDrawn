@@ -1,0 +1,110 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(PlayGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "relative";
+   VertSizing = "relative";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiBitmapCtrl(PlayWindow) {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 0";
+      Extent = "272 264";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      bitmap = "~/data/images/Plat.png";
+      wrap = "0";
+
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "8 224";
+         Extent = "88 32";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "canvas.popdialog(PlayGui);";
+         hovertime = "1000";
+         text = "Go Back";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "8 8";
+         Extent = "104 48";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "canvas.pushDialog(AreYouSureGui); playSound( YesMin2 );";
+         hovertime = "1000";
+         text = "New Game";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiButtonCtrl(ShopButton) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "48 64";
+         Extent = "136 47";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "shop();";
+         hovertime = "1000";
+         text = "Go to Item Shop";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "120 8";
+         Extent = "136 48";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "playSound( YesMin2 ); goToLevelSelect();";
+         hovertime = "1000";
+         text = "Load Previous Game";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+
+function PlayGui::onWake(%this)
+{
+playSound(Prompt);
+}

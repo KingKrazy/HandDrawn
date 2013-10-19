@@ -1,0 +1,684 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(mainScreenGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiBlackContentProfile";
+   HorizSizing = "width";
+   VertSizing = "height";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new t2dSceneWindow(sceneWindow2D) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiText24Profile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      Position = "0 0";
+      Extent = "1024 768";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      lockMouse = "0";
+      useWindowMouseEvents = "0";
+      useObjectMouseEvents = "0";
+   };
+   new GuiBitmapCtrl(Hud) {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 -120";
+      Extent = "1024 70";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      bitmap = "~/data/images/GUI/scorebox.png";
+      wrap = "0";
+
+      new GuiProgressCtrl(HealthBar) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiProgressProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "664 40";
+         Extent = "320 8";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         maxLength = "1024";
+      };
+      new GuiBitmapCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "32 8";
+         Extent = "64 64";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         bitmap = "~/data/images/GUI/HUD_extralives.png";
+         wrap = "0";
+      };
+      new GuiTextCtrl(ExtraLivesCounter) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "136 6";
+         Extent = "110 72";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         text = "00";
+         maxLength = "1024";
+      };
+      new GuiBitmapCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "648 48";
+         Extent = "352 24";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         bitmap = "~/data/images/GUI/HUD_chilibox.png";
+         wrap = "0";
+      };
+      new GuiBitmapCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "648 32";
+         Extent = "352 24";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         bitmap = "resources/PlatformerArt/data/images/GUI/HUD_chilibox.png";
+         wrap = "0";
+      };
+      new GuiBitmapCtrl(pepperBox) {
+         canSaveDynamicFields = "0";
+         isContainer = "1";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "648 -16";
+         Extent = "352 64";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         bitmap = "~/data/images/GUI/HUD_chilibox.png";
+         wrap = "0";
+
+         new GuiBitmapCtrl(pepper0) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "304 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "0";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_peppers.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(pepper1) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "272 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "0";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_peppers.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(pepper2) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "240 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "0";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_peppers.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(pepper3) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "208 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "0";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_peppers.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(pepper4) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "176 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "0";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_peppers.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(pepper5) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "144 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "0";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_peppers.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(pepper6) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "112 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "0";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_peppers.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(pepper7) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "80 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "0";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_peppers.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(pepper8) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "48 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "0";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_peppers.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(pepper9) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "16 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "0";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_peppers.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(ghostPepper9) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "16 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            tooltipprofile = "GuiDefaultProfile";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_pepperGhost3.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(ghostPepper8) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "48 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_pepperGhost2.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(ghostPepper7) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "80 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            tooltipprofile = "GuiDefaultProfile";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_pepperGhost1.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(ghostPepper6) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "112 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_pepperGhost.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(ghostPepper5) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "144 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_pepperGhost.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(ghostPepper4) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "176 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_pepperGhost.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(ghostPepper3) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "208 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            tooltipprofile = "GuiDefaultProfile";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_pepperGhost.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(ghostPepper2) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "240 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            tooltipprofile = "GuiDefaultProfile";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_pepperGhost.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(ghostPepper1) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "272 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            tooltipprofile = "GuiDefaultProfile";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_pepperGhost.png";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(ghostPepper0) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            Position = "304 15";
+            Extent = "32 32";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            tooltipprofile = "GuiDefaultProfile";
+            hovertime = "1000";
+            bitmap = "~/data/images/GUI/HUD_pepperGhost.png";
+            wrap = "0";
+         };
+      };
+      new guiT2DObjectCtrl(CurrentEnemy) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "572 8";
+         Extent = "64 56";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         groupNum = "-1";
+         buttonType = "RadioButton";
+         UseMouseEvents = "0";
+         renderMargin = "0";
+      };
+      new GuiBitmapCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "376 14";
+         Extent = "28 44";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         bitmap = "~/data/images/PineCone_Normal.png";
+         wrap = "0";
+      };
+      new GuiBitmapCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "432 24";
+         Extent = "32 32";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         bitmap = "~/data/images/GUI/HUD_x.png";
+         wrap = "0";
+      };
+      new GuiProgressCtrl(EnemyHealthBar) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "664 56";
+         Extent = "320 8";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         maxLength = "1024";
+      };
+      new GuiBitmapCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "96 24";
+         Extent = "32 32";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         bitmap = "~/data/images/GUI/HUD_x.png";
+         wrap = "0";
+      };
+   };
+   new GuiBitmapCtrl(CrossHairGui) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "CrossHairProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 0";
+      Extent = "15 15";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "0";
+      hovertime = "1000";
+      bitmap = "~/data/images/GUI/crosshair.png";
+      wrap = "0";
+   };
+   new GuiTextCtrl(LegacyPrimaryAmmoGui) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "864 688";
+      Extent = "150 30";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      maxLength = "1024";
+   };
+   new GuiTextCtrl(LegacySecondaryAmmoGui) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "864 728";
+      Extent = "150 30";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      maxLength = "1024";
+   };
+   new GuiMouseEventCtrl(MouseInputCtrl) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiTransparentProfile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      Position = "0 104";
+      Extent = "1024 664";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      lockMouse = "1";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "-168 752";
+      Extent = "140 30";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "canvas.pushdialog(NewInventoryGui);";
+      Accelerator = "I";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/gui/invisible.png";
+   };
+};
+//--- OBJECT WRITE END ---
+
+function mainScreenGui::onWake(%this)
+{
+    if(!$smartHUD)
+    {
+    hud.position.y = 0;
+    }
+}
+
+function HudVisible()
+{
+    if($smartHUD)
+    {
+    if(!$hudMoving)
+    {
+        if(isEventPending($hudSchedule))
+        {
+        $hudSchedule.cancel();
+        }
+    hudMoveDWLoop();
+    }
+    }
+    else
+    {
+    hud.position.y = 0;
+    }
+}
+
+function HudInv()
+{
+    if($smartHUD)
+    {
+    if(!$hudMoving)
+    {
+    $hudSchedule.cancel();
+    hudMoveUPLoop();
+    }
+    }
+}
+
+function hudMoveDWLoop()
+{
+echo("HUD MOVE DOWN LOOP");
+        if(hud.position.y < 0)
+        {
+        $hudMoving = 1;
+        hud.position.y += 1;
+        schedule(3, 0, "HudMoveDWLoop");
+        echo("PUSHED DOWN! " @ hud.position.y);
+        }
+        else
+        {
+        $hudMoving = 0;
+        $hudSchedule = schedule(5000, 0, "HudInv");
+        echo("Done with: HUD MOVE DOWN LOOP");
+        }
+}
+
+function hudMoveUPLoop()
+{
+echo("HUD MOVE UP LOOP");
+
+        if(hud.position.y > -120)
+        {
+        $hudMoving = 1;
+        %outcome = hud.position.Y -= 1;
+        hud.position.y = %outcome;
+        schedule(3, 0, "HudMoveUPLoop");
+        echo("PUSHED UP! " @ hud.position.y);
+        }
+        else
+        {
+        $hudMoving = 0;
+        echo("Down with: HUD MOVE UP LOOP");
+        }
+}

@@ -1,0 +1,155 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(SearchGui) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+   helpTag = "0";
+
+   new GuiBitmapCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "63 12";
+      extent = "514 455";
+      minExtent = "48 92";
+      visible = "1";
+      helpTag = "0";
+      bitmap = "platinum/client/ui/marbleSelect/marbleSelect.png";
+      wrap = "0";
+         resizeWidth = "1";
+         maxLength = "255";
+         canMinimize = "0";
+         resizeHeight = "1";
+         canMaximize = "0";
+         canMove = "1";
+         minSize = "50 50";
+         canClose = "0";
+
+      new GuiBitmapButtonCtrl() {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "top";
+         position = "132 387";
+         extent = "112 59";
+         minExtent = "8 8";
+         visible = "1";
+         command = "Canvas.popDialog(SearchGui);";
+         accelerator = "return";
+         helpTag = "0";
+         text = "OK";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         repeatPeriod = "1000";
+         repeatDecay = "1";
+         bitmap = "platinum/client/ui/loading/cancel";
+            simpleStyle = "0";
+      };
+      new GuiScrollCtrl() {
+         profile = "GuiScrollProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "24 43";
+         extent = "462 338";
+         minExtent = "8 8";
+         visible = "1";
+         helpTag = "0";
+         willFirstRespond = "1";
+         hScrollBar = "dynamic";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+
+         new GuiTextListCtrl(SeG_missionlist) {
+            profile = "GuiTextListProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "2 2";
+            extent = "440 256";
+            minExtent = "8 8";
+            visible = "1";
+            helpTag = "0";
+            enumerate = "0";
+            resizeCell = "1";
+            columns = "0";
+            fitParentWidth = "1";
+            clipColumnText = "0";
+         };
+      };
+      new GuiBitmapButtonCtrl(SeG_play) {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "277 386";
+         extent = "100 59";
+         minExtent = "8 8";
+         visible = "1";
+         command = "SearchGui::StartMission();";
+         helpTag = "0";
+         text = "play";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         repeatPeriod = "1000";
+         repeatDecay = "1";
+         bitmap = "platinum/client/ui/play/play";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "0 0";
+         extent = "8 18";
+         minExtent = "8 8";
+         visible = "1";
+         helpTag = "0";
+         maxLength = "255";
+      };
+      new GuiBitmapCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "width";
+         vertSizing = "height";
+         position = "61 9";
+         extent = "426 33";
+         minExtent = "8 8";
+         visible = "1";
+         helpTag = "0";
+         bitmap = "platinum/client/ui/window";
+         wrap = "0";
+      };
+      new GuiBitmapCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "21 7";
+         extent = "37 36";
+         minExtent = "8 8";
+         visible = "1";
+         helpTag = "0";
+         bitmap = "platinum/client/ui/play/search_n";
+         wrap = "0";
+      };
+      new GuiTextEditCtrl(SearchEdit) {
+         profile = "GuiSearchTextEditProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "72 13";
+         extent = "412 23";
+         minExtent = "8 8";
+         visible = "1";
+         variable = "$SearchKeyword";
+         command = "SearchGui::search($SearchKeyword);";
+         altCommand = "if (SeG_missionlist.getSelectedId() != -1) { SearchGui::StartMission(); }";
+         helpTag = "0";
+         maxLength = "255";
+         maxPixelWidth = "145";
+         historySize = "0";
+         password = "0";
+         tabComplete = "0";
+         sinkAllKeyEvents = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,64 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(MessagePopupDlg) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "width";
+   VertSizing = "height";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "center";
+      VertSizing = "center";
+      Position = "304 224";
+      Extent = "400 256";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/data/images/SpeechBubble.png";
+      wrap = "0";
+
+      new GuiMLTextCtrl(MessagePopFrame) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "center";
+         VertSizing = "bottom";
+         Position = "80 72";
+         Extent = "236 12";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+      new GuiMLTextCtrl(MessagePopText) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuTextProfile";
+         HorizSizing = "center";
+         VertSizing = "bottom";
+         Position = "80 112";
+         Extent = "236 12";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

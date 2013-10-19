@@ -1,0 +1,460 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(SelectLevelGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 -8";
+      Extent = "1024 784";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/data/images/grey_25opacity.png";
+      wrap = "0";
+   };
+   new GuiWindowCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiWindowProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "224 304";
+      Extent = "560 112";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      maxLength = "1024";
+      resizeWidth = "1";
+      resizeHeight = "1";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "1";
+      canMaximize = "1";
+      minSize = "50 50";
+
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "center";
+         VertSizing = "bottom";
+         Position = "260 0";
+         Extent = "40 16";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Paused";
+         maxLength = "1024";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "208 72";
+         Extent = "144 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "canvas.pushdialog(OptionsMenuGui);";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         text = "Options Menu";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiButtonCtrl(SaveBtn) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "408 24";
+         Extent = "140 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "canvas.pushdialog(savegui);";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         text = "Save Progress";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "8 72";
+         Extent = "144 32";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "endGame(); startMenuLevel();";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         text = "Exit Level";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "208 24";
+         Extent = "144 32";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "pauseModeUnactive(); canvas.setcontent(mainscreengui);";
+         Accelerator = "escape";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         text = "Resume Game";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "408 72";
+         Extent = "140 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "checkIsAliveRead();";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         text = "Load or Delete Progress";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "8 24";
+         Extent = "144 32";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "canvas.pushDialog(AccountFileGui);";
+         Accelerator = "escape";
+         tooltipprofile = "GuiDefaultProfile";
+         tooltip = "Choose a different account";
+         hovertime = "1000";
+         text = "Choose Account";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "16 16";
+      Extent = "100 100";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "shop();";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "~/data/images/shop2";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "128 16";
+      Extent = "100 100";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "DontgoToVillage();";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      UseMouseEvents = "0";
+      bitmap = "resources/PlatformerArt/data/images/GUI/Village";
+   };
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 496";
+      Extent = "104 272";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/data/images/Table.png";
+      wrap = "0";
+
+      new GuiBitmapButtonCtrl(Pinecone) {
+         canSaveDynamicFields = "0";
+         class = "PineSelectClass";
+         isContainer = "0";
+         wepName = "Pinecone";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "8 16";
+         Extent = "40 48";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+         bitmap = "~/data/images/pine/buttons/PineconeLauncherWeapon";
+      };
+      new GuiBitmapButtonCtrl(MultiPinecone) {
+         canSaveDynamicFields = "0";
+         class = "PineSelectClass";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         wepName = "MultiPinecone";
+         VertSizing = "relative";
+         Position = "56 16";
+         Extent = "40 48";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+         bitmap = "~/data/images/pine/buttons/PineconeLauncherWeapon";
+      };
+      new GuiBitmapButtonCtrl(BurningPinecone) {
+         canSaveDynamicFields = "0";
+         class = "PineSelectClass";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         wepName = "BurningPinecone";
+         Position = "8 80";
+         Extent = "40 48";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+         bitmap = "~/data/images/pine/buttons/BurningPineconeLauncherWeapon";
+      };
+      new GuiBitmapButtonCtrl(MultiBurningPinecone) {
+         canSaveDynamicFields = "0";
+         class = "PineSelectClass";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         wepName = "MultiBurningPinecone";
+         Position = "56 80";
+         Extent = "40 48";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+         bitmap = "~/data/images/pine/buttons/BurningPineconeLauncherWeapon";
+      };
+      new GuiBitmapButtonCtrl(FrozenPinecone) {
+         canSaveDynamicFields = "0";
+         class = "PineSelectClass";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         wepName = "FrozenPinecone";
+         Position = "8 144";
+         Extent = "40 48";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+         bitmap = "~/data/images/pine/buttons/FrozenPineconeLauncherWeapon";
+      };
+      new GuiBitmapButtonCtrl(MultiFrozenPinecone) {
+         canSaveDynamicFields = "0";
+         class = "PineSelectClass";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         wepName = "MultiFrozenPinecone";
+         Position = "56 144";
+         Extent = "40 48";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+         bitmap = "~/data/images/pine/buttons/FrozenPineconeLauncherWeapon";
+      };
+      new GuiBitmapButtonCtrl(MultiPoisonedPinecone) {
+         canSaveDynamicFields = "0";
+         class = "PineSelectClass";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "56 208";
+         Extent = "40 48";
+         wepName = "MultiPoisonedPinecone";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+         bitmap = "~/data/images/pine/buttons/PoisonedPineconeLauncherWeapon";
+      };
+      new GuiBitmapButtonCtrl(PoisonedPinecone) {
+         canSaveDynamicFields = "0";
+         class = "PineSelectClass";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "8 208";
+         Extent = "40 48";
+         MinExtent = "8 2";
+         canSave = "1";
+         wepName = "PoisonedPinecone";
+         Visible = "1";
+         tooltipprofile = "GuiDefaultProfile";
+         hovertime = "1000";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+         bitmap = "~/data/images/pine/buttons/PoisonedPineconeLauncherWeapon";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+
+function selectLevelGui::onWake()
+{
+$pauseScreenShown = 1;
+}
+
+function selectLevelGui::onSleep()
+{
+$pauseScreenShown = 0;
+}
+
+function PineSelectClass::onClick(%this)
+{
+$game::player.setActiveWeapon(%this.WepName @ "LauncherWeapon");
+$game::player.updateWeaponGui();
+warn($game::player.activeweapon);
+}
+
+function checkPineAmount(%amount)
+{
+    if(%amount $= "Pinecone")
+    {
+    return $game::player.PineconeAmmo;
+    }
+
+    if(%amount $= "BurningPinecone")
+    {
+    return $game::player.BurningPineconeAmmo;
+    }
+
+    if(%amount $= "FrozenPinecone")
+    {
+    return $game::player.FrozenPineconeAmmo;
+    }
+
+    if(%amount $= "PoisonedPinecone")
+    {
+    return $game::player.PoisonedPineconeAmmo;
+    }
+
+    if(%amount $= "MultiPinecone")
+    {
+    return $game::player.MultiPineconeAmmo;
+    }
+
+    if(%amount $= "MultiBurningPinecone")
+    {
+    return $game::player.MultiBurningPineconeAmmo;
+    }
+
+    if(%amount $= "MultiFrozenPinecone")
+    {
+    return $game::player.MultiFrozenPineconeAmmo;
+    }
+
+    if(%amount $= "MultiPoisonedPinecone")
+    {
+    return $game::player.MultiPoisonedPineconeAmmo;
+    }
+
+}

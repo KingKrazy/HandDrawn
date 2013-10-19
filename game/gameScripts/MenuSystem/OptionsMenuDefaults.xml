@@ -37,6 +37,9 @@
 		<Depth>32</Depth>
 		<VerticalSync>1</VerticalSync>
 		<Screenshot>PNG</Screenshot>
+		<SmartStream>0</SmartStream>
+		<SmartHUD>1</SmartHUD>
+		<StreamDist>350</StreamDist>
 	</VideoSettings>
 	<AudioSettings>
 		<MasterEnabled>1</MasterEnabled>

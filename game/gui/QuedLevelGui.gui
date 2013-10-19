@@ -1,0 +1,142 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(QuedLevelGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiWindowCtrl(QuedWin) {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiWindowProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "208 224";
+      Extent = "480 304";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      maxLength = "1024";
+      resizeWidth = "1";
+      resizeHeight = "1";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "1";
+      canMaximize = "1";
+      minSize = "50 50";
+
+      new GuiBitmapCtrl(LevelPreview) {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "232 32";
+         Extent = "232 162";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         bitmap = "~/data/images/Level/LevelPreviews/.png";
+         wrap = "0";
+      };
+      new GuiScrollCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "1";
+         Profile = "GuiScrollProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "8 24";
+         Extent = "208 264";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "dynamic";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+
+         new GuiMLTextCtrl(LevelDesc) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiMLTextProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            Position = "2 2";
+            Extent = "200 12";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            lineSpacing = "2";
+            allowColorChars = "0";
+            maxChars = "-1";
+         };
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "232 232";
+         Extent = "96 56";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "startQuedLevel();";
+         Accelerator = "return";
+         hovertime = "1000";
+         text = "Start level!";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "384 232";
+         Extent = "88 56";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "canvas.popDialog(QuedLevelGui);";
+         hovertime = "1000";
+         text = "Go back";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         UseMouseEvents = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+
+function QuedLevelGui::onWake(%this)
+{
+QuedWin.visible = 0;
+%this.schedule(32, "UpdateImagery");
+}
+
+function QuedLevelGui::updateImagery(%this)
+{
+LevelDesc.settext($LevelDesc[$quedLevel]);
+LevelPreview.bitmap = "~/data/images/Level/LevelPreviews/" @ $quedLevel @ ".png";
+QuedWin.visible = 1;
+}
+
+$levelDesc[Level1] = "The Shards have infested the land. All Canvas Creatures have been ordered to evacuate. That is, all except one. Suffice to say that it won't be particularly easy, but all are counting on you. Intelligence indicates that King Krazy was seen shouting things at his troops as they wandered off to take over the land. In addition to a mass number of Monstrosities, strange reverse-color flashes periodically partake. Don't let them distract you, and don't try anything stupid.";
+$levelDesc[Level2] = "Introducing your first Reverse Zone. You'll run into several freakish enemies including Verts and Subs, monsters notorious for blowing up or giving you frostbite. I'm not quite sure which one does which, but I don't think finding out is a great idea unless absolutely necessary. Be very careful and try not to die.";
+$levelDesc[Level3] = "Climb down the abandoned mineshaft and watch out for any creatures it might have. The scaffolding will be unstable and thus, dangerous, so don't linger around on them if you value your life. Which you should. Otherwise you're an idiot.";

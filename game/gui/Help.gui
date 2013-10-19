@@ -1,0 +1,120 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(Help) {
+   canSaveDynamicFields = "1";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   tooltipprofile = "GuiToolTipProfile";
+   hovertime = "1000";
+      active = "1";
+      helpTag = "0";
+
+   new GuiWindowCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "1";
+      Profile = "GuiWindowProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "365 160";
+      Extent = "624 560";
+      MinExtent = "300 200";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiToolTipProfile";
+      hovertime = "1000";
+      text = "Help";
+      maxLength = "1024";
+      resizeWidth = "1";
+      resizeHeight = "1";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "1";
+      canMaximize = "1";
+      minSize = "50 50";
+      closeCommand = "Canvas.popDialog(HelpDlg);";
+
+      new GuiScrollCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "1";
+         Profile = "GuiScrollProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "20 34";
+         Extent = "150 636";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiToolTipProfile";
+         hovertime = "1000";
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "dynamic";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+
+         new GuiTextListCtrl(HelpFileList) {
+            canSaveDynamicFields = "0";
+            isContainer = "1";
+            Profile = "GuiTextListProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            Position = "2 2";
+            Extent = "146 8";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            tooltipprofile = "GuiToolTipProfile";
+            hovertime = "1000";
+            enumerate = "0";
+            resizeCell = "1";
+            columns = "0";
+            fitParentWidth = "1";
+            clipColumnText = "0";
+         };
+      };
+      new GuiScrollCtrl() {
+         canSaveDynamicFields = "0";
+         isContainer = "1";
+         Profile = "GuiScrollProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "170 34";
+         Extent = "684 636";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiToolTipProfile";
+         hovertime = "1000";
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+
+         new GuiMLTextCtrl(HelpText) {
+            canSaveDynamicFields = "0";
+            isContainer = "0";
+            Profile = "GuiMLTextProfile";
+            HorizSizing = "width";
+            VertSizing = "bottom";
+            Position = "2 2";
+            Extent = "674 13";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            tooltipprofile = "GuiToolTipProfile";
+            hovertime = "1000";
+            lineSpacing = "2";
+            allowColorChars = "0";
+            maxChars = "-1";
+         };
+      };
+   };
+};
+//--- OBJECT WRITE END ---

@@ -10,5 +10,5 @@
    <FullscreenKey>alt enter</FullscreenKey>
    <UsesNetwork>1</UsesNetwork>
    <UsesAudio>1</UsesAudio>
-   <DefaultScene>~/data/levels/MenuLevel.t2d</DefaultScene>
+   <DefaultScene>~/data/levels/Level3.t2d</DefaultScene>
 </TorqueGameConfiguration>

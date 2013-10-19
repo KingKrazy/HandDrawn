@@ -1,0 +1,78 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiBitmapCtrl(LoadingGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   bitmap = "~/data/images/nowloading.png";
+   wrap = "0";
+
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "792 48";
+      Extent = "94 95";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "resources/PlatformerArt/data/images/Dragon/Static/Fall.png";
+      wrap = "0";
+   };
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "248 440";
+      Extent = "104 96";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "resources/PlatformerArt/data/images/Dragon/Static/Jump_S.png";
+      wrap = "0";
+   };
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "-16 304";
+      Extent = "88 88";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "resources/PlatformerArt/data/images/Dragon/Static/run3.png";
+      wrap = "0";
+   };
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "720 525";
+      Extent = "48 104";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "resources/PlatformerArt/data/images/Dragon/Static/Climb.png";
+      wrap = "0";
+   };
+};
+//--- OBJECT WRITE END ---

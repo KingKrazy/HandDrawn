@@ -1,0 +1,76 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiBitmapCtrl(HurtGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   bitmap = "~/gui/";
+   wrap = "0";
+
+   new GuiFadeinBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 0";
+      Extent = "1024 768";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/data/images/GUI/RedHurt.png";
+      wrap = "0";
+      fadeinTime = "0";
+      waitTime = "0";
+      fadeoutTime = "0";
+      done = "1";
+   };
+   new guiT2DObjectCtrl(RedLines) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      Position = "0 0";
+      Extent = "1024 768";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      groupNum = "-1";
+      //buttonType = "RadioButton";
+      useMouseEvents = "0";
+      renderMargin = "0";
+      sceneObject = "HurtLinesScroll";
+   };
+   new GuiMouseEventCtrl(MouseInputCtrl) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiTransparentProfile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      Position = "0 104";
+      Extent = "1024 664";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      lockMouse = "1";
+   };
+};
+//--- OBJECT WRITE END ---
+
+function HurtGui::onWake()
+{
+redLines.SceneObject = "HurtLinesScroll";
+redLines.setSceneObject(HurtLinesScroll);
+}
