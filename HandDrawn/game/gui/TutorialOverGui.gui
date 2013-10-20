@@ -58,6 +58,7 @@
       MinExtent = "8 2";
       canSave = "1";
       Visible = "1";
+      command = "TutorialNext();";
       hovertime = "1000";
       text = "Okay";
       groupNum = "-1";
@@ -66,3 +67,10 @@
    };
 };
 //--- OBJECT WRITE END ---
+
+function TutorialNext()
+{
+sceneWindow2D.endLevel();
+stopMusic();
+schedule(32, 0, "gotolevelselect");
+}

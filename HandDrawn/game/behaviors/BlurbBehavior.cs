@@ -208,6 +208,12 @@ function SpeechDisplayBehavior::SpeedUp(%this)
 
 function SpeechDisplayBehavior::onEnter( %this, %theirObject )
 {
+$game::player.insideTrigger = 1;
+
+if(%this.CanTalk)
+{
+%this.canTalk = 0;
+GlobalActionMap.unbindObj("keyboard", "T", %this);
 %this.speedUp = 0;
 %this.speechLine = 0;
 echo("Speech line modified! - OnEnter <" @ %this.speechLine @ ">");
@@ -236,6 +242,20 @@ if(%this.BlurbText $= "Hi!")
 {
 %this.SpeechLine = 1;
 %this.NextLine();
+}
+}
+else
+{
+GlobalActionMap.bindObj("keyboard", "T", "readyToTalk", %this);
+}
+}
+
+function SpeechDisplayBehavior::readyToTalk(%this)
+{
+if($game::player.insideTrigger && !%this.isRenderingLine)
+{
+%this.canTalk = 1;
+%this.onEnter();
 }
 }
 
@@ -298,6 +318,8 @@ if( isObject ( %this.Blurb ) )
 
 function SpeechDisplayBehavior::onleave( %this, %theirObject, %string )
 {
+$game::player.insideTrigger = 0;
+
 moveMap.Push();
 %string = "";
 $isCanceled = 1;
@@ -320,6 +342,7 @@ stopSound(talk);
 
 %this.speechLine = 0;
 echo("Speech line modified! - OnLeave <" @ %this.speechLine @ ">");
+%this.readyToTalk = 0;
 }
 
 function SpeechDisplayBehavior::textDone(%this)

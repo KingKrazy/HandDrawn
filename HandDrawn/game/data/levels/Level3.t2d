@@ -3931,8 +3931,8 @@
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-667.500 -1555.000";
-      size = "125.000 40.000";
+      Position = "-708.481 -1555.000";
+      size = "43.038 40.000";
          mountID = "439";
       _behavior0 = "PlatformBehavior";
    };
@@ -4541,12 +4541,134 @@
       _behavior0 = "PlatformBehavior";
    };
    new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Krink.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-375.000 -1610.000";
+      size = "60.000 40.000";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "507";
+   };
+   new t2dTileLayer() {
       LayerFile = "~/data/tilemaps/Kook.lyr";
       canSaveDynamicFields = "1";
-      Position = "-375.000 -1606.989";
+      Position = "130.000 -1610.000";
       size = "60.000 40.000";
       Layer = "2";
       CollisionMaxIterations = "1";
-         mountID = "507";
+         mountID = "508";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Klutz.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-319.000 -1610.000";
+      size = "60.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "509";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Klutz.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-265.000 -1610.000";
+      size = "60.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "510";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Klutz.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-215.000 -1610.000";
+      size = "60.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "511";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Klutz.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-165.000 -1610.000";
+      size = "60.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "512";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Klutz.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-115.000 -1610.000";
+      size = "60.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "513";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Klutz.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-65.000 -1610.000";
+      size = "60.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "514";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Klutz.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-15.000 -1610.000";
+      size = "60.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "515";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Klutz.lyr";
+      canSaveDynamicFields = "1";
+      Position = "35.000 -1610.000";
+      size = "60.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "516";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Klutz.lyr";
+      canSaveDynamicFields = "1";
+      Position = "85.000 -1610.000";
+      size = "60.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "517";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "-122.500 -1610.000";
+      size = "565.000 40.000";
+         mountID = "518";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "138.000 -1643.000";
+      size = "26.000 26.000";
+         mountID = "519";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	600	MaxSpawnDistance	1200	NumberToSpawn	20	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "157.500 -1656.551";
+      size = "5.000 53.102";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "520";
+      _behavior0 = "EnemyTurnBehavior";
+   };
+   new t2dSceneObject(Warp3) {
+      canSaveDynamicFields = "1";
+      Visible = "0";
+      Position = "-707.238 -1667.733";
+      size = "45.000 3.619";
+         mountID = "521";
+      _behavior0 = "PlatformBehavior	OneWay	1";
    };
 };
