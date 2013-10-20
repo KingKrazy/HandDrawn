@@ -1,0 +1,457 @@
+//-------------------------- 10/20/2013 -- 14:57:19 -----
+Processor Init:
+   Intel Pentium III, ~2.65 Ghz
+     (timed at roughly 2.64 Ghz)
+   FPU detected
+   MMX detected
+   SSE detected
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+   Installing FPU extensions
+   Installing MMX extensions
+   Installing SSE extensions
+ 
+Input Init:
+   DirectInput enabled.
+
+Initializing chunk mappings...
+   o 'TEXT' maps to TextChunk
+   o 'SCHK' maps to UnknownChunk
+   o 'SCHK' maps to SimChunk
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/main.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/main.cs.
+ % - Initializing Common
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/preferences/defaultPrefs.cs.
+Reading Display Device information...
+   Primary Display Device Found:
+      Vendor Id: VEN_0000
+      Device Id: DEV_0000
+
+Using OpenGL rendering. Fullscreen: 0
+
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/xml.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/properties.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/common.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/audio.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/canvas.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/cursor.cs.
+Binding server port to default IP
+UDP initialized on port 0
+Video Init:
+   Accelerated OpenGL display device detected.
+   Accelerated D3D device detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Setting screen mode to 640x400x32 (fs)...
+Changing the display settings to 640x400x32...
+Creating a new full-screen window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: Parallels and NVIDIA Corporation
+  Renderer: Parallels using NVIDIA GeForce 9400 OpenGL Engine
+  Version: 2.1 NVIDIA-7.32.12
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16)
+  WGL_EXT_swap_control
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  EXT_packed_pixels
+  3DFX_texture_compression_FXT1
+
+Max Texture Size reported as: 8192
+OpenGLDevice::setScreenMode - device or desktop color depth does not allow windowed mode!
+Setting screen mode to 800x600x32 (fs)...
+Killing the texture manager...
+Making the rendering context not current...
+Deleting the rendering context...
+Releasing the device context...
+Destroying the window...
+Changing the display settings to 800x600x32...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+Resurrecting the texture manager...
+OpenAL Driver Init:
+   Vendor: Creative Labs Inc.
+   Version: OpenAL 1.0
+   Renderer: Software
+   Extensions: EAX 2.0, EAX 3.0, EAX Unified, and EAX-AC3
+
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/profiles.cs.
+Object '1480925216' is not a member of the 'AudioProfile' data block class
+Object '1480925216' is not a member of the 'AudioProfile' data block class
+Object '1480925216' is not a member of the 'AudioProfile' data block class
+Object '1480925216' is not a member of the 'AudioProfile' data block class
+Object '1480925216' is not a member of the 'AudioProfile' data block class
+Object '1480925216' is not a member of the 'AudioProfile' data block class
+Object '1480925216' is not a member of the 'AudioProfile' data block class
+Object '1480925216' is not a member of the 'AudioProfile' data block class
+Object '1480925216' is not a member of the 'AudioProfile' data block class
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/cursors.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/messageBoxOk.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/messageBoxYesNo.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/messageBoxYesNoCancel.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/messageBoxOKCancel.gui.
+Compiling Z:/Desktop/HandDrawn Dev/common/gui/messageBoxOKCancelDetailsDlg.gui...
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/messageBoxOKCancelDetailsDlg.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/messagePopup.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/options.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/remap.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/console.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/NetworkMenu.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/startServer.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/joinServer.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/waitingForServer.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/helpDlg.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/messageBox.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/help.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gui/chatGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/screenshot.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/metrics.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/Gui/FrameOverlayGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/scriptDoc.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/keybindings.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/options.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/levelManagement.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/projectManagement.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/projectResources.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/align.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/client/client.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/client/message.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/client/serverConnection.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/client/chatClient.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/server/server.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/server/message.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/server/clientConnection.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/server/kickban.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/common/gameScripts/server/chatServer.cs.
+
+Torque Game Builder (v1.7.5) initialized...
+Loading compiled script Z:/Desktop/HandDrawn Dev/resources/particlesArt/resourceDatabase.cs.
+ % Game Resources : Loaded Resource particlesArt
+Loading compiled script Z:/Desktop/HandDrawn Dev/resources/PlatformerArt/resourceDatabase.cs.
+t2dImageMapDatablock::calculateCellImageMap() - Invalid Cell Height of 128.
+ImageMap(stuff_mushroomImageMap)SrcBitmap(resources/PlatformerArt/data/images/Misc/stuff_mushroom.png) Error: 'Invalid CELL Dimension!' (15)
+t2dAnimationDatablock::onAdd() - ImageMap Datablock is invalid, cannot create animation! (stuff_mushroomImageMap)
+resources/PlatformerArt/resourceDatabase.cs (0): Register object failed for object mushroomBounceAnimation of class t2dAnimationDatablock.
+Loading compiled script Z:/Desktop/HandDrawn Dev/resources/PlatformerArt/AudioData.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/resources/PlatformerArt/CavemanData.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/resources/PlatformerArt/DragonData.cs.
+t2dAnimationDatablock::calculateAnimation() - Skipping invalid frame #4 for animation (DragonJump_to_FallAnimation) using imageMap (DragonJump_to_FallImageMap) which only has frame(s) #0 to #3!
+Loading compiled script Z:/Desktop/HandDrawn Dev/resources/PlatformerArt/DrillData.cs.
+t2dAnimationDatablock::onAdd() - ImageMap Datablock is invalid, cannot create animation! (UNKNOWN!)
+resources/PlatformerArt/DrillData.cs (137): Register object failed for object DrillFallAnimation of class t2dAnimationDatablock.
+t2dImageMapDatablock::calculateCellImageMap() - Invalid Cell OffsetY(0)/Height(500)/CountY(3); off bitmap bottom-side.
+ImageMap(DrillRollImageMap)SrcBitmap(resources/PlatformerArt/data/images/Drill/Drill_roll.png) Error: 'Invalid CELL Capture!' (17)
+t2dAnimationDatablock::onAdd() - ImageMap Datablock is invalid, cannot create animation! (DrillRollImageMap)
+resources/PlatformerArt/DrillData.cs (0): Register object failed for object DrillIdleAnimation of class t2dAnimationDatablock.
+Loading compiled script Z:/Desktop/HandDrawn Dev/resources/PlatformerArt/BoomBotData.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/data/shapes/players/BoomBot/BoomBot.cs.
+Sequence import failed:  sequence node "Bip01 Pelvis" not found in base shape.
+game/data/shapes/players/BoomBot/BoomBot.cs (0): preload failed for BoomBotDts: Load sequence game/data/shapes/players/animations/player_root.dsq root failed for game/data/shapes/players/BoomBot/BoomBot.dts.
+ % Game Resources : Loaded Resource PlatformerArt
+Loading compiled script Z:/Desktop/HandDrawn Dev/resources/starterArt/resourceDatabase.cs.
+ % Game Resources : Loaded Resource starterArt
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/managed/datablocks.cs.
+t2dAnimationDatablock::calculateAnimation() - Skipping invalid frame #1 for animation (goldeggAnimation2) using imageMap (goldeggImageMap) which only has frame(s) #0 to #0!
+t2dAnimationDatablock::calculateAnimation() - Skipping invalid frame #2 for animation (goldeggAnimation2) using imageMap (goldeggImageMap) which only has frame(s) #0 to #0!
+ImageMap(KingImageMap)SrcBitmap(/Users/Robert/Desktop/Idle - Frame 1.png) Error: 'Invalid Bitmap File!' (2)
+ImageMap(Ledge_LeftImageMap)SrcBitmap(/Users/Robert/Desktop/Ledge_Left.png) Error: 'Invalid Bitmap File!' (2)
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/managed/persistent.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/managed/brushes.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/datablocks.cs.
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/WaypointMoverBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/WarpBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/TuftBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/triggerExecuteBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/TrampolineBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/TractionPowerupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/timerShoots.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/SwimmingZoneBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/splashScreen.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/SpeedPowerupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/SpawnPointBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/SoundTriggerBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/ShrinkPowerupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/Scale.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/RespPowerupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/PlatformTriggerBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/PlatformTimerBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/PlatformBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/PineConePickupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/PickupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/PepperPickupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/ParallaxBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/MusicTriggerBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/moveToward.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/mouseOverGrow.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/LifePickupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/LevelCompleteBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/LadderBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/HeartRegenerationPowerupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/GravityTriggerBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/GeneralMusicTriggerBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/FoodPickupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/FallingPlatformBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/faceObjectBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/EnemyTurnBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/DippingPlatformBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/DeleteBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/dealsDamage.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/ControllerBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/CompassBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/collisionParticles.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/CheckPointPickupBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/CameraResizeBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/BlurbBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/attachPath.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/AreaDamageBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/AIControllerBehavior.cs...
+Compiling Z:/Desktop/HandDrawn Dev/game/behaviors/ActorSpeedBehavior.cs...
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/WaypointMoverBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/WarpBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/TuftBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/triggerExecuteBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/TrampolineBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/TractionPowerupBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/timerShoots.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/SZDeactivateBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/SwimmingZoneBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/splashScreen.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/SpeedPowerupBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/SpawnPointBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/SoundTriggerBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/ShrinkPowerupBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/Scale.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/RespPowerupBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/PlatformTriggerBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/PlatformTimerBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/PlatformBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/PineConePickupBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/PickupBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/PepperPickupBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/ParallaxBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/MusicTriggerBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/moveToward.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/mouseOverGrow.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/LifePickupBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/LevelCompleteBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/LadderBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/HeartRegenerationPowerupBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/GravityTriggerBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/GeneralMusicTriggerBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/FoodPickupBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/FallingPlatformBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/faceObjectBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/EnemyTurnBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/DippingPlatformBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/DeleteBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/dealsDamage.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/ControllerBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/CompassBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/collisionParticles.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/CheckPointPickupBehavior.cs.
+game/behaviors/CheckPointPickupBehavior.cs (200): Unable to instantiate non-conobject class SpawnSphere.
+game/behaviors/CheckPointPickupBehavior.cs (200): Unable to instantiate non-conobject class SpawnSphere.
+game/behaviors/CheckPointPickupBehavior.cs (207): Unable to instantiate non-conobject class Trigger.
+game/behaviors/CheckPointPickupBehavior.cs (0): Unable to instantiate non-conobject class Trigger.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/CameraResizeBehavior.cs.
+game/behaviors/CameraResizeBehavior.cs (20): Unable to find object: '' attempting to call function 'getSceneGraph'
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/BlurbBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/attachPath.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/AreaDamageBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/AIControllerBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/behaviors/ActorSpeedBehavior.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/guiProfiles.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/mainScreen.gui.
+game/gui/mainScreen.gui (607): Unable to instantiate non-conobject class guiT2DObjectCtrl.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/game.cs.
+Activating DirectInput...
+DirectInput joystick failed to enable!
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/GameMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/ObjectManager.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/SoundManager.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/ParallaxMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/ActionScripts.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/WeaponData.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/ProjectileMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/FrozenPineConeLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/PoisenedPineConeLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/BurningPineConeLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/PineConeLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/Multis/MultiPineConeLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/Multis/MultiFrozenPineConeLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/Multis/MultiBurningPineConeLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/Multis/MultiPoisonedPineConeLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/FireBallLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/BombLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/BoneLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/BulletWeapon.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/RocketLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/SpreadshotLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Weapons/SpeedshotLauncher.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/ActorMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/BoomBotMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/PlayerMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/DrillMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/RSS/RSSFeedScript.ed.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/RSS/RSSStructs.ed.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/levelEditorMenu.ed.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/TGBInsider.ed.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/RSS/RSSStructs.ed.cs.
+Missing file: Z:/Desktop/HandDrawn Dev/game/gameScripts/LevelManagement.cs!
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/VertMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/SubMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/LevelFunctions.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/news.ed.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/TimerGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/ScrapperMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/SnapperMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/InventorySystem.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/MouseOverlay.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/Database.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/LoadGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/TutorialOverGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/SaveGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/SceneWindow.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/IntroGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/LevelSelect.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Items.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/DefaultGameProfiles.cs.
+Missing file: Z:/Desktop/HandDrawn Dev/game/gui/sgsys.gui!
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/OneTryLeftGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/MenuGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/AccountFileGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/PurgeFileQuestionGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/TGBInsider.ed.gui.
+Could not locate texture: ^tools/leveleditor/gui/images/TGBRSS.png
+Could not locate texture: ^tools/gui/images/tgbAbout.png
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/TTL.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/ItemShop.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/NewInventory.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/TutorialGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/TutorialSequence.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/cp.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/SaveManager.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/SaveManagerDatablocks.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/itemShop.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/FinishText.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/help/HelpDlg.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/NetworkLobby.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/Play.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/HurtGui.gui.
+Could not locate texture: game/gui/
+game/gui/HurtGui.gui (69): Unable to instantiate non-conobject class guiT2DObjectCtrl.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/BadGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/GoodGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/AreYouSure2Gui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/AreYouSure.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/RedGlow.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/LoadingGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/NowLoadingGui.gui.
+Could not locate texture: ^tools/data/images/GUI/NewLoadingScreen.png
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/FinishGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/GameOverGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/TorqueSplashGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/mainScreen.gui.
+game/gui/mainScreen.gui (607): Unable to instantiate non-conobject class guiT2DObjectCtrl.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/BlurbOps.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/selectlevelgui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/QuedLevelGui.gui.
+Could not locate texture: game/data/images/Level/LevelPreviews/.png
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/CannotRead.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/NowSavingGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/Tutorial_IGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/PauseGame.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/help/Help.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/AfterImage.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/PauseScript.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/Tip.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/MenuSystem/MainMenu.cs.
+Missing file: Z:/Desktop/HandDrawn Dev/game/gui/MainMenu.gui!
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/TitleGui.gui.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/MenuSystem/MenuSystem.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/MenuSystem/PreferenceMethods.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/MenuSystem/OptionsMenu.cs.
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gui/OptionsMenu.gui.
+Missing file: Z:/Desktop/HandDrawn Dev/game/gameScripts/WriteLoadSave.cs!
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/gameScripts/ParallaxMethods.cs.
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Killing the texture manager...
+Making the rendering context not current...
+Deleting the rendering context ...
+Releasing the device context...
+Destroying the window...
+DirectInput deactivated.
+Setting screen mode to 1600x1200x32 (fs)...
+Changing the display settings to 1600x1200x32...
+Creating a new full-screen window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+Activating DirectInput...
+OpenGL driver information:
+  Vendor: Parallels and NVIDIA Corporation
+  Renderer: Parallels using NVIDIA GeForce 9400 OpenGL Engine
+  Version: 2.1 NVIDIA-7.32.12
+Resurrecting the texture manager...
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16)
+  WGL_EXT_swap_control
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  EXT_packed_pixels
+  3DFX_texture_compression_FXT1
+
+Max Texture Size reported as: 8192
+TheoraTexture - Loading file 'game/data/video/Startup.ogv'
+   Ogg logical stream ea11993 is Theora 1920x1088 29.97 fps video
+      - Frame content is 1920x1080 with offset (0,0).
+   Ogg logical stream ac6affe0 is Vorbis 2 channel 44100 Hz audio.
+Missing file: c:/.hdsave!
+game/main.cs (31): Unable to find function InitializeMods
+game/gameScripts/MenuSystem/MenuSystem.cs (220): Unable to find object: 'PlayButtonTrigger' attempting to call function 'setUseMouseEvents'
+game/gameScripts/MenuSystem/MenuSystem.cs (221): Unable to find object: 'QuitButtonTrigger' attempting to call function 'setUseMouseEvents'
+Loading compiled script Z:/Desktop/HandDrawn Dev/game/data/levels/MenuLevel.t2d.
+DirectInput deactivated.
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...
+Restoring the desktop display settings (1920x1200x32)...
+Shutting down the OpenGL display device...
+Restoring the desktop display settings (1920x1200x32)...
