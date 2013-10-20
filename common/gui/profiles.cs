@@ -29,7 +29,7 @@ if(!isObject(GuiDefaultProfile)) new GuiControlProfile (GuiDefaultProfile)
    borderColorNA = "64 64 64";
 
    // font
-   fontType = "Lucida Grande";
+   fontType = "Trebuchet MS";
    fontSize = 16;
 
    fontColor = "0 0 100";
@@ -76,7 +76,7 @@ if(!isObject(GuiDefaultBorderProfile)) new GuiControlProfile (GuiDefaultBorderPr
    borderColorNA = "64 64 64";
 
    // font
-   fontType = "Lucida Grande";
+   fontType = "Trebuchet MS";
    fontSize = 16;
 
    fontColor = "0 0 0";
@@ -124,7 +124,7 @@ if(!isObject(GuiBlackProfile)) new GuiControlProfile (GuiBlackProfile)
    borderColorNA = "64 64 64";
 
    // font
-   fontType = "Lucida Grande";
+   fontType = "Trebuchet MS";
    fontSize = 16;
 
    fontColor = "0 0 0";
@@ -171,7 +171,7 @@ if(!isObject(GuiWhiteProfile)) new GuiControlProfile (GuiWhiteProfile)
    borderColorNA = "64 64 64";
 
    // font
-   fontType = "Lucida Grande";
+   fontType = "Trebuchet MS";
    fontSize = 16;
 
    fontColor = "255 255 255";
@@ -220,7 +220,7 @@ if(!isObject(GuiToolTipProfile)) new GuiControlProfile (GuiToolTipProfile)
    borderColor   = "138 134 122";
 
    // font
-   fontType = "Lucida Grande";
+   fontType = "Trebuchet MS";
    fontSize = 16;
    fontColor = "120 120 0";
 
@@ -673,7 +673,7 @@ if(!isObject(GuiTabPageProfile)) new GuiControlProfile (GuiTabPageProfile : GuiT
 
 if(!isObject(GuiMenuBarProfile)) new GuiControlProfile (GuiMenuBarProfile)
 {
-   fontType = "Lucida Grande";
+   fontType = "Trebuchet MS";
    fontSize = 15;
    opaque = true;
    fillColor = "0 0 0";
