@@ -261,7 +261,7 @@ function PlayerClass::onDamage( %this, %dAmount )
     %this.updateHealthGui();
     isHurt();
     popHurtGui();
-    }
+}
 
 /// Called when a player dies
 function PlayerClass::onDeath( %this, %dAmount, %srcObject )
@@ -405,6 +405,9 @@ function PlayerClass::resolveSubCollision( %ourObject, %theirObject, %normal )
             %ourObject.onAreaDamage( %ourObject, %normal );
         }
         %ourobject.frostbite(%theirObject);
+        %puppy = %theirObject.getAnimationPuppet();
+        CurrentEnemy.setSceneObject(%puppy);
+
     }
 }
 
@@ -476,6 +479,9 @@ function PlayerClass::resolveBoolCollision( %ourObject, %theirObject, %normal )
         {
             %ourObject.onAreaDamage( %ourObject, %normal );
         }
+        %puppy = %theirObject.getAnimationPuppet();
+        CurrentEnemy.setSceneObject(%puppy);
+
     }
 }
 
@@ -516,6 +522,8 @@ EnemyHealthBar.setValue(%AIHealth);
     {
         // Do damage to the player
         %ourObject.takeDamage( 35, %theirObject, true, false );
+        %puppy = %theirObject.getAnimationPuppet();
+        CurrentEnemy.setSceneObject(%puppy);
     }
 }
 
@@ -550,6 +558,9 @@ EnemyHealthBar.setValue(%AIHealth);
     {
         // Do damage to the player
         %ourObject.takeDamage( 35, %theirObject, true, false );
+        %puppy = %theirObject.getAnimationPuppet();
+        CurrentEnemy.setSceneObject(%puppy);
+
     }
 }
 
@@ -583,6 +594,9 @@ EnemyHealthBar.setValue(%AIHealth);
     {
         // Do damage to the player
         %ourObject.takeDamage( 35, %theirObject, true, false );
+        %puppy = %theirObject.getAnimationPuppet();
+        CurrentEnemy.setSceneObject(%puppy);
+
     }
 }
 
@@ -622,6 +636,9 @@ EnemyHealthBar.setValue(%AIHealth);
         {
             %ourObject.onAreaDamage( %ourObject, %normal );
         }
+        %puppy = %theirObject.getAnimationPuppet();
+        CurrentEnemy.setSceneObject(%puppy);
+
     }
 }
 
@@ -767,10 +784,31 @@ function PlayerClass::ClearOnWall(%this)
 %this.onWall = false;
 }
 
+function PlayerClass::wallCheck(%this, %wall)
+{
+    echo("Wall distance: " @ t2dVectorDistance(%this.position, %wall.position));
+
+    if(%this.linearVelocity.X > 1 || %this.linearVelocity.X < -1 )
+    {
+    %this.onWall = false;
+    }
+    else if(%this.onWall)
+    {
+    %this.schedule(32, "WallCheck");
+    }
+    
+    //echo("Checking on wall. Player Vel. X = " @ %this.linearVelocity.X);
+}
+
 /// Called when a player collides with a wall.  
 function PlayerClass::hitWall( %ourObject, %theirObject, %normal )  
-{  
-    if (%ourObject.onGround)  
+{
+
+%ourObject.schedule(64, "WallCheck", %theirObject);
+
+//echo("Ouch! Gotta watch where I'm going...");
+
+    if (%ourObject.onGround)
     {  
         %ourObject.onWall = false;  
     }  
@@ -780,7 +818,7 @@ function PlayerClass::hitWall( %ourObject, %theirObject, %normal )
         if (getWord( %ourObject.LinearVelocity, 1) > 0){  
             //Reset jump so we can jump off the wall  
             
-            if(!$game::player.isSwimming && %this.canWallLeap)
+            if(!$game::player.isSwimming)
             {
 
             if ( %ourObject.onWall != true ){

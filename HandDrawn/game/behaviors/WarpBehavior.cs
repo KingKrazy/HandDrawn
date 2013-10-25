@@ -28,7 +28,7 @@ echo(%this.Destination.Position);
 
         playSound(warp);
 
-        %player.Position = %this.targetX SPC %this.targetY;
+        %player.Position(%this.targetX SPC %this.targetY);
         %Player.setLinearVelocityX( 0 );
         %Player.setLinearVelocityY( 0 );
 
@@ -36,7 +36,7 @@ echo(%this.Destination.Position);
    }
    else
    {
-        %player.Position = %this.Destination.Position;
+        %player.SetPosition(%this.Destination.Position);
         %Player.setLinearVelocityX( 0 );
         %Player.setLinearVelocityY( 0 );
         playSound(warp);

@@ -51,32 +51,3 @@ if(!isObject(ExampleTextProfile)) new GuiControlProfile(ExampleTextProfile)
    fontSize = 16;
    fontColor = "0 0 0";
 };
-
-function guiFlyIn(%Obj, %destPos, %speed)
-{
-    %Obj.position.X = 0 - %Obj.Extent.X;
-    warn("Starting position is " @ %obj.position.X);
-    error("First Run!");
-    
-
-    error("GFI - " @ %Obj SPC %obj.position.X @ " of " @ %destpos @ " at " @ %Speed);
-
-GFILoop(%obj, %destPos, %speed);
-}
-
-function GFILoop(%obj, %destPos, %speed)
-{
-
-    if(!%Obj.Position.X == %DestPos)
-    {
-    %Obj.Position.X++;
-    
-    echo("GFILoop - " @ %Obj SPC %obj.position.X @ " of " @ %destpos @ " at " @ %Speed);    
-    schedule(%speed, 0, GFILoop, %obj, %destPos, %speed);
-    }
-    else
-    {
-    %newPos = %Obj.Position.X;
-    echo("Finished! GuiFlyIn - " @ %newPos);
-    }
-}

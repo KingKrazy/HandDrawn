@@ -24,23 +24,6 @@ new AudioDescription(AudioChannel2)
    type = 2;
 };
 
-new AudioDescription(AudioChannel3)
-{
-   volume = 1.0;
-   isLooping = true;
-   is3D = false;
-   type = $musicAudioType;
-};
-
-new AudioDescription(AudioChannel4)
-{
-   volume = 1.0;
-   isLooping = true;
-   is3D = false;
-   type = $musicAudioType;
-};
-
-
 //---------------------------------------------------------------------------------------------
 // initializeOpenAL
 // Starts up the OpenAL driver.

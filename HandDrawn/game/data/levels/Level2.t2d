@@ -36,10 +36,10 @@
    DebugRendering = "0";
       cameraPosition = "0 0";
       cameraSize = "190 142";
+      LevelName = "The Terrors and the Lights";
       LevelNumber = "2";
       Reverse = "1";
       Snowy = "1";
-      LevelName = "The Terrors and the Lights";
 
    new t2dScroller() {
       imageMap = "water_fImageMap";
@@ -232,7 +232,7 @@
       Layer = "1";
          mountID = "21";
       _behavior0 = "PickupBehavior";
-      _behavior1 = "PineConePickupBehavior	Type	BurningPineconeLauncherWeapon";
+      _behavior1 = "PineConePickupBehavior	type	BurningPineconeLauncherWeapon";
       _behavior2 = "ScaleBehavior	xWidthMin	3	xWidthMax	10	yWidthMax	15	Pulse	1	Grow	1";
    };
    new t2dTileLayer() {
@@ -271,7 +271,7 @@
       imageMap = "elevator_bottomIImageMap";
       repeatX = "4";
       scrollX = "20";
-      scrollPositionX = "0.742034";
+      scrollPositionX = "0.584927";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-535.000 232.500";
@@ -292,7 +292,7 @@
       imageMap = "elevator_bottomIImageMap";
       repeatX = "10";
       scrollX = "20";
-      scrollPositionX = "0.106033";
+      scrollPositionX = "0.394146";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-658.377 179.610";
@@ -333,7 +333,7 @@
       imageMap = "elevator_bottomIImageMap";
       repeatX = "10";
       scrollX = "-40";
-      scrollPositionX = "-0.582172";
+      scrollPositionX = "-0.158588";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-852.666 80.875";
@@ -366,7 +366,7 @@
       imageMap = "water_btImageMap";
       repeatX = "100";
       scrollX = "5";
-      scrollPositionX = "0.166315";
+      scrollPositionX = "0.806696";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-1325.145 184.223";
@@ -379,7 +379,7 @@
       imageMap = "water_ftImageMap";
       repeatX = "100";
       scrollX = "2";
-      scrollPositionX = "0.619237";
+      scrollPositionX = "0.84969";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-1325.000 185.000";
@@ -1150,7 +1150,7 @@
       CollisionActiveSend = "1";
       CollisionActiveReceive = "1";
          mountID = "132";
-      _behavior0 = "AttachPathBehaviour	path	Fre	speed	30	endnode	1	followmode	RESTART	loops	1	guy	Fruit";
+      _behavior0 = "AttachPathBehaviour	path	Fre	Speed	30	endnode	1	followmode	RESTART	loops	1	guy	Fruit";
    };
    new t2dAnimatedSprite() {
       animationName = "SnapperRunAnimation";
@@ -2875,8 +2875,9 @@
    };
    new t2dTrigger() {
       canSaveDynamicFields = "1";
-      Position = "185.020 430.348";
-      size = "1844.104 23.409";
+      Position = "211.484 503.526";
+      size = "1897.032 122.948";
+      FlipY = "1";
       CollisionActiveSend = "1";
       CollisionActiveReceive = "1";
          mountID = "332";
@@ -3112,7 +3113,7 @@
       canSaveDynamicFields = "1";
       Position = "-1438.000 298.000";
       size = "26.000 26.000";
-      layer = "3";
+      Layer = "3";
          mountID = "358";
       _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	ScrapperActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300";
    };
@@ -3157,7 +3158,7 @@
       CollisionActiveSend = "1";
       CollisionActiveReceive = "1";
          mountID = "364";
-      _behavior0 = "AttachPathBehaviour	path	Lol	speed	30	startnode	5	endnode	3	loops	1	guy	Fun";
+      _behavior0 = "AttachPathBehaviour	path	Lol	Speed	30	startnode	5	endnode	3	loops	1	guy	Fun";
    };
    new t2dPath(Lol) {
       pathType = "LINEAR";
@@ -3420,7 +3421,7 @@
          mountID = "388";
       _behavior0 = "ScaleBehavior	yWidthMin	7.5	xWidthMax	2.5	yWidthMax	3.75	Pulse	1	Grow	1";
       _behavior1 = "PickupBehavior";
-      _behavior2 = "PineConePickupBehavior	amount	150	Type	MultiFrozenPineconeLauncherWeapon";
+      _behavior2 = "PineConePickupBehavior	amount	150	type	MultiFrozenPineconeLauncherWeapon";
    };
    new t2dScroller() {
       imageMap = "elevator_bottomIImageMap";
@@ -4610,8 +4611,8 @@
    };
    new t2dTrigger() {
       canSaveDynamicFields = "1";
-      Position = "-2930.448 391.291";
-      size = "2049.104 87.419";
+      Position = "-2930.448 425.719";
+      size = "2049.104 156.275";
       CollisionActiveSend = "1";
       CollisionActiveReceive = "1";
          mountID = "519";
@@ -4814,7 +4815,7 @@
       imageMap = "water_ftImageMap";
       repeatX = "100";
       scrollX = "2";
-      scrollPositionX = "0.618738";
+      scrollPositionX = "0.8447";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-4716.359 380.000";
@@ -4827,7 +4828,7 @@
       imageMap = "water_ftImageMap";
       repeatX = "100";
       scrollX = "3.5";
-      scrollPositionX = "0.414461";
+      scrollPositionX = "0.0456972";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-4716.359 381.051";
@@ -4840,7 +4841,7 @@
       imageMap = "water_ftImageMap";
       repeatX = "100";
       scrollX = "2.5";
-      scrollPositionX = "0.907944";
+      scrollPositionX = "0.151629";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-4726.359 382.000";
@@ -5964,7 +5965,7 @@
       imageMap = "elevator_bottomIImageMap";
       repeatX = "4";
       scrollX = "20";
-      scrollPositionX = "0.695497";
+      scrollPositionX = "0.566312";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "438.504 234.071";
@@ -6007,7 +6008,7 @@
       imageMap = "elevator_bottomIImageMap";
       repeatX = "4";
       scrollX = "20";
-      scrollPositionX = "0.714054";
+      scrollPositionX = "0.573735";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-4619.780 327.908";
@@ -6050,7 +6051,7 @@
       imageMap = "elevator_bottomIImageMap";
       repeatX = "4";
       scrollX = "-30";
-      scrollPositionX = "-0.277717";
+      scrollPositionX = "-0.542671";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-4597.034 282.361";
@@ -6083,7 +6084,7 @@
       imageMap = "elevator_bottomIImageMap";
       repeatX = "4";
       scrollX = "-40";
-      scrollPositionX = "-0.4171";
+      scrollPositionX = "-0.743256";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-4555.320 256.387";
@@ -6096,7 +6097,7 @@
       imageMap = "elevator_bottomIImageMap";
       repeatX = "15";
       scrollX = "-40";
-      scrollPositionX = "-0.834768";
+      scrollPositionX = "-0.828568";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "-4690.840 142.373";

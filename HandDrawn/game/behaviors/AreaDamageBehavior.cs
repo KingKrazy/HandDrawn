@@ -18,6 +18,7 @@ if ( !isObject( AreaDamageBehavior ) )
     %template.description  = "Area Damage applied to objects within area, or who collide with it";
 
     %template.addBehaviorField( PlayerOnly, "Damage the player, not other actors",       BOOL,  false );
+    %template.addBehaviorField( Destroy, "Kill the actor.",       BOOL,  true );
     %template.addBehaviorField( Amount,     "Amount of damage",                          FLOAT, 0.0 );
     %template.addBehaviorField( Interval,   "Scheduled time (sec) for recursive damage", FLOAT, 0.0 );
 }
@@ -76,6 +77,22 @@ function AreaDamageBehavior::onEnter( %this, %theirObject )
 {
 %theirObject.wasKilledByAD = 1;
 
+    if(%this.Destroy)
+    {
+    if(%theirObject $= $game::player)
+    {
+    error("THE PLAYER!");
+    %theirObject.takeDamage( %this.Amount, %this, true, false );
+    }
+    else
+    {
+    error("A MONSTER!");
+    %theirObject.killedByAD = 1;
+    %theirObject.safeDelete();
+    }
+    }
+
+
     // If it is a recursive event
     if ( %this.Interval > 0 )
     {
@@ -87,6 +104,8 @@ function AreaDamageBehavior::onEnter( %this, %theirObject )
 
     // Once only damage
     %theirObject.takeDamage( %this.Amount, %this, true, false );
+
+
 }
 
 function AreaDamageBehavior::onLeave( %this, %theirObject )

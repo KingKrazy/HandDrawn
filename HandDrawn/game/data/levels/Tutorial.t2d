@@ -36,17 +36,17 @@
    DebugRendering = "0";
       cameraPosition = "0.000000 0.000000";
       cameraSize = "190.000000 141.999985";
+      LevelName = "Learn to Play";
+      LevelNumber = "1";
       LevelType = "0";
       ParallaxLayer0 = "BG demoLevel/ParallaxHills 0.7";
       ParallaxLayer1 = "BG demoLevel/ParallaxMountains 0.5";
       ParallaxLayer2 = "FG tutorial/Parallax1 1.2";
-      LevelNumber = 1;
-      LevelName = "Learn to Play";
 
    new t2dTileLayer() {
       LayerFile = "~/data/tilemaps/Ground/TutorialMap.lyr";
       canSaveDynamicFields = "1";
-      Position = "1140.000 97.633";
+      Position = "1140.000 97.368";
       size = "2520.000 794.735";
       CollisionMaxIterations = "1";
          mountID = "2";
@@ -945,10 +945,10 @@
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "567.500 133.414";
-      size = "2225.000 26.826";
+      Position = "577.500 133.414";
+      size = "2245.000 26.826";
          mountID = "108";
-      _behavior0 = "AreaDamageBehavior	Amount	1000";
+      _behavior0 = "AreaDamageBehavior	amount	1000";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
@@ -1301,8 +1301,8 @@
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "1730.000 -170.000";
-      size = "20.000 60.000";
+      Position = "1730.000 -205.000";
+      size = "20.000 130.000";
          mountID = "153";
       _behavior0 = "PlatformBehavior";
    };
@@ -1708,7 +1708,7 @@
    new t2dScroller() {
       imageMap = "water_ftImageMap";
       repeatX = "30";
-      scrollPositionX = "0.795039";
+      scrollPositionX = "0.398159";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "1410.000 246.000";
@@ -1726,7 +1726,7 @@
    new t2dScroller() {
       imageMap = "water_ftImageMap";
       repeatX = "30";
-      scrollPositionX = "0.385117";
+      scrollPositionX = "0.194477";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
       Position = "1110.000 246.000";
@@ -1768,10 +1768,10 @@
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "1190.000 543.668";
-      size = "3470.000 47.333";
+      Position = "700.000 587.000";
+      size = "4450.000 133.997";
          mountID = "204";
-      _behavior0 = "AreaDamageBehavior	Amount	1000";
+      _behavior0 = "AreaDamageBehavior	amount	1000";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
@@ -2101,16 +2101,21 @@
       DstBlendFactor = "ZERO";
          mountID = "232";
    };
-   //new t2dStaticSprite() {
-      //imageMap = "White_CircleImageMap";
-      //frame = "0";
-      //sourceRect = "0 0 0 0";
-      //canSaveDynamicFields = "1";
-      //Position = "121.167 -111.864";
-      //size = "5000.000 5000.000";
-      //SrcBlendFactor = "ONE_MINUS_DST_COLOR";
-      //DstBlendFactor = "ZERO";
-      //   mountID = "233";
-      //_behavior0 = "ScaleBehavior	xWidthMax	5000	yWidthMax	5000	Time	60	Grow	1";
-   //};
+   new t2dStaticSprite() {
+      imageMap = "SpeechBubblePromptImageMap2";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-28.918 -8.433";
+      size = "20.645 10.323";
+         mountID = "233";
+      _behavior0 = "ScaleBehavior	xWidthMin	20	yWidthMin	10	xWidthMax	40	yWidthMax	20	Time	1	Pulse	1	Grow	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "2360.976 -9.605";
+      size = "1248.048 32.863";
+         mountID = "234";
+      _behavior0 = "AreaDamageBehavior	amount	1000";
+   };
 };

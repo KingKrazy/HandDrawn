@@ -9,6 +9,10 @@ $Gui::fontCacheDirectory = expandFilename("~/data/fonts");
 // GuiDefaultProfile is a special profile that all other profiles inherit defaults from. It
 // must exist.
 //---------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+// GuiDefaultProfile is a special profile that all other profiles inherit defaults from. It
+// must exist.
+//---------------------------------------------------------------------------------------------
 if(!isObject(GuiDefaultProfile)) new GuiControlProfile (GuiDefaultProfile)
 {
    tab = false;
@@ -29,7 +33,7 @@ if(!isObject(GuiDefaultProfile)) new GuiControlProfile (GuiDefaultProfile)
    borderColorNA = "64 64 64";
 
    // font
-   fontType = "Trebuchet MS";
+   fontType = "Lucida Grande";
    fontSize = 16;
 
    fontColor = "0 0 100";
@@ -76,7 +80,7 @@ if(!isObject(GuiDefaultBorderProfile)) new GuiControlProfile (GuiDefaultBorderPr
    borderColorNA = "64 64 64";
 
    // font
-   fontType = "Trebuchet MS";
+   fontType = "Lucida Grande";
    fontSize = 16;
 
    fontColor = "0 0 0";
@@ -124,7 +128,7 @@ if(!isObject(GuiBlackProfile)) new GuiControlProfile (GuiBlackProfile)
    borderColorNA = "64 64 64";
 
    // font
-   fontType = "Trebuchet MS";
+   fontType = "Lucida Grande";
    fontSize = 16;
 
    fontColor = "0 0 0";
@@ -171,7 +175,7 @@ if(!isObject(GuiWhiteProfile)) new GuiControlProfile (GuiWhiteProfile)
    borderColorNA = "64 64 64";
 
    // font
-   fontType = "Trebuchet MS";
+   fontType = "Lucida Grande";
    fontSize = 16;
 
    fontColor = "255 255 255";
@@ -198,6 +202,54 @@ if(!isObject(GuiWhiteProfile)) new GuiControlProfile (GuiWhiteProfile)
    soundOver = "";
 };
 
+if(!isObject(GuiRedProfile)) new GuiControlProfile (GuiRedProfile)
+{
+   tab = false;
+   canKeyFocus = false;
+   hasBitmapArray = false;
+   mouseOverSelected = false;
+
+   // fill color
+   opaque = true;
+   fillColor = "255 0 0";
+   fillColorHL = "25 25 25";
+   fillColorNA = "25 25 25";
+
+   // border color
+   border = 0;
+   borderColor   = "40 40 40 100";
+   borderColorHL = "128 128 128";
+   borderColorNA = "64 64 64";
+
+   // font
+   fontType = "Lucida Grande";
+   fontSize = 16;
+
+   fontColor = "255 255 255";
+   fontColorHL = "32 100 100";
+   fontColorNA = "0 0 0";
+   fontColorSEL = "200 200 200";
+
+   // bitmap information
+   bitmap = "./images/window";
+   bitmapBase = "";
+   textOffset = "0 0";
+
+   // used by guiTextControl
+   modal = true;
+   justify = "left";
+   autoSizeWidth = false;
+   autoSizeHeight = false;
+   returnTab = false;
+   numbersOnly = false;
+   cursorColor = "0 0 0 255";
+
+   // sounds
+   soundDown = "";
+   soundOver = "";
+};
+
+
 if(!isObject(GuiSolidDefaultProfile)) new GuiControlProfile (GuiSolidDefaultProfile)
 {
    opaque = true;
@@ -220,7 +272,7 @@ if(!isObject(GuiToolTipProfile)) new GuiControlProfile (GuiToolTipProfile)
    borderColor   = "138 134 122";
 
    // font
-   fontType = "Trebuchet MS";
+   fontType = "Lucida Grande";
    fontSize = 16;
    fontColor = "120 120 0";
 
@@ -673,7 +725,7 @@ if(!isObject(GuiTabPageProfile)) new GuiControlProfile (GuiTabPageProfile : GuiT
 
 if(!isObject(GuiMenuBarProfile)) new GuiControlProfile (GuiMenuBarProfile)
 {
-   fontType = "Trebuchet MS";
+   fontType = "Lucida Grande";
    fontSize = 15;
    opaque = true;
    fillColor = "0 0 0";

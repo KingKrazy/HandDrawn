@@ -109,6 +109,16 @@ if(%this.onGround)
 %this.ConstantForce.Y = "0";
 %this.gravity = "0 0";
 }
+
+    if ( isObject( %this.DrillHead ) )
+    {
+        %this.DrillHead.safeDelete();
+    }
+
+if(!%this.killedbyAD)
+{
+
+
 %explodeEffect = $EFX[getRandom(0,1)];
 
     // Fetch the Volume for the Effect.
@@ -122,12 +132,6 @@ echo(%explodeEffect, %volume);
 
 cancel($ComboEvent);
 $PointsEarned += 100;
-
-
-    if ( isObject( %this.DrillHead ) )
-    {
-        %this.DrillHead.safeDelete();
-    }
 
 
 if($pointsEarned >= 100)
@@ -210,14 +214,15 @@ $ComboEvent = schedule(1500, 0, "ResetComboMeter");
         _behavior0 = "ScaleBehavior\txWidthMin\t0\tyWidthMin\t0\txWidthMax\t7.5\tyWidthMax\t7.5\tTime\t1\tDelayStart\t0.5";
 
 };
+    %this.startScale();
 
+}
 
 EnemyHealthBar.setValue(0);
 %puppet = %this.getAnimationPuppet();
 CurrentEnemy.setSceneObject(%nothing);
 
     %this.DisableGravity = true;
-    %this.startScale();
 }
 
 function SnakeClass::startScale(%this)

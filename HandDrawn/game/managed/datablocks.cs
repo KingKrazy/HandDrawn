@@ -5448,26 +5448,6 @@ $managedDatablockSet = new SimSet() {
       allowUnload = "0";
       force16Bit = "0";
    };
-   new t2dImageMapDatablock(Ledge_LeftImageMap) {
-      imageName = "/Users/Robert/Desktop/Ledge_Left.png";
-      imageMode = "FULL";
-      frameCount = "-1";
-      filterMode = "NONE";
-      filterPad = "1";
-      preferPerf = "1";
-      cellRowOrder = "1";
-      cellOffsetX = "0";
-      cellOffsetY = "0";
-      cellStrideX = "0";
-      cellStrideY = "0";
-      cellCountX = "1";
-      cellCountY = "1";
-      cellWidth = "128";
-      cellHeight = "128";
-      preload = "1";
-      allowUnload = "0";
-      force16Bit = "0";
-   };
    new t2dImageMapDatablock(Ledge_MiddleImageMap) {
       imageName = "~/data/images/Ledge_Middle.png";
       imageMode = "FULL";
@@ -5510,6 +5490,26 @@ $managedDatablockSet = new SimSet() {
    };
    new t2dImageMapDatablock(Ledge_Right_FixImageMap) {
       imageName = "~/data/images/Ledge_Right.png";
+      imageMode = "FULL";
+      frameCount = "-1";
+      filterMode = "SMOOTH";
+      filterPad = "1";
+      preferPerf = "1";
+      cellRowOrder = "1";
+      cellOffsetX = "0";
+      cellOffsetY = "0";
+      cellStrideX = "0";
+      cellStrideY = "0";
+      cellCountX = "-1";
+      cellCountY = "-1";
+      cellWidth = "0";
+      cellHeight = "0";
+      preload = "1";
+      allowUnload = "0";
+      force16Bit = "0";
+   };
+   new t2dImageMapDatablock(SpeechBubblePromptImageMap2) {
+      imageName = "~/data/images/SpeechBubblePrompt.png";
       imageMode = "FULL";
       frameCount = "-1";
       filterMode = "SMOOTH";

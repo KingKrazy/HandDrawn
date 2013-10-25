@@ -497,7 +497,7 @@
       new GuiProgressCtrl(EnemyHealthBar) {
          canSaveDynamicFields = "0";
          isContainer = "0";
-         Profile = "GuiDefaultProfile";
+         Profile = "GuiProgressAIProfile";
          HorizSizing = "relative";
          VertSizing = "relative";
          Position = "664 56";
@@ -505,8 +505,6 @@
          MinExtent = "8 2";
          canSave = "1";
          Visible = "1";
-         tooltipprofile = "GuiDefaultProfile";
-         hovertime = "1000";
          maxLength = "1024";
       };
       new GuiBitmapCtrl() {
@@ -648,25 +646,25 @@ function HudInv()
 
 function hudMoveDWLoop()
 {
-echo("HUD MOVE DOWN LOOP");
+//echo("HUD MOVE DOWN LOOP");
         if(hud.position.y < 0)
         {
         $hudMoving = 1;
         hud.position.y += 1;
         schedule(3, 0, "HudMoveDWLoop");
-        echo("PUSHED DOWN! " @ hud.position.y);
+        //echo("PUSHED DOWN! " @ hud.position.y);
         }
         else
         {
         $hudMoving = 0;
         $hudSchedule = schedule(5000, 0, "HudInv");
-        echo("Done with: HUD MOVE DOWN LOOP");
+        //echo("Done with: HUD MOVE DOWN LOOP");
         }
 }
 
 function hudMoveUPLoop()
 {
-echo("HUD MOVE UP LOOP");
+//echo("HUD MOVE UP LOOP");
 
         if(hud.position.y > -120)
         {
@@ -674,11 +672,11 @@ echo("HUD MOVE UP LOOP");
         %outcome = hud.position.Y -= 1;
         hud.position.y = %outcome;
         schedule(3, 0, "HudMoveUPLoop");
-        echo("PUSHED UP! " @ hud.position.y);
+        //echo("PUSHED UP! " @ hud.position.y);
         }
         else
         {
         $hudMoving = 0;
-        echo("Down with: HUD MOVE UP LOOP");
+        //echo("Down with: HUD MOVE UP LOOP");
         }
 }

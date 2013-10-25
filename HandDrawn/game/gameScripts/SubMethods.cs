@@ -35,12 +35,15 @@ function SubClass::onLanded( %this, %platformObject )
 
 function SubClass::onDeath( %this, %dAmount, %srcObject )
 {
+
 if(%this.onGround)
 {
 %this.linearvelocity.Y = "0";
 %this.ConstantForce.Y = "0";
 %this.gravity = "0 0";
 }
+
+playSound(drilldiesound);
 
 cancel($ComboEvent);
 $PointsEarned += 100;

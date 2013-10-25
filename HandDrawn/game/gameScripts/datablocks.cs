@@ -80,7 +80,7 @@ datablock t2dSceneObjectDatablock( SubActorTemplate )
     
     Size              = "26.000 26.000";
     Layer             = "2";
-      CollisionPolyList = "-0.751 -0.462 0.373 -0.457 0.422 -0.142 -0.182 0.152 -0.761 -0.172";
+      CollisionPolyList = "-0.751 -0.462 0.373 -0.457 0.422 0.152 -0.751 0.152";
     _Behavior0        = "AIControllerBehavior\tAIType\tDrill";
     GroundAccel       = 1000;
     GroundDecel       = 1000;
@@ -96,7 +96,7 @@ datablock t2dSceneObjectDatablock( SnakeActorTemplate )
     
     Size              = "26.000 26.000";
     Layer             = "2";
-      CollisionPolyList = "-0.751 -0.462 0.373 -0.457 0.422 -0.142 -0.182 0.152 -0.761 -0.172";
+      CollisionPolyList = "-0.751 -0.462 0.373 -0.457 0.422 0.152 -0.751 0.152";
     _Behavior0        = "AIControllerBehavior\tAIType\tDrill";
     SoundData         = "VertSoundData";
     GroundAccel       = 1000;
@@ -129,7 +129,7 @@ datablock t2dSceneObjectDatablock( DrillActorTemplate )
     Class             = "DrillClass";
     Size              = "24.000 24.000";
     Layer             = "2";
-      CollisionPolyList = "-0.751 -0.462 0.373 -0.457 0.422 -0.142 -0.182 0.152 -0.761 -0.172";
+      CollisionPolyList = "-0.751 -0.462 0.373 -0.457 0.422 0.152 -0.751 0.152";
 
 
 

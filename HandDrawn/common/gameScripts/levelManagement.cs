@@ -95,7 +95,6 @@ function t2dSceneWindow::addToLevel(%sceneWindow, %levelFile)
 //---------------------------------------------------------------------------------------------
 function t2dSceneGraph::loadLevel(%sceneGraph, %levelFile)
 {
-    $PlayerParInLevel = 1;
    %sceneGraph.endLevel();
    %newScenegraph = %sceneGraph.addToLevel(%levelFile);
    
@@ -110,7 +109,6 @@ function t2dSceneGraph::loadLevel(%sceneGraph, %levelFile)
       %sceneObjectCount = getWordCount(%sceneObjectList);
       for (%i = 0; %i < %sceneObjectCount; %i++)
       {
-      echo(%number += 1);
          %sceneObject = getWord(%sceneObjectList, %i);
          //if( %sceneObject.isMethod( "onLevelLoaded" ) )
             %sceneObject.onLevelLoaded(%newScenegraph);
@@ -355,7 +353,6 @@ function t2dSceneGraph::addToLevel(%scenegraph, %levelFile)
 //---------------------------------------------------------------------------------------------
 function t2dSceneWindow::endLevel(%sceneWindow)
 {
-    $PlayerParInLevel = 0;
    %scenegraph = %sceneWindow.getSceneGraph();
    
    if (!isObject(%scenegraph))

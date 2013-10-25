@@ -4649,10 +4649,11 @@
    new t2dAnimatedSprite() {
       animationName = "Drill_rollAnimation";
       canSaveDynamicFields = "1";
-      Position = "138.000 -1643.000";
+      Position = "-342.000 -1713.000";
       size = "26.000 26.000";
+      FlipX = "1";
          mountID = "519";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	600	MaxSpawnDistance	1200	NumberToSpawn	20	SpawnInterval	1";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
    };
    new t2dTrigger() {
       canSaveDynamicFields = "1";
@@ -4670,5 +4671,1214 @@
       size = "45.000 3.619";
          mountID = "521";
       _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-344.497 -1715.184";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "522";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-318.000 -1713.000";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "523";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-320.497 -1715.184";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "524";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-287.000 -1713.000";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "525";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-289.497 -1715.184";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "526";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-318.000 -1713.000";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "527";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-320.497 -1715.184";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "528";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-250.830 -1713.085";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "529";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-253.327 -1715.269";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "530";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-210.509 -1714.146";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "531";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-213.006 -1716.329";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "532";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-167.000 -1714.146";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "533";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-169.497 -1716.329";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "534";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-128.006 -1714.146";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "535";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-130.503 -1716.329";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "536";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-78.006 -1714.146";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "537";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-80.503 -1716.329";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "538";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "-33.006 -1714.146";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "539";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-35.503 -1716.329";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "540";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "16.994 -1714.146";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "541";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "14.497 -1716.329";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "542";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "59.489 -1714.146";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "543";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "56.992 -1716.329";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "544";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "116.994 -1714.146";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "545";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300	SpawnInterval	1";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "114.497 -1716.329";
+      size = "38.994 32.659";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "546";
+      _behavior0 = "EnemyTurnBehavior";
+      _behavior1 = "DeleteBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Level1/Level_1FinalAscent_dd.lyr";
+      canSaveDynamicFields = "1";
+      Position = "290.000 -1110.000";
+      size = "260.000 1040.000";
+      CollisionMaxIterations = "1";
+         mountID = "547";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Krink.lyr";
+      canSaveDynamicFields = "1";
+      Position = "250.000 -610.000";
+      size = "60.000 40.000";
+      Layer = "1";
+      CollisionMaxIterations = "1";
+         mountID = "548";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Kook.lyr";
+      canSaveDynamicFields = "1";
+      Position = "330.000 -610.000";
+      size = "60.000 40.000";
+      Layer = "7";
+      CollisionMaxIterations = "1";
+         mountID = "549";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Klutz.lyr";
+      canSaveDynamicFields = "1";
+      Position = "300.000 -610.000";
+      size = "60.000 40.000";
+      Layer = "2";
+      CollisionMaxIterations = "1";
+         mountID = "550";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "290.000 -610.000";
+      size = "260.000 40.000";
+         mountID = "551";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "390.000 -1130.000";
+      size = "60.000 1000.000";
+         mountID = "552";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "190.000 -1130.000";
+      size = "60.000 1000.000";
+         mountID = "553";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "black_holeImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "290.000 -677.333";
+      size = "140.000 94.667";
+         mountID = "554";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "290.000 -662.500";
+      size = "140.000 65.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "555";
+      _behavior0 = "WarpPickupBehavior	GoToObject	1	Destination	Reflex1";
+      _behavior1 = "PickupBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer98_D.lyr";
+      canSaveDynamicFields = "1";
+      Position = "1710.796 -268.241";
+      size = "1000.000 1000.000";
+      Layer = "5";
+      CollisionMaxIterations = "1";
+         mountID = "556";
+   };
+   new t2dTrigger(Reflex1) {
+      canSaveDynamicFields = "1";
+      Position = "1193.052 176.759";
+      size = "30.511 110.000";
+      Layer = "20";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "557";
+      _behavior0 = "MusicTriggerBehavior	PlayOnce	1	MusicToPlay	NormalMusic";
+   };
+   new t2dScroller() {
+      imageMap = "Black_PatchImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1193.052 206.759";
+      size = "30.511 30.000";
+      Layer = "20";
+         mountID = "558";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1176.936 218.118";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "559";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1176.936 208.118";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "560";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1176.936 198.118";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "561";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1180.796 192.759";
+      Rotation = "90";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "562";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1190.796 192.759";
+      Rotation = "90";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "563";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1200.796 192.759";
+      Rotation = "90";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "564";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1208.850 196.759";
+      Rotation = "180";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "565";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1208.850 206.759";
+      Rotation = "180";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "566";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1208.850 216.759";
+      Rotation = "180";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "567";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1202.850 220.759";
+      Rotation = "270";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "568";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1192.850 220.759";
+      Rotation = "270";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "569";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1182.850 220.759";
+      Rotation = "270";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "570";
+   };
+   new t2dScroller() {
+      imageMap = "wood_s1_IImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1204.796 192.759";
+      Rotation = "90";
+      Layer = "10";
+      BlendColor = "0.482353 0.211765 0 1";
+         mountID = "571";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Kook.lyr";
+      canSaveDynamicFields = "1";
+      Position = "1180.796 212.759";
+      size = "60.000 40.000";
+      Layer = "21";
+      CollisionMaxIterations = "1";
+         mountID = "572";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "699.039 -1181.777";
+      size = "558.079 406.446";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "573";
+      _behavior0 = "AreaDamageBehavior	amount	1000	Interval	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Kook_O_o.lyr";
+      canSaveDynamicFields = "1";
+      Position = "1160.796 184.759";
+      size = "19.999 40.000";
+      Layer = "25";
+      CollisionMaxIterations = "1";
+         mountID = "574";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Kook_O_o.lyr";
+      canSaveDynamicFields = "1";
+      Position = "1160.796 154.759";
+      size = "19.999 40.000";
+      Layer = "30";
+      CollisionMaxIterations = "1";
+         mountID = "575";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/Kook_O_)(.lyr";
+      canSaveDynamicFields = "1";
+      Position = "1160.796 -26.741";
+      size = "19.999 353.000";
+      Layer = "30";
+      CollisionMaxIterations = "1";
+         mountID = "576";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1275.796 216.759";
+      size = "130.000 30.000";
+      FlipY = "1";
+         mountID = "577";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1160.796 19.259";
+      size = "20.000 445.000";
+      FlipY = "1";
+         mountID = "578";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "sky_duskImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1778.793 420.219";
+      size = "1757.586 2606.544";
+      FlipX = "1";
+      Layer = "31";
+         mountID = "579";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1445.796 216.759";
+      size = "90.000 30.000";
+      FlipY = "1";
+         mountID = "580";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1560.796 176.759";
+      size = "100.000 30.000";
+      FlipY = "1";
+         mountID = "581";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1486.758 207.721";
+      size = "100.000 30.000";
+      Rotation = "-45";
+      FlipY = "1";
+         mountID = "582";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1595.396 148.465";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "583";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "1600.595 151.613";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "584";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Tree1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1249.977 186.986";
+      size = "35.350 39.546";
+      Layer = "20";
+         mountID = "585";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Tree2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1298.857 188.685";
+      size = "36.121 40.409";
+      Layer = "11";
+         mountID = "586";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Tree1ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1459.977 186.986";
+      size = "35.350 39.546";
+      Layer = "20";
+         mountID = "587";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Tree2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1528.857 148.685";
+      size = "36.121 40.409";
+      Layer = "11";
+         mountID = "588";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Tree2ImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1548.857 146.685";
+      size = "36.121 40.409";
+      Layer = "11";
+         mountID = "589";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1665.796 166.759";
+      size = "70.000 10.000";
+      FlipY = "1";
+         mountID = "590";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1720.796 136.759";
+      size = "40.000 10.000";
+      FlipY = "1";
+         mountID = "591";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1655.796 116.759";
+      size = "50.000 10.000";
+      FlipY = "1";
+         mountID = "592";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1560.796 86.759";
+      size = "80.000 10.000";
+      FlipY = "1";
+         mountID = "593";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1675.796 46.759";
+      size = "90.000 10.000";
+      FlipY = "1";
+         mountID = "594";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1780.795 16.759";
+      size = "100.001 10.000";
+      FlipY = "1";
+         mountID = "595";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1895.795 -3.241";
+      size = "110.002 10.000";
+      FlipY = "1";
+         mountID = "596";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1940.796 -33.241";
+      size = "60.000 10.000";
+      FlipY = "1";
+         mountID = "597";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1785.796 -53.241";
+      size = "190.000 10.000";
+      FlipY = "1";
+         mountID = "598";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1675.796 -83.241";
+      size = "169.999 10.000";
+      FlipY = "1";
+         mountID = "599";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1810.796 -113.241";
+      size = "140.001 10.000";
+      FlipY = "1";
+         mountID = "600";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1675.797 -133.241";
+      size = "110.002 10.000";
+      FlipY = "1";
+         mountID = "601";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1695.797 -163.241";
+      size = "110.002 10.000";
+      FlipY = "1";
+         mountID = "602";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1805.797 -203.241";
+      size = "110.002 10.000";
+      FlipY = "1";
+         mountID = "603";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1710.796 -243.241";
+      size = "80.001 10.000";
+      FlipY = "1";
+         mountID = "604";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1610.797 -273.241";
+      size = "120.001 10.000";
+      FlipY = "1";
+         mountID = "605";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1515.796 -293.241";
+      size = "70.000 10.000";
+      FlipY = "1";
+         mountID = "606";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1945.396 -51.535";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "607";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "1950.595 -48.387";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "608";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1705.396 28.465";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "609";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "1710.595 31.613";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "610";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1855.396 -131.535";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "611";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "1860.595 -128.387";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "612";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1845.396 -221.535";
+      size = "26.000 26.000";
+      FlipX = "1";
+         mountID = "613";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "1850.595 -218.387";
+      size = "30.400 30.293";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "614";
+      _behavior0 = "DeleteBehavior";
+      _behavior1 = "EnemyTurnBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1635.396 -151.535";
+      size = "26.000 26.000";
+         mountID = "615";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1605.396 -101.535";
+      size = "26.000 26.000";
+         mountID = "616";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1535.396 68.465";
+      size = "26.000 26.000";
+      WorldLimitMin = "3944.600 -383.294";
+      WorldLimitMax = "4594.600 266.706";
+         mountID = "617";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "Drill_rollAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1495.396 -311.535";
+      size = "26.000 26.000";
+         mountID = "618";
+      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	DrillActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	150";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-62.500 123.449";
+      size = "5.000 53.102";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "619";
+      _behavior0 = "EnemyTurnBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-632.500 320.000";
+      size = "5.000 20.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "620";
+      _behavior0 = "EnemyTurnBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-512.500 320.000";
+      size = "5.000 20.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "621";
+      _behavior0 = "EnemyTurnBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-1002.500 250.000";
+      size = "5.000 20.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "622";
+      _behavior0 = "EnemyTurnBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-982.500 200.000";
+      size = "5.000 20.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "623";
+      _behavior0 = "EnemyTurnBehavior";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-806.500 160.000";
+      size = "5.000 20.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "624";
+      _behavior0 = "EnemyTurnBehavior";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer72_A.lyr";
+      canSaveDynamicFields = "1";
+      Position = "-897.000 -401.000";
+      size = "6.000 132.000";
+      Layer = "20";
+      WorldLimitMin = "87.000 -1650.000";
+      WorldLimitMax = "237.000 1600.000";
+      CollisionMaxIterations = "1";
+         mountID = "625";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "-896.970 -401.007";
+      size = "6.059 132.013";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "626";
+      _behavior0 = "LadderBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "elevator_bottomImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-920.000 -362.500";
+      size = "20.000 15.000";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-930.000 -427.109";
+      WorldLimitMax = "-870.000 -302.109";
+      LinearVelocity = "10.000 0.000";
+         mountID = "627";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "elevator_bottomImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-880.000 -392.500";
+      size = "20.000 15.000";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-930.000 -427.109";
+      WorldLimitMax = "-870.000 -302.109";
+      LinearVelocity = "-10.000 0.000";
+         mountID = "628";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "elevator_bottomImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-920.000 -419.599";
+      size = "20.000 15.000";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-930.000 -427.109";
+      WorldLimitMax = "-870.000 -302.109";
+      LinearVelocity = "10.000 0.000";
+         mountID = "629";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "elevator_bottomImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-880.000 -442.500";
+      size = "20.000 15.000";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-930.000 -451.607";
+      WorldLimitMax = "-870.000 -302.109";
+      LinearVelocity = "-10.000 0.000";
+         mountID = "630";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "elevator_bottomImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-880.000 -412.500";
+      size = "20.000 15.000";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-930.000 -427.109";
+      WorldLimitMax = "-870.000 -302.109";
+      LinearVelocity = "-10.000 0.000";
+         mountID = "631";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "elevator_bottomImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-920.000 -382.500";
+      size = "20.000 15.000";
+      WorldLimitMode = "BOUNCE";
+      WorldLimitMin = "-930.000 -427.109";
+      WorldLimitMax = "-870.000 -302.109";
+      LinearVelocity = "10.000 0.000";
+         mountID = "632";
+      _behavior0 = "PlatformBehavior";
+   };
+   new t2dStaticSprite() {
+      imageMap = "goldeggImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1505.796 -304.241";
+      size = "5.081 5.081";
+      AutoRotation = "90";
+         mountID = "633";
+      _behavior0 = "ScaleBehavior	xWidthMax	10	yWidthMax	10	Pulse	1	Grow	1";
+      _behavior1 = "LevelCompletePickupBehavior	NextLevel	Level4";
+      _behavior2 = "PickupBehavior";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1610.796 66.759";
+      size = "20.001 10.000";
+      FlipY = "1";
+         mountID = "634";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1740.796 -183.241";
+      size = "20.001 10.000";
+      FlipY = "1";
+         mountID = "635";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dTileLayer() {
+      LayerFile = "~/data/tilemaps/demoLevel/tileLayer54_dd.lyr";
+      canSaveDynamicFields = "1";
+      Position = "1180.796 -183.241";
+      size = "60.000 40.000";
+      CollisionMaxIterations = "1";
+         mountID = "636";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "PencilLifeImageAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1155.833 -208.241";
+      AutoRotation = "180";
+      Layer = "1";
+         mountID = "637";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "LifePickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "PencilLifeImageAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1165.833 -208.241";
+      AutoRotation = "180";
+      Layer = "1";
+         mountID = "638";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "LifePickupBehavior";
+   };
+   new t2dAnimatedSprite() {
+      animationName = "PencilLifeImageAnimation";
+      canSaveDynamicFields = "1";
+      Position = "1160.833 -208.241";
+      AutoRotation = "180";
+      Layer = "1";
+         mountID = "639";
+      _behavior0 = "PickupBehavior";
+      _behavior1 = "LifePickupBehavior";
+   };
+   new t2dScroller() {
+      imageMap = "SpeechBubbleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1433.385 -262.078";
+      size = "67.371 39.783";
+      CollisionPolyList = "0.933 -0.100 0.864 0.141 0.712 0.441 0.530 0.740 -0.088 0.848 -0.589 0.732 -0.874 0.524 -0.987 0.225 -0.810 -0.183 -0.383 -0.308 0.467 -0.225";
+         mountID = "640";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "SpeechBubbleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1313.386 -212.078";
+      size = "67.371 39.783";
+      CollisionPolyList = "0.933 -0.100 0.864 0.141 0.712 0.441 0.530 0.740 -0.088 0.848 -0.589 0.732 -0.874 0.524 -0.987 0.225 -0.810 -0.183 -0.383 -0.308 0.467 -0.225";
+         mountID = "641";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "SpeechBubbleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1223.386 -192.078";
+      size = "67.371 39.783";
+      CollisionPolyList = "0.933 -0.100 0.864 0.141 0.712 0.441 0.530 0.740 -0.088 0.848 -0.589 0.732 -0.874 0.524 -0.987 0.225 -0.810 -0.183 -0.383 -0.308 0.467 -0.225";
+         mountID = "642";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "SpeechBubbleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1383.385 -232.078";
+      size = "67.371 39.783";
+      CollisionPolyList = "0.933 -0.100 0.864 0.141 0.712 0.441 0.530 0.740 -0.088 0.848 -0.589 0.732 -0.874 0.524 -0.987 0.225 -0.810 -0.183 -0.383 -0.308 0.467 -0.225";
+         mountID = "643";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dSceneObject() {
+      canSaveDynamicFields = "1";
+      Position = "1750.796 -223.241";
+      size = "20.001 10.000";
+      FlipY = "1";
+         mountID = "644";
+      _behavior0 = "PlatformBehavior	OneWay	1";
+   };
+   new t2dScroller() {
+      imageMap = "black_holeImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "734.321 -110.860";
+      size = "4114.247 380.674";
+      Rotation = "270";
+         mountID = "645";
+   };
+   new t2dScroller() {
+      imageMap = "black_holeImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1021.362 503.132";
+      size = "2886.263 234.756";
+      Rotation = "270";
+      FlipY = "1";
+         mountID = "646";
+   };
+   new t2dScroller() {
+      imageMap = "black_holeImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1789.375 -817.378";
+      size = "1748.751 234.756";
+      Rotation = "3.05176e-05";
+      FlipY = "1";
+         mountID = "647";
+   };
+   new t2dScroller() {
+      imageMap = "black_holeImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1794.604 -1124.295";
+      size = "1745.268 381.410";
+      Rotation = "3.05176e-05";
+         mountID = "648";
+   };
+   new t2dStaticSprite() {
+      imageMap = "Black_PatchImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "1514.061 -1553.355";
+      size = "1238.121 1049.245";
+         mountID = "649";
+   };
+   new t2dTrigger() {
+      canSaveDynamicFields = "1";
+      Position = "790.000 -1735.000";
+      size = "360.000 1190.000";
+      CollisionActiveSend = "1";
+      CollisionActiveReceive = "1";
+         mountID = "650";
+      _behavior0 = "AreaDamageBehavior	amount	1000	Interval	1";
    };
 };

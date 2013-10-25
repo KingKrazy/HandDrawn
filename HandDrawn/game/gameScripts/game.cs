@@ -226,9 +226,11 @@ menuAutoScroll.setText($MenuAutoScroll);
 //---------------------------------------------------------------------------------------------
 function endGame()
 {
-	sceneWindow2D.endLevel();
 	moveMap.pop();
 	moveMap.delete();
+	sceneWindow2D.endLevel();
+    alxStopAll();
+    canvas.popDialog(mainScreenGui);
 }
 //----------------------------------------------------------------------------------------
 //Checkpoint add on stuff

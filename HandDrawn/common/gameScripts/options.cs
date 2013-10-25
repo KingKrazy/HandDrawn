@@ -276,10 +276,10 @@ function revertAVOptions()
    GraphicsDriverMenu.onSelect(%selId, "");
    
    // Default volume: 0.8;
-   EffectsAudioVolume.setValue(1);
-   MusicAudioVolume.setValue(1);
-   updateChannelVolume($effectsAudioType, 1);
-   updateChannelVolume($musicAudioType, 1);
+   EffectsAudioVolume.setValue(0.8);
+   MusicAudioVolume.setValue(0.8);
+   updateChannelVolume($effectsAudioType, 0.8);
+   updateChannelVolume($musicAudioType, 0.8);
    ScreenshotMenu.clear();
    
    // Default screenshot format: PNG;

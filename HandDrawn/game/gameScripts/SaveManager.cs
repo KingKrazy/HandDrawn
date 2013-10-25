@@ -52,9 +52,15 @@ error(%foldername SPC %level SPC %inv SPC %misc SPC %quit);
 
     //Not-dead-ness
     
-    
+    if($playerLevel !$= "")
+    {
     %file1.writeLine("$PlayerLevel = \"" @ $playerlevel @ "\";");
-    
+    }
+    else
+    {
+    %file1.writeLine("$PlayerLevel = \"0\";");
+    }
+
     echo("File Written");
     }
     else if(!%file1.openForWrite("~/data/saves/" @ %folderName @ "/LevelData.hdsave"))

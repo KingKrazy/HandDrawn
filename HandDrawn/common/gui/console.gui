@@ -28,7 +28,7 @@
       closeCommand = "ToggleConsole(1);";
 
       new GuiScrollCtrl() {
-         profile = "GuiBlackScrollProfile";
+         profile = "GuiScrollProfile";
          horizSizing = "width";
          vertSizing = "height";
          position = "3 36";
@@ -152,6 +152,7 @@ function ConsoleDlg::onWake()
    
    ConsoleDlgWindow.resize(%consolePositionX, %consolePositionY,
                            %consoleExtentX, %consoleExtentY);
+    toggleConsole(1);
 }
 
 function ConsoleDlg::onSleep()

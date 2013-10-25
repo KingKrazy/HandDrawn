@@ -889,10 +889,10 @@ return %blendAlpha;
 //{
 //if(isObject($game::player))
 //{
-  //  if($smartStream)
-   // {
-    //%this.schedule(getRandom(32,1000), "ManualUpdate");
-    //}
+//    if($smartStream)
+//    {
+//    %this.schedule(getRandom(32,1000), "ManualUpdate");
+//    }
 //}
 //}
 
@@ -900,7 +900,7 @@ function t2dSceneObject::ManualUpdate(%this)
 {
 if($smartStream)
 {
-    if(checkDistance($game::player, %this) >= $streamDist)
+    if(checkDistance($game::player.getAnimationPuppet(), %this) >= $streamDist)
     {
         if(%this.visible)
         {
