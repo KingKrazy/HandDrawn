@@ -1,6 +1,7 @@
 function goToLevelSelect()
 {
 canvas.pushDialog(sceneWindowGui);
+toggleconsole(1);
 MenuSceneWindow.loadLevel( expandFilename("game/data/levels/LevelSelect.t2d") );
 }
 

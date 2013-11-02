@@ -320,6 +320,8 @@ function SpeechDisplayBehavior::onleave( %this, %theirObject, %string )
 {
 $game::player.insideTrigger = 0;
 
+GlobalActionMap.unbindObj("keyboard", "T", %this);
+
 moveMap.Push();
 %string = "";
 $isCanceled = 1;

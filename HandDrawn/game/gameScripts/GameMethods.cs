@@ -160,6 +160,7 @@ function initialisePlatformerKit()
     exec ( "./Weapons/FireBallLauncher.cs" );
     exec ( "./Weapons/BombLauncher.cs" );
     exec ( "./Weapons/BoneLauncher.cs" );
+    exec ( "./Weapons/BlobLauncher.cs" );
     exec ( "./Weapons/BulletWeapon.cs" );
     exec ( "./Weapons/RocketLauncher.cs" );
     exec ( "./Weapons/SpreadshotLauncher.cs" );
@@ -171,6 +172,7 @@ function initialisePlatformerKit()
     exec ( "./BoomBotMethods.cs" );
     exec ( "./PlayerMethods.cs" );
     exec ( "./DrillMethods.cs" );
+    exec ( "./MountMethods.cs" );
     //exec ( "./BoolMethods.cs" );
 }
 

@@ -67,7 +67,7 @@ function MultiFrozenPineConeProjectile::onAddToScene( %this )
     %mod = -1;
     }
 
-    $pineConeType = "Frozen";
+    %this.Pineconetype = "Frozen";
     %this.LinearVelocity.Y = -150;
     %this.setConstantForce( %mod * getRandom(60, 100) SPC 200, true );
 
@@ -94,7 +94,7 @@ function MultiFrozenPineConeProjectile::onAddToScene( %this )
 
 function MultiFrozenPineConeProjectile::onRemove( %this )
 {
-    $pineConeType = "Frozen";
+    %this.Pineconetype = "Frozen";
 
     //%effect.safeDelete();
     

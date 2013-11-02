@@ -63,7 +63,7 @@ function FrozenPineConeProjectile::onAddToScene( %this )
 
    if(!$game::player.isSwimming)
    {
-   $pineConeType = "Frozen";
+   %this.Pineconetype = "Frozen";
    %BurnEffect = new t2dParticleEffect(FreezeStuffPE) 
    {
       scenegraph = scenewindow2d.getSceneGraph();
@@ -87,7 +87,7 @@ function FrozenPineConeProjectile::onAddToScene( %this )
    {
    playSound(extinguish);
    %this.blendColor = "0.1 0.1 0.1 1";
-   $pineConeType = "Normal";
+   %this.Pineconetype = "Normal";
    }
    %this.LinearVelocity.Y = -7.5;
    %this.setConstantForce( 0 SPC 12.5, true );
@@ -98,7 +98,7 @@ function FrozenPineConeProjectile::onAddToScene( %this )
 
 function FrozenPineConeProjectile::onRemove( %this )
 {
-    $pineConeType = "Frozen";
+    %this.Pineconetype = "Frozen";
 
     //%effect.safeDelete();
     

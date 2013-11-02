@@ -56,7 +56,7 @@ new ScriptObject( MultiBurningPineConeLauncherWeapon : WeaponBase )
 function MultiBurningPineConeProjectile::onAddToScene( %this )
 {
 
-    $pineConeType = "Burn";
+    %this.Pineconetype = "Burn";
 %VelocityNum = getRandom(7,10);
 
    %this.LinearVelocity.Y = -%velocityNum;
@@ -85,7 +85,7 @@ function MultiBurningPineConeProjectile::onAddToScene( %this )
 
 function MultiBurningPineConeProjectile::onRemove( %this )
 {
-    $pineConeType = "Burn";
+    %this.Pineconetype = "Burn";
 
     //%effect.safeDelete();
     

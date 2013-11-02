@@ -12,13 +12,18 @@ if ( !isObject( PineConePickupBehavior ) )
     %template.behaviorType = "Collectable";
     %template.description  = "Give the actor a few pinecones.";
    %template.addBehaviorField(amount, "How many pinecones to give this player", float, "100");
-    %template.addBehaviorField( Type,       "The kind of pine cone",               ENUM,   "PineConeLauncherWeapon", "PineConeLauncherWeapon" TAB "PoisonedPineconeLauncherWeapon" TAB "FrozenPineconeLauncherWeapon" TAB "BurningPineconeLauncherWeapon" TAB "MultiPineconeLauncherWeapon" TAB "MultiFrozenPineconeLauncherWeapon" TAB "MultiBurningPineconeLauncherWeapon" TAB "MultiPoisonedPineconeLauncherWeapon");
+    %template.addBehaviorField( Type,       "The kind of pine cone",               ENUM,   "PineConeLauncherWeapon", "PineConeLauncherWeapon" TAB "PoisonedPineconeLauncherWeapon" TAB "FrozenPineconeLauncherWeapon" TAB "BurningPineconeLauncherWeapon" TAB "MultiPineconeLauncherWeapon" TAB "MultiFrozenPineconeLauncherWeapon" TAB "MultiBurningPineconeLauncherWeapon" TAB "MultiPoisonedPineconeLauncherWeapon" TAB "BlobLauncherWeapon");
 
 }
 
 function PineConePickupBehavior::confirmPickup( %this, %targetObject, %inventoryItem )
 {
 $game::player.setActiveWeapon(%this.Type);
+
+if(%this.Type $= "BlobLauncherWeapon")
+{
+$game::player.BlobAmmo += %this.amount;
+}
 
 if(%this.Type $= "PineConeLauncherWeapon")
 {

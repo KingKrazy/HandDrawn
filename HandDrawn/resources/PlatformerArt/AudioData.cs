@@ -496,6 +496,15 @@ datablock AudioProfile( EdgeclimbAndDescendMusic )
     Alternate   = "OutdoorMusic";
 };
 
+datablock AudioProfile( WindyMountainMusic )
+{
+    filename    = "./data/audio/music/Windy Mountain.wav";
+    description	= MusicLoop;
+    preload     = true;
+    volume    = 3.0;
+
+    Alternate   = "OutdoorMusic";
+};
 
 new AudioProfile( NormalMusic )
 {

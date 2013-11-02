@@ -644,7 +644,7 @@ function HudInv()
     }
 }
 
-function hudMoveDWLoop()
+function hudMoveDWLoop(%noSched)
 {
 //echo("HUD MOVE DOWN LOOP");
         if(hud.position.y < 0)
@@ -657,7 +657,10 @@ function hudMoveDWLoop()
         else
         {
         $hudMoving = 0;
+        if(!%nosched)
+        {
         $hudSchedule = schedule(5000, 0, "HudInv");
+        }
         //echo("Done with: HUD MOVE DOWN LOOP");
         }
 }

@@ -52,7 +52,8 @@ datablock t2dSceneObjectDatablock( DragonActorTemplate : PlayerActorBaseTemplate
     Lives             = "5";
     ActorType         = "Dragon";
     MaxMoveSpeed      = 80;    
-    JumpForce         = 100;
+    groundDecel       = 400;
+    JumpForce         = 110;
     Size              = "22.000 22.000";
     CollisionPolyList = "-0.108 0.000 -0.100 -0.350 0.100 -0.350 0.100 0.000 0.000 0.340";
 };
@@ -135,6 +136,32 @@ datablock t2dSceneObjectDatablock( DrillActorTemplate )
 
 
     ActorType         = "Drill";
+    _Behavior0        = "AIControllerBehavior\tAIType\tDrill";
+    
+    AnimationData     = "DrillAnimationData";
+    SoundData         = "DrillSoundData";
+    
+    GroundAccel       = 1000;
+    GroundDecel       = 1000;
+    
+    AllowRespawn      = false;
+    DeathTimeOut      = 500;
+    
+    InnerRadius       = 20;
+    OuterRadius       = 80;
+};
+
+datablock t2dSceneObjectDatablock( MountActorTemplate )
+{
+    Class             = "MountClass";
+    Size              = "24.000 24.000";
+    Layer             = "2";
+      CollisionPolyList = "0.275 -1.000 0.422 0.152 -0.751 0.152 -0.579 -1.000";
+
+
+
+
+    ActorType         = "Mount";
     _Behavior0        = "AIControllerBehavior\tAIType\tDrill";
     
     AnimationData     = "DrillAnimationData";

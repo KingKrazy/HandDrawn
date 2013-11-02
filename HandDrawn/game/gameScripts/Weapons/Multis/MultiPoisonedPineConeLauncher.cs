@@ -56,7 +56,7 @@ new ScriptObject( MultiPoisonedPineConeLauncherWeapon : WeaponBase )
 function MultiPoisonedPineConeProjectile::onAddToScene( %this )
 {
 
-    $pineConeType = "Poisoned";
+    %this.Pineconetype = "Poisoned";
 
 
 %VelocityNum = getRandom(7,10);
@@ -87,7 +87,7 @@ function MultiPoisonedPineConeProjectile::onAddToScene( %this )
 
 function MultiPoisonedPineConeProjectile::onRemove( %this )
 {
-    $pineConeType = "Poisoned";
+    %this.Pineconetype = "Poisoned";
 
     //%effect.safeDelete();
     

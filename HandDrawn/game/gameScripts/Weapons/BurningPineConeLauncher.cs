@@ -63,7 +63,7 @@ function BurningPineConeProjectile::onAddToScene( %this )
 
    if(!$game::player.isSwimming)
    {
-   $pineConeType = "Burn";
+   %this.Pineconetype = "Burn";
    %BurnEffect = new t2dParticleEffect(RedStuffPE) 
    {
       scenegraph = scenewindow2d.getSceneGraph();
@@ -87,7 +87,7 @@ function BurningPineConeProjectile::onAddToScene( %this )
    {
    playSound(extinguish);
    %this.blendColor = "0.1 0.1 0.1 1";
-   $pineConeType = "Normal";
+   %this.Pineconetype = "Normal";
    }
    
    %this.LinearVelocity.Y = -7.5;
@@ -98,7 +98,7 @@ function BurningPineConeProjectile::onAddToScene( %this )
 
 function BurningPineConeProjectile::onRemove( %this )
 {
-    $pineConeType = "Burn";
+    %this.Pineconetype = "Burn";
 
     //%effect.safeDelete();
     

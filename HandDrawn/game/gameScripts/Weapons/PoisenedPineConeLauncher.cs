@@ -55,7 +55,7 @@ new ScriptObject( PoisonedPineConeLauncherWeapon : WeaponBase )
 
 function PoisonedPineConeProjectile::onAddToScene( %this )
 {
-    $pineConeType = "Poisoned";
+    %this.Pineconetype = "Poisoned";
 
     if($playerAmmo >= 5)
     {
@@ -88,7 +88,7 @@ function PoisonedPineConeProjectile::onAddToScene( %this )
 
 function PoisonedPineConeProjectile::onRemove( %this )
 {
-    $pineConeType = "Poisoned";
+    %this.Pineconetype = "Poisoned";
 
     //%effect.safeDelete();
     

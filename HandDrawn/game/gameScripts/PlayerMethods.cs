@@ -115,6 +115,7 @@ function PlayerClass::onAddToScene( %this, %scenegraph )
 
 
     Parent::onAddToScene( %this, %scenegraph );
+    $game::player.groundDecel = 400;
     %this.frostbitten = 0;
 
     stopSwimming();
@@ -141,7 +142,7 @@ function PlayerClass::onAddToScene( %this, %scenegraph )
     alxSourcef($musicHandle2, "AL_GAIN", 0);
     }
 
-    %this.Gravity = "0 140";
+    %this.Gravity = "0 210";
     %this.Controller.Direction = "0 0";
 
     %this.MountCamera();
@@ -368,6 +369,7 @@ function PlayerClass::resolveEnemyCollision( %ourObject, %theirObject, %normal )
     {
         case "Drill" : %ourObject.resolveDrillCollision( %theirObject, %normal ); break;
         case "Sub" : %ourObject.resolveSubCollision( %theirObject, %normal ); break;
+        case "Mount" : %ourObject.resolveMountCollision( %theirObject, %normal ); break;
         case "Snake" : %ourObject.resolveSnakeCollision( %theirObject, %normal ); break;
         case "Snapper" : %ourObject.resolveScrapperCollision( %theirObject, %normal ); break;
         case "Scrapper" : %ourObject.resolveSnapperCollision( %theirObject, %normal ); break;
@@ -521,11 +523,51 @@ EnemyHealthBar.setValue(%AIHealth);
     else
     {
         // Do damage to the player
-        %ourObject.takeDamage( 35, %theirObject, true, false );
+        %ourObject.takeDamage( 25, %theirObject, true, false );
         %puppy = %theirObject.getAnimationPuppet();
         CurrentEnemy.setSceneObject(%puppy);
     }
 }
+
+function PlayerClass::resolveMountCollision( %ourObject, %theirObject, %normal )
+{
+%AIHealth = %theirObject.health / 100;
+
+EnemyHealthBar.setValue(%AIHealth);
+
+    // Get the contact angle
+    %angle = mRadToDeg( mAtan( -%normal.X, %normal.Y ) );
+    %angle = mAbs( %angle ) % 360;
+
+    // Check if we've hit the drill properly
+    if ( (%angle <= 40 || %angle >= 360 - 40 )
+        && %ourObject.LinearVelocity.Y > %theirObject.LinearVelocity.Y
+        && %ourObject.Position.Y < %theirObject.Position.Y )
+    {
+        // Do damage to the drill and bounce the player
+        %theirObject.takeDamage( 50, %ourObject, true, true );
+
+        // Stop them from moving if he's dead
+        if(%theirobject.health < 1)
+        {
+        %theirObject.Direction = "0.0 0.0";
+        %theirObject.Gravity   = "0.0 0.0";
+        }
+        
+        %ourObject.bounce( %ourObject.JumpForce / 2, 180 );
+    
+
+    }
+    else
+    {
+        // Do damage to the player
+        %ourObject.takeDamage( 25, %theirObject, true, false );
+        %puppy = %theirObject.getAnimationPuppet();
+        CurrentEnemy.setSceneObject(%puppy);
+    }
+}
+
+
 
 
 function PlayerClass::resolveSnapperCollision( %ourObject, %theirObject, %normal )
@@ -801,7 +843,7 @@ function PlayerClass::wallCheck(%this, %wall)
 }
 
 /// Called when a player collides with a wall.  
-function PlayerClass::hitWall( %ourObject, %theirObject, %normal )  
+function Removed_PlayerClass::hitWall( %ourObject, %theirObject, %normal )
 {
 
 %ourObject.schedule(64, "WallCheck", %theirObject);

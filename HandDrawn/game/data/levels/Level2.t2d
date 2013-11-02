@@ -3108,15 +3108,6 @@
          mountID = "357";
       _behavior0 = "PlatformBehavior";
    };
-   new t2dAnimatedSprite() {
-      animationName = "ScrapperRunAnimation";
-      canSaveDynamicFields = "1";
-      Position = "-1438.000 298.000";
-      size = "26.000 26.000";
-      Layer = "3";
-         mountID = "358";
-      _behavior0 = "SpawnPointBehavior	TargetType	pskActor2D	TargetObject	ScrapperActorTemplate	MinSpawnDistance	0	MaxSpawnDistance	300";
-   };
    new t2dTrigger() {
       canSaveDynamicFields = "1";
       Position = "-390.000 103.036";

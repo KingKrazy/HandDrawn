@@ -152,7 +152,7 @@ function ConsoleDlg::onWake()
    
    ConsoleDlgWindow.resize(%consolePositionX, %consolePositionY,
                            %consoleExtentX, %consoleExtentY);
-    toggleConsole(1);
+toggleconsole(1);
 }
 
 function ConsoleDlg::onSleep()

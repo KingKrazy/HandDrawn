@@ -194,8 +194,8 @@ error($game::player.LinearVelocity.Y @ " IS A BAD VELOCITY!!! - SZBehavior::OnLe
     $game::player.AirAccel = 60;
     $game::player.AirDecel = 25;
     $game::player.GroundAccel = 90;
-    $game::player.GroundDecel = 250;
-    $game::player.gravity = "0 140";
+    $game::player.GroundDecel = 400;
+    $game::player.gravity = "0 210";
 
     echo("StopSwimming Method: isSwimming = " @ %theirobject.isSwimming);
     

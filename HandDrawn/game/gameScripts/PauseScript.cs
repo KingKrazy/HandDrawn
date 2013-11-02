@@ -13,6 +13,8 @@ function cantPause()
 
 function pauseModeActive()
 {
+    hudMoveDWLoop(1);
+    $hudsched.cancel();
     $mainSceneGraph = sceneWindow2D.getSceneGraph();
     $mainSceneGraph.setScenePause(true);
     Canvas.pushDialog(SelectLevelGui);
@@ -25,11 +27,13 @@ function pauseModeActive()
 
 function pauseModeUnactive()
 {
+hudMoveUPLoop();
 $mainSceneGraph = sceneWindow2D.getSceneGraph();
 $mainSceneGraph.setScenePause(false);
 Canvas.popDialog(SelectLevelGui);
 Canvas.CursorOff();
 Canvas.HideCursor();
+$scenePaused = 0;
 playSound( "Unpause", 0.5 );
 }
 
@@ -37,6 +41,7 @@ function Freeze()
 {
 $mainSceneGraph = sceneWindow2D.getSceneGraph();
 $mainSceneGraph.setScenePause(true);
+$scenePaused = 1;
 }
 
 function Unfreeze()

@@ -55,7 +55,7 @@ new ScriptObject( MultiPineConeLauncherWeapon : WeaponBase )
 
 function MultiPineConeProjectile::onAddToScene( %this )
 {
-    $PineConeType = "Normal";
+    %this.Pineconetype = "Normal";
 %VelocityNum = getRandom(7,10);
 
    %this.LinearVelocity.Y = -%velocityNum;
@@ -65,7 +65,7 @@ function MultiPineConeProjectile::onAddToScene( %this )
 
 function MultiPineConeProjectile::onRemove( %this )
 {
-   $PineConeType = "Normal";
+   %this.Pineconetype = "Normal";
 
     // Create Impact Animation.
     %impactEffect = new t2dParticleEffect()

@@ -106,7 +106,7 @@ function pskProjectileAction::createProjectile( %this, %referenceObject )
     %projectileSpeed  = %this.ProjectileSpeed;
     %projectileOffset = 5;
     %projectileArc    = %this.ProjectileArc;
-    $game::player.executeShootAnimationState();
+    %referenceObject.executeShootAnimationState();
     // Valid?
 
     if ( %projectileType $= "" || !isObject( %projectileConfig ) )
@@ -145,8 +145,16 @@ function pskProjectileAction::createProjectile( %this, %referenceObject )
         %projectileFlip = true;
         %projectileAngularVelocity *= -1;
     }
-    %ThePosY = $game::player.Position.Y - 2;
-    %ThePos = $game::player.position.X SPC %ThePosY;
+    %ThePosY = %referenceObject.Position.Y - 2;
+    if(!%referenceObject.isMount)
+    {
+    %ThePos = %referenceObject.position.X SPC %ThePosY;
+    }
+    else
+    {
+    %thePosY = %referenceObject.Position.Y - 5;
+    %ThePos = %referenceObject.position.X SPC %ThePosY;
+    }
 
     // Create the Projectile.
     %newProjectile = new ( %projectileType )()
@@ -204,6 +212,7 @@ function pskProjectile::triggerImpact( %this, %theirObject )
     }
 
     // Flag that we have Collided.
+
     %this.Collided = true;
 
     return true;
@@ -231,7 +240,7 @@ function pskProjectile::onCollision( %ourObject, %theirObject, %ourRef, %theirRe
         // Damage the Target.
         %theirObject.takeDamage( %ourObject.ProjectileDamage, %ourObject, true, true );
     
-        if ( $PineConeType $= "Burn" )
+        if ( %this.Pineconetype $= "Burn" )
     {
         // Notify.
         echo("Burning pine cone detected. BURNINATE!!!");
@@ -264,7 +273,7 @@ function pskProjectile::onCollision( %ourObject, %theirObject, %ourRef, %theirRe
         }
 
 
-        if ( $PineConeType $= "Frozen" && !%this.Sub )
+        if ( %this.Pineconetype $= "Frozen" && !%this.Sub )
     {
         // Notify.
         echo("Frozen pine cone detected. FREEZINATE!!!");
@@ -295,14 +304,14 @@ function pskProjectile::onCollision( %ourObject, %theirObject, %ourRef, %theirRe
     %linkFreeze = %theirObject.mount(%freezeEffect, "0 0");
     %theirObject.setPaused(true);
         }
-        else if ( $PineConeType $= "Frozen" && %this.Sub )
+        else if ( %this.Pineconetype $= "Frozen" && %this.Sub )
         {
         %this.healDamage(15);
         }
 
 
 
-            if ( $PineConeType $= "Poisened" )
+            if ( %this.Pineconetype $= "Poisened" )
     {
 
         %theirObject.Poisened = true;

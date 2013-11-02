@@ -4788,26 +4788,6 @@ $managedDatablockSet = new SimSet() {
       allowUnload = "0";
       force16Bit = "0";
    };
-   new t2dImageMapDatablock(KingImageMap) {
-      imageName = "/Users/Robert/Desktop/Idle - Frame 1.png";
-      imageMode = "FULL";
-      frameCount = "-1";
-      filterMode = "SMOOTH";
-      filterPad = "1";
-      preferPerf = "1";
-      cellRowOrder = "1";
-      cellOffsetX = "0";
-      cellOffsetY = "0";
-      cellStrideX = "0";
-      cellStrideY = "0";
-      cellCountX = "-1";
-      cellCountY = "-1";
-      cellWidth = "0";
-      cellHeight = "0";
-      preload = "1";
-      allowUnload = "0";
-      force16Bit = "0";
-   };
    new t2dAnimationDatablock(SnakeFrozenAnimation) {
       imageMap = "SnakeImageMap";
       animationFrames = "0";
@@ -5510,6 +5490,86 @@ $managedDatablockSet = new SimSet() {
    };
    new t2dImageMapDatablock(SpeechBubblePromptImageMap2) {
       imageName = "~/data/images/SpeechBubblePrompt.png";
+      imageMode = "FULL";
+      frameCount = "-1";
+      filterMode = "SMOOTH";
+      filterPad = "1";
+      preferPerf = "1";
+      cellRowOrder = "1";
+      cellOffsetX = "0";
+      cellOffsetY = "0";
+      cellStrideX = "0";
+      cellStrideY = "0";
+      cellCountX = "-1";
+      cellCountY = "-1";
+      cellWidth = "0";
+      cellHeight = "0";
+      preload = "1";
+      allowUnload = "0";
+      force16Bit = "0";
+   };
+   new t2dImageMapDatablock(MountImageMap) {
+      imageName = "resources/PlatformerArt/data/images/Mount/Mount.png";
+      imageMode = "CELL";
+      frameCount = "-1";
+      filterMode = "SMOOTH";
+      filterPad = "1";
+      preferPerf = "1";
+      cellRowOrder = "1";
+      cellOffsetX = "0";
+      cellOffsetY = "0";
+      cellStrideX = "0";
+      cellStrideY = "0";
+      cellCountX = "3";
+      cellCountY = "2";
+      cellWidth = "500";
+      cellHeight = "500";
+      preload = "1";
+      allowUnload = "0";
+      force16Bit = "0";
+   };
+   new t2dAnimationDatablock(MountFallAnimation) {
+      imageMap = "MountImageMap";
+      animationFrames = "2";
+      animationTime = "0.5";
+      animationCycle = "1";
+      randomStart = "0";
+      startFrame = "0";
+      animationPingPong = "0";
+      animationReverse = "0";
+   };
+   new t2dAnimationDatablock(MountRunAnimation) {
+      imageMap = "MountImageMap";
+      animationFrames = "0 1 2 3 4";
+      animationTime = "0.75";
+      animationCycle = "1";
+      randomStart = "0";
+      startFrame = "0";
+      animationPingPong = "0";
+      animationReverse = "0";
+   };
+   new t2dAnimationDatablock(MountSpawnAnimation) {
+      imageMap = "MountImageMap";
+      animationFrames = "2";
+      animationTime = "0.5";
+      animationCycle = "0";
+      randomStart = "0";
+      startFrame = "0";
+      animationPingPong = "0";
+      animationReverse = "0";
+   };
+   new t2dAnimationDatablock(MountDieAnimation) {
+      imageMap = "MountImageMap";
+      animationFrames = "2";
+      animationTime = "0.5";
+      animationCycle = "0";
+      randomStart = "0";
+      startFrame = "0";
+      animationPingPong = "0";
+      animationReverse = "0";
+   };
+   new t2dImageMapDatablock(Blob_NormalImageMap) {
+      imageName = "~/data/images/Blob_Normal.png";
       imageMode = "FULL";
       frameCount = "-1";
       filterMode = "SMOOTH";

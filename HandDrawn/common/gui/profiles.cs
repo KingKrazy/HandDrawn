@@ -299,7 +299,7 @@ if(!isObject(GuiWindowProfile)) new GuiControlProfile (GuiWindowProfile)
    fillColor = "255 255 255";
    fillColorHL = "190 255 255";
    fillColorNA = "255 255 255";
-   fontColor = "0 0 100";
+   fontColor = "255 255 255";
    fontColorHL = "0 255 255";
    text = "untitled";
    bitmap = "./images/window";
@@ -538,8 +538,10 @@ if(!isObject(GuiButtonProfile)) new GuiControlProfile (GuiButtonProfile)
    border = -1;
    bordercolor = "50 50 50";
    fontSize = 16;
-   fontColor = "0 0 0";
-   fontColorHL = "0 255 255";
+   fontColor = "0 255 255";
+   fontColorHL = "0 255 0";
+   fontColorNA = "128 128 128";
+   fontColorSEL = "255 255 255";
    fixedExtent = true;
    justify = "center";
    canKeyFocus = false;

@@ -38,7 +38,7 @@
       cameraSize = "190 142";
       LevelName = "Down into the Dark";
       LevelNumber = "3";
-      Music = "EdgeclimbAndDescendMusic";
+      music = "EdgeclimbAndDescendMusic";
       ParallaxLayer0 = "BG Level3/ParallaxBackgroundUp1 0.3";
       ParallaxLayer1 = "BG Level3/ParallaxBackground 0.2";
 
@@ -51,7 +51,7 @@
       FlipX = "1";
       Layer = "31";
          mountID = "2";
-         Music = "Peristalsis";
+         music = "Peristalsis";
    };
    new t2dStaticSprite() {
       imageMap = "DragonSpawnImageMap";
@@ -1849,7 +1849,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "-905.000 80.000";
+      Position = "-885.000 80.000";
       FlipX = "1";
       Layer = "1";
          mountID = "214";
@@ -1858,14 +1858,14 @@
       imageMap = "Ledge_RightImageMap";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "-895.000 80.000";
+      Position = "-875.000 80.000";
          mountID = "215";
    };
    new t2dScroller() {
       imageMap = "Ledge_RightImageMap";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "-825.000 70.000";
+      Position = "-805.000 70.000";
          mountID = "216";
    };
    new t2dStaticSprite() {
@@ -1899,7 +1899,7 @@
       imageMap = "Ledge_RightImageMap";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "-825.000 10.000";
+      Position = "-825.000 20.000";
          mountID = "220";
    };
    new t2dStaticSprite() {
@@ -1907,7 +1907,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "-835.000 10.000";
+      Position = "-845.000 20.000";
       FlipX = "1";
       Layer = "1";
          mountID = "221";
@@ -1916,7 +1916,7 @@
       imageMap = "Ledge_RightImageMap";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "-908.000 10.000";
+      Position = "-888.000 10.000";
          mountID = "222";
    };
    new t2dStaticSprite() {
@@ -2059,15 +2059,15 @@
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-900.000 80.000";
+      Position = "-880.000 80.000";
       size = "20.000 3.500";
          mountID = "241";
       _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-830.000 70.000";
-      size = "20.000 3.500";
+      Position = "-820.000 70.000";
+      size = "40.000 3.500";
          mountID = "242";
       _behavior0 = "PlatformBehavior	OneWay	1";
    };
@@ -2080,22 +2080,22 @@
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-830.000 10.000";
-      size = "20.000 3.500";
+      Position = "-835.000 20.000";
+      size = "30.000 3.500";
          mountID = "244";
       _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-909.908 10.000";
-      size = "14.000 3.500";
+      Position = "-899.689 10.000";
+      size = "34.437 3.500";
          mountID = "245";
       _behavior0 = "PlatformBehavior	OneWay	1";
    };
    new t2dSceneObject() {
       canSaveDynamicFields = "1";
-      Position = "-949.908 10.000";
-      size = "14.000 3.500";
+      Position = "-960.016 10.000";
+      size = "34.216 3.500";
          mountID = "246";
       _behavior0 = "PlatformBehavior	OneWay	1";
    };
@@ -2136,7 +2136,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "-951.812 10.000";
+      Position = "-971.812 10.000";
       FlipX = "1";
          mountID = "251";
    };
@@ -2154,7 +2154,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "-835.000 10.000";
+      Position = "-845.000 20.000";
       FlipX = "1";
          mountID = "253";
    };
@@ -2181,7 +2181,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      Position = "-905.000 80.000";
+      Position = "-885.000 80.000";
       FlipX = "1";
          mountID = "256";
    };
@@ -5880,5 +5880,37 @@
       CollisionActiveReceive = "1";
          mountID = "650";
       _behavior0 = "AreaDamageBehavior	amount	1000	Interval	1";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-900.000 10.000";
+      size = "20.000 10.000";
+         mountID = "651";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-960.000 10.000";
+      size = "20.000 10.000";
+         mountID = "652";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-838.000 20.000";
+      size = "20.000 10.000";
+         mountID = "653";
+   };
+   new t2dScroller() {
+      imageMap = "Ledge_MiddleImageMap";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-820.000 70.000";
+      size = "20.000 10.000";
+         mountID = "654";
    };
 };

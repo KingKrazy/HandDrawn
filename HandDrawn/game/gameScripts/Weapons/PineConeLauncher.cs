@@ -61,7 +61,7 @@ function PineConeProjectile::onAddToScene( %this )
     $playerAmmo -= 1;
     }
 
-    $pineConeType = "Normal";
+    %this.Pineconetype = "Normal";
 
    %this.LinearVelocity.Y = -7.5;
    %this.setConstantForce( 0 SPC 12.5, true );
@@ -69,7 +69,7 @@ function PineConeProjectile::onAddToScene( %this )
 
 function PineConeProjectile::onRemove( %this )
 {
-   $PineConeType = "Normal";
+   %this.Pineconetype = "Normal";
 
     // Create Impact Animation.
     %impactEffect = new t2dParticleEffect()
