@@ -204,6 +204,7 @@ function defaultStart(%level)
 //Bind some variables
 //moveMap.bindCmd(keyboard, "+", "Canvas.showCursor();", "");
 //moveMap.bindCmd(keyboard, "-", "Canvas.hideCursor();", "");
+   canvas.popDialog(gameLoadGui);
 
 	Canvas.setContent(TorqueSplashGui);
 

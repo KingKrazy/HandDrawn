@@ -7,7 +7,7 @@
 /// Player Initialization Procedure
 /// 
 function onStart()
-{   
+{
 }
 
 function onExit()

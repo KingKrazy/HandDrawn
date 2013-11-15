@@ -1,7 +1,7 @@
 function goToLevelSelect()
 {
 canvas.pushDialog(sceneWindowGui);
-toggleconsole(1);
+canvas.popdialog(consoleDLG);
 MenuSceneWindow.loadLevel( expandFilename("game/data/levels/LevelSelect.t2d") );
 }
 
@@ -21,6 +21,12 @@ if(%this.levelNumber >= $playerLevel)
 {
 %this.visible = 1;
 }
+}
+
+function levelBackButton::onMouseUp(%this)
+{
+canvas.popdialog(menuscenewindow);
+_returntomenu();
 }
 
 function LevelButtonClass::onMouseDown(%this)
@@ -70,6 +76,7 @@ function startQuedLevel()
 {
 _newGame();
 alxStopAll();
+canvas.popdialog(menuscenewindow);
 sceneWindow2D.loadLevel(expandFilename(getQuedLevel()));
 }
 

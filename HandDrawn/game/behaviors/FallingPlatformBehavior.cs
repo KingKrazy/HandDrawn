@@ -20,7 +20,7 @@ if ( !isObject( FallingPlatformBehavior ) )
     %template.addBehaviorField( FadeRecover,      "Respawn, otherwise destroy",        BOOL,   true );
     %template.addBehaviorField( FadeSpeed,          "The speed to fade at. 100+ = instant.",      FLOAT,  5.0 );
     %template.addBehaviorField( Gravity,          "Gravity applied when falling",      FLOAT,  150.0 );
-    %template.addBehaviorField( FallTimeOut,      "Time before falling",               FLOAT,  0.5 );
+    %template.addBehaviorField( FallTimeOut,      "Time before falling",               FLOAT,  1 );
     %template.addBehaviorField( RecoverTimeOut,   "Time before recovery",              FLOAT,  2.0 );
 
     %template.addBehaviorField( FallAnimation,    "Animation played while falling",    OBJECT, "", t2dAnimationDatablock );

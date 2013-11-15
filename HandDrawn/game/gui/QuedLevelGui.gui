@@ -94,7 +94,7 @@
          MinExtent = "8 2";
          canSave = "1";
          Visible = "1";
-         Command = "startQuedLevel();";
+         Command = "startQuedLevel(); playSound(LoadSound);";
          Accelerator = "return";
          hovertime = "1000";
          text = "Start level!";

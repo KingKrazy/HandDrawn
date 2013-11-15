@@ -677,7 +677,7 @@
       frame = "0";
       sourceRect = "0 0 0 0";
       canSaveDynamicFields = "1";
-      SuperClass = "LevelButtonClass";
+      superclass = "LevelButtonClass";
       UseMouseEvents = "1";
       Position = "-80.000 -55.000";
       size = "30.000 30.000";
@@ -690,5 +690,16 @@
          LevelNumber = "1";
          mountID = "33";
          Name = "Level1";
+   };
+   new t2dStaticSprite(LevelBackButton) {
+      imageMap = "SharpSpikeImageMap";
+      frame = "0";
+      sourceRect = "0 0 0 0";
+      canSaveDynamicFields = "1";
+      Position = "-97.500 -72.500";
+      size = "5.000 5.000";
+      Rotation = "-90";
+      BlendColor = "0.913726 0 0 1";
+         mountID = "34";
    };
 };

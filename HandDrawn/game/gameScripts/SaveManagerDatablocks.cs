@@ -101,3 +101,11 @@ $SaveFolder = fileBase(%this.fileName[%row]);
 error("OnSelect stuff..." SPC $SaveFolder);
 folderfield.setText($saveFolder);
 }
+
+function LoadGui::onSleep(%this)
+{
+if($LevelSelectOpen)
+{
+gotolevelselect();
+}
+}

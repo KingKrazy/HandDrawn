@@ -102,7 +102,56 @@ function PlayerClass::enterMyCustomAnimationState( %this )
     // of the Animation datablock that you would like to transition to
     // and the engine will take care of the rest.
     return CrouchAnimation;
-}		   
+}
+
+function weaponChangeUp()
+{
+if($game::player.weaponNo < 9)
+{
+$game::player.weaponNo += 1;
+queryWeapon($game::player.weaponNo);
+}
+else if($game::player.weaponNo > 9)
+{
+$game::player.weaponNo = 1;
+$game::player.setActiveWeapon(BlobLauncherWeapon);
+}
+$game::player.updateWeaponGui();
+}
+
+function weaponChangeDown()
+{
+if($game::player.weaponNo >= 1)
+{
+$game::player.weaponNo -= 1;
+queryWeapon($game::player.weaponNo);
+}
+else if($game::player.weaponNo < 1)
+{
+$game::player.weaponNo = 9;
+$game::player.setActiveWeapon(MultiPoisonedPineConeLauncherWeapon);
+}
+$game::player.updateWeaponGui();
+}
+
+function queryWeapon(%input)
+{
+    switch$ ( %input )
+    {
+        case "1" : $game::player.setActiveWeapon("BlobLauncherWeapon"); break;
+        case "2" : $game::player.setActiveWeapon("PineConeLauncherWeapon"); break;
+        case "3" : $game::player.setActiveWeapon("MultiPineConeLauncherWeapon"); break;
+        case "4" : $game::player.setActiveWeapon("BurningPineConeLauncherWeapon"); break;
+        case "5" : $game::player.setActiveWeapon("MultiBurningPineConeLauncherWeapon"); break;
+        case "6" : $game::player.setActiveWeapon("FrozenPineConeLauncherWeapon"); break;
+        case "7" : $game::player.setActiveWeapon("MultiFrozenPineConeLauncherWeapon"); break;
+        case "8" : $game::player.setActiveWeapon("PoisonedPineConeLauncherWeapon"); break;
+        case "9" : $game::player.setActiveWeapon("MultiPoisonedPineConeLauncherWeapon");
+
+    }
+echo("Weapon changed to " @ $game::player.activeWeapon);
+}
+
 
 function PlayerClass::executeMyCustomAnimationState( %this )
 {
@@ -116,6 +165,9 @@ function PlayerClass::onAddToScene( %this, %scenegraph )
 
     Parent::onAddToScene( %this, %scenegraph );
     $game::player.groundDecel = 400;
+    moveMap.bindCmd(mouse, "button4", "weaponChangeUp();", "");
+    moveMap.bindCmd(mouse, "button3", "weaponChangeDown();", "");
+
     %this.frostbitten = 0;
 
     stopSwimming();
@@ -152,6 +204,7 @@ function PlayerClass::onAddToScene( %this, %scenegraph )
     %this.enableUpdateCallback();
     // Initialise Inventory.
     canvas.pushdialog(MouseOverlayGui);
+    stopSound(loadSound);
 
 }
 

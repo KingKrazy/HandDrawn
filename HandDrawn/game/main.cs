@@ -12,7 +12,8 @@ function initializeProject()
 
 
    // Load up the in game gui.
-
+   exec("~/gui/GameLoad.gui");
+   canvas.pushDialog(gameLoadGui);
    exec("~/gui/mainScreen.gui");
 
    // Exec game scripts.
@@ -28,7 +29,7 @@ function initializeProject()
 
     //
 
-    InitializeMods();
+    //InitializeMods();
 }
 
 //---------------------------------------------------------------------------------------------

@@ -109,6 +109,14 @@ datablock AudioProfile( PepperPickupSound )
     preload     = true;
 };
 
+datablock AudioProfile( LoadSound )
+{
+    filename    = "./data/audio/general/LoadSound.wav";
+    description = "SoundLoop";
+    preload     = true;
+};
+
+
 datablock AudioProfile( ExtinguishSound )
 {
     filename    = "./data/audio/general/Extinguish.wav";
